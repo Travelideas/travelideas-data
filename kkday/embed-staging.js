@@ -1,0 +1,58 @@
+(function(){
+  const ROOT='travelideas-kkday-coupons';
+  const BASE='https://travelideas.github.io/travelideas-data/kkday/';
+  const host=document.getElementById(ROOT); if(!host)return;
+  const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+  const slug=s=>'ti-'+String(s||'').replace(/[^a-zA-Z0-9\u4e00-\u9fff]+/g,'-');
+  const now=new Date(), date=s=>s?new Date(s+'T00:00:00+08:00'):null, end=s=>s?new Date(s+'T23:59:59+08:00'):null;
+  const active=x=>!x.end||end(x.end)>=now;
+  const status=x=>date(x.start)&&now<date(x.start)?'即將開始':'進行中';
+  const get=url=>fetch(url+(url.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
+  const icons={'本月主打':'🔥','10 月折扣碼':'🎟️','每週優惠':'📅','信用卡／支付優惠':'💳','主題活動':'✨','熱門主題':'🍁','指定商品':'🎯'};
+  const themeIcon=t=>/免費/.test(t)?'🎁':/滑雪|冬季|極光/.test(t)?'❄️':/秋季/.test(t)?'🍁':/機票|交通/.test(t)?'✈️':/郵輪/.test(t)?'🚢':/台灣/.test(t)?'🇹🇼':/韓|K-Beauty/.test(t)?'🇰🇷':/日本|北陸|北海道|東北/.test(t)?'🇯🇵':/東南亞/.test(t)?'🌴':/紐澳/.test(t)?'🌏':'🧭';
+
+  const style=document.createElement('style'); style.id='ti-kkday-staging-style'; style.textContent=`
+  #${ROOT}.ti-wrap{--o:#ef7d00;--d:#182230;--ink:#253246;--muted:#667085;--line:#e6e9ed;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",Arial,sans-serif;color:var(--ink);line-height:1.62;margin:22px 0}#${ROOT} *{box-sizing:border-box}
+  #${ROOT} .hero{background:linear-gradient(135deg,#fff7ea,#fff 52%,#effafa);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 7px 24px rgba(16,24,40,.05)}#${ROOT} .kicker{font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--o)}#${ROOT} .hero h2{font-size:28px!important;line-height:1.32!important;margin:4px 0 7px!important;padding:0!important;border:0!important;color:var(--d)!important}#${ROOT} .hero p{margin:0;color:#596579;font-size:14px}
+  #${ROOT} .nav,#${ROOT} .subnav{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}#${ROOT} .nav a,#${ROOT} .subnav a{font-size:12px;border:1px solid #dfe4e8;border-radius:999px;padding:6px 10px;background:#fff;color:#455468!important;text-decoration:none!important;font-weight:700}#${ROOT} .nav a:hover,#${ROOT} .subnav a:hover{border-color:var(--o);color:#b25d00!important}
+  #${ROOT} .section-title{font-size:21px!important;line-height:1.35!important;margin:28px 0 11px!important;padding:0!important;border:0!important;color:var(--d)!important}#${ROOT} .theme-title{font-size:22px!important;margin:32px 0 5px!important;padding:0 0 8px!important;border:0!important;border-bottom:1px solid #edf0f2!important;color:var(--d)!important}#${ROOT} .country-title{font-size:16px!important;margin:18px 0 9px!important;padding:0!important;border:0!important;color:#475467!important}
+  #${ROOT} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}#${ROOT} .offer,#${ROOT} .product,#${ROOT} .freebie{background:#fff;border:1px solid var(--line);border-radius:15px;padding:16px;display:flex;flex-direction:column;min-width:0;box-shadow:0 3px 12px rgba(16,24,40,.035)}#${ROOT} .offer.featured{border-top:3px solid var(--o)}#${ROOT} .freebie{background:#fffdf7;border-color:#f1e4bd}
+  #${ROOT} .row{display:flex;gap:9px;justify-content:space-between;align-items:flex-start}#${ROOT} .title{font-size:16px;font-weight:850;line-height:1.42;color:#192536}#${ROOT} .meta{font-size:12px;color:#7b8794;margin-top:4px}#${ROOT} .badge{font-size:11px;background:#eaf8f8;color:#08757c;border-radius:999px;padding:4px 8px;white-space:nowrap}#${ROOT} .offer-text{font-size:14px;color:#344054;margin-top:9px}
+  #${ROOT} .code{display:flex;align-items:center;gap:7px;margin-top:11px;padding:9px;border:1px dashed #ccd4db;border-radius:10px;background:#fafbfc}#${ROOT} .code b{font-family:ui-monospace,Menlo,monospace;font-size:14px}#${ROOT} .copy{margin-left:auto;border:0;border-radius:7px;padding:6px 8px;cursor:pointer;font-size:12px}
+  #${ROOT} .product-top{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:7px}#${ROOT} .chip{font-size:11px;background:#f4f6f8;color:#526071;border-radius:999px;padding:3px 7px}#${ROOT} .summary{font-size:13px;color:#536174;margin-top:7px}#${ROOT} .highlights{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}#${ROOT} .highlight{font-size:11px;background:#fff6e8;color:#9a5700;border-radius:6px;padding:4px 6px}#${ROOT} .best{font-size:12px;color:#586575;margin-top:8px}#${ROOT} .best span{font-weight:800;color:#344054}#${ROOT} .price{font-size:12px;color:#344054;font-weight:750;margin-top:8px}#${ROOT} .promo{font-size:11px;color:#885100;margin-top:6px}
+  #${ROOT} .actions{margin-top:auto;padding-top:12px}#${ROOT} .btn{display:inline-block;background:var(--d);color:#fff!important;text-decoration:none!important;border-radius:8px;padding:8px 12px;font-size:13px;font-weight:750}#${ROOT} .product .btn,#${ROOT} .freebie .btn{background:var(--o)}
+  #${ROOT} .catalog{margin-top:36px;padding-top:3px;border-top:2px solid #eef1f3}#${ROOT} .theme{scroll-margin-top:18px}#${ROOT} .theme-note{font-size:13px;color:#687386;margin:0 0 12px}#${ROOT} .free-section{margin-top:36px;padding-top:22px;border-top:2px solid #f1ead6}#${ROOT} .note{margin-top:22px;padding:12px 14px;background:#f7f9fb;border:1px solid #edf0f2;border-radius:10px;color:#697586;font-size:11px}#${ROOT} .loading,#${ROOT} .error{padding:18px;border:1px dashed #cbd5e1;border-radius:12px;color:#667085;background:#fff}
+  @media(max-width:700px){#${ROOT} .hero{padding:20px 16px}#${ROOT} .hero h2{font-size:23px!important}#${ROOT} .grid{grid-template-columns:1fr}}
+  `; document.head.appendChild(style);
+
+  host.className='ti-wrap'; host.innerHTML='<div class="loading">載入中…</div>';
+
+  Promise.all([get(BASE+'campaigns.json'),get(BASE+'credit-cards.json'),get(BASE+'catalog/index.json')]).then(async([cd,bd,idx])=>{
+    const shardData=await Promise.all((idx.shards||[]).map(s=>get(BASE+s)));
+    const catalog=shardData.flatMap(x=>x.items||[]);
+    const products=catalog.filter(x=>x.kind==='product').sort((a,b)=>(b.priority||0)-(a.priority||0));
+    const freebies=catalog.filter(x=>x.kind==='freebie').sort((a,b)=>(a.country||'').localeCompare(b.country||'','zh-Hant'));
+    const campaigns=(cd.items||[]).filter(active).sort((a,b)=>(b.priority||0)-(a.priority||0));
+    const banks=(bd.items||[]).filter(active).map((x,i)=>({category:'信用卡／支付優惠',title:x.scope||x.title||'信用卡優惠',offer:x.benefit||x.offer||'',code:x.code||'',start:x.start,end:x.end,landing_url:x.url||x.landing_url||'',cta_label:'查看卡友優惠',priority:40-i,_bank:true}));
+
+    const offerGroups={};[...campaigns,...banks].forEach(x=>(offerGroups[x.category]||(offerGroups[x.category]=[])).push(x));
+    const order=['本月主打','10 月折扣碼','每週優惠','信用卡／支付優惠','主題活動','熱門主題','指定商品'];
+    const cats=[...order.filter(c=>offerGroups[c]),...Object.keys(offerGroups).filter(c=>!order.includes(c))];
+    const offerNav=cats.map(c=>`<a href="#${slug('offer-'+c)}">${icons[c]||'✈️'} ${esc(c)}</a>`).join('');
+    const offerHtml=cats.map(c=>`<section id="${slug('offer-'+c)}"><h3 class="section-title">${icons[c]||'✈️'} ${esc(c)}</h3><div class="grid">${offerGroups[c].map((x,i)=>{const url=x.internal_anchor||x.landing_url||x.affiliate_url||'';const target=url&&url.startsWith('#')?'':' target="_blank" rel="nofollow sponsored noopener"';return `<article class="offer${c==='本月主打'||(c==='10 月折扣碼'&&i<2)?' featured':''}"><div class="row"><div><div class="title">${esc(x.title)}</div><div class="meta">${esc(x.start||'現在')} ～ ${esc(x.end||'依活動')}</div></div><span class="badge">${esc(status(x))}</span></div><div class="offer-text">${esc(x.offer||'')}</div>${x.code?`<div class="code"><span>折扣碼</span><b>${esc(x.code)}</b><button type="button" class="copy" data-code="${esc(x.code)}">複製</button></div>`:''}${url?`<div class="actions"><a class="btn" href="${esc(url)}"${target}>${esc(x.cta_label||'查看優惠')}</a></div>`:''}</article>`}).join('')}</div></section>`).join('');
+
+    const themes={};products.forEach(p=>{const t=p.theme||'其他精選',c=p.country||'其他';(((themes[t]||(themes[t]={}))[c])||((themes[t])[c]=[])).push(p)});
+    const themeOrder=['冬季限定','秋季限定','滑雪','極光','K-Beauty','日本精選','北海道','北陸／中部','東北冬季','東南亞精選','台灣旅遊','港澳精選','大中華精選','交通票券','機票','郵輪','紐澳精選','城市通票','節慶活動','韓流娛樂'];
+    const themeNames=[...themeOrder.filter(t=>themes[t]),...Object.keys(themes).filter(t=>!themeOrder.includes(t))];
+    const themeNav=themeNames.map(t=>`<a href="#${slug('theme-'+t)}">${themeIcon(t)} ${esc(t)}</a>`).join('');
+    const productCard=p=>`<article class="product"><div class="product-top"><span class="chip">${esc(p.city||p.country)}</span><span class="chip">${esc(p.type||p.subcategory)}</span>${p.season?`<span class="chip">${esc(p.season)}</span>`:''}</div><div class="title">${esc(p.title)}</div>${p.summary?`<div class="summary">${esc(p.summary)}</div>`:''}${(p.highlights||[]).length?`<div class="highlights">${p.highlights.slice(0,3).map(h=>`<span class="highlight">${esc(h)}</span>`).join('')}</div>`:''}${p.best_for?`<div class="best"><span>適合：</span>${esc(p.best_for)}</div>`:''}${p.price_ref?`<div class="price">參考價格：約 NT$${Number(p.price_ref).toLocaleString()}</div>`:''}${(p.promo_codes||[]).length?`<div class="promo">可比較折扣碼：${esc(p.promo_codes.join('、'))}</div>`:''}<div class="actions"><a class="btn" href="${esc(p.url)}" target="_blank" rel="nofollow sponsored noopener">查看商品</a></div></article>`;
+    const productHtml=themeNames.map(t=>{const countries=themes[t];return `<section class="theme" id="${slug('theme-'+t)}"><h3 class="theme-title">${themeIcon(t)} ${esc(t)}</h3>${Object.keys(countries).map(c=>`<div><h4 class="country-title">${esc(c)}</h4><div class="grid">${countries[c].map(productCard).join('')}</div></div>`).join('')}</section>`}).join('');
+
+    const freeGroups={};freebies.forEach(p=>(freeGroups[p.country]||(freeGroups[p.country]=[])).push(p));
+    const freeCard=p=>`<article class="freebie"><div class="product-top"><span class="chip">${esc(p.city||p.country)}</span><span class="chip">${esc(p.type||'免費優惠')}</span></div><div class="title">${esc(p.title)}</div><div class="summary">${esc(p.summary||'先領取，旅途中有需要再使用。')}</div><div class="actions"><a class="btn" href="${esc(p.url)}" target="_blank" rel="nofollow sponsored noopener">免費領取</a></div></article>`;
+    const freeHtml=Object.keys(freeGroups).map(c=>`<div><h4 class="country-title">${esc(c)}</h4><div class="grid">${freeGroups[c].map(freeCard).join('')}</div></div>`).join('');
+
+    host.innerHTML=`<div class="hero"><div class="kicker">里程家 Travelideas</div><h2>KKday 最新優惠、折扣碼與旅遊商品</h2><p>先看當期折扣，再依目的地與玩法找商品；高客單可優先比較滿額折扣，低客單則留意不限低消與高折扣比例。</p></div><nav class="nav">${offerNav}<a href="#ti-catalog">🧭 旅遊商品</a><a href="#ti-freebies">🎁 免費優惠券</a></nav>${offerHtml}<section class="catalog" id="ti-catalog"><h3 class="section-title">🧭 旅遊商品分類</h3><p class="theme-note">依季節、目的地與玩法整理，選到商品後再回頭比較上方當期折扣碼。</p><nav class="subnav">${themeNav}</nav>${productHtml}</section><section class="free-section" id="ti-freebies"><h3 class="section-title">🎁 免費領／旅遊優惠券</h3><p class="theme-note">有些購物券、免稅優惠與旅客 Pass 可以先免費領取，旅途中需要時再使用。</p>${freeHtml}</section><div class="note">提醒：折扣碼、名額、適用商品、付款方式及價格可能調整，請以 KKday 實際結帳頁面顯示為準。部分連結為合作推廣連結。</div>`;
+    host.querySelectorAll('.copy').forEach(btn=>btn.addEventListener('click',async()=>{const code=btn.dataset.code;try{await navigator.clipboard.writeText(code);const old=btn.textContent;btn.textContent='已複製';setTimeout(()=>btn.textContent=old,1200)}catch(e){window.prompt('複製折扣碼：',code)}}));
+  }).catch(err=>{console.error(err);host.innerHTML='<div class="error">目前暫時無法顯示，請稍後再試。</div>'});
+})();
