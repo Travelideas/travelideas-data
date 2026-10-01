@@ -1,4 +1,31 @@
 {
-  "updated_at": "2026-10-01T21:20:00+08:00",
-  "items": []
+  "schema_version": 1,
+  "brand": "KKday",
+  "updated_at": "2026-10-01T22:28:00+08:00",
+  "source_url": "https://kkdaypartners.github.io/KKpartners/",
+  "items": [
+    {"scope":"台新 Richart 卡","code":"TSNEW26","benefit":"東南亞／歐美紐澳，新戶滿 1,800 折 300 元","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"台新 Richart 卡","code":"TS26H2350","benefit":"全球商品滿 6,500 折 530 元","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"台新 Richart 卡","code":"","benefit":"玩旅刷享全站最高 3.3% 台新 Point 回饋","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"星展 饗樂生活卡","code":"DBS26","benefit":"全站最高 8 折，需依活動方式輸入卡號前 8 碼 + DBS26","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"星展 饗樂生活卡","code":"DBSJK2610","benefit":"日韓行程／體驗商品 75 折","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"星展 饗樂生活卡","code":"DBSKDDI10","benefit":"KDDI 高速原生日本 eSIM 5 折","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"富邦 J 卡","code":"JCARD1000OCT","benefit":"日本機票現折 1,000 元","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"富邦 J 卡","code":"JCARD26OCT","benefit":"行程體驗滿 2,500 折 280 元","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"富邦 J 卡","code":"JCARD101200","benefit":"日本機加酒、機票組合滿額折 1,200 元","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"國泰蝦皮聯名卡","code":"CUB26H2SP180","benefit":"全球商品滿 2,200 折 180 元","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"國泰蝦皮聯名卡","code":"CUB26H2SP8","benefit":"日韓／東南亞／歐美紐澳滿 1,000 享 8 折，上限折 350 元","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"國泰蝦皮聯名卡","code":"CUB26H1SP9","benefit":"新戶全球商品滿 2,000 享 9 折","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"國泰世華 CUBE 卡","code":"","benefit":"切換秋日遊，小樹點回饋 3.5%","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/bank?cid=5149"},
+    {"scope":"週六｜國泰世華 CUBE 卡","code":"","benefit":"搭配趣旅行權益，全站再享 3.3% 小樹點回饋","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/cube?cid=5149"},
+    {"scope":"週四｜中信 LINE Pay 卡","code":"CTBCLP261001","benefit":"10/1 限定：指定體驗／行程／交通／景點通票享 10% LINE POINTS","start":"2026-09-25","end":"2026-10-01","url":"https://www.kkday.com/zh-tw/promo/ctbc_linepay?cid=5149"},
+    {"scope":"週四｜中信 LINE Pay 卡","code":"CTBCLP261008","benefit":"10/8 限定：指定體驗／行程／交通／景點通票享 10% LINE POINTS","start":"2026-10-02","end":"2026-10-08","url":"https://www.kkday.com/zh-tw/promo/ctbc_linepay?cid=5149"},
+    {"scope":"週四｜中信 LINE Pay 卡","code":"CTBCLP261015","benefit":"10/15 限定：指定體驗／行程／交通／景點通票享 10% LINE POINTS","start":"2026-10-09","end":"2026-10-15","url":"https://www.kkday.com/zh-tw/promo/ctbc_linepay?cid=5149"},
+    {"scope":"週四｜中信 LINE Pay 卡","code":"CTBCLP261022","benefit":"10/22 限定：指定體驗／行程／交通／景點通票享 10% LINE POINTS","start":"2026-10-16","end":"2026-10-22","url":"https://www.kkday.com/zh-tw/promo/ctbc_linepay?cid=5149"},
+    {"scope":"週五｜台新 Richart 卡","code":"TS261002","benefit":"10/2 限定：全球商品滿 3,000 折 240 元","start":"2026-09-26","end":"2026-10-02","url":"https://www.kkday.com/zh-tw/promo/richart?cid=5149"},
+    {"scope":"週五｜台新 Richart 卡","code":"TS261009","benefit":"10/9 限定：全球商品滿 3,000 折 240 元","start":"2026-10-03","end":"2026-10-09","url":"https://www.kkday.com/zh-tw/promo/richart?cid=5149"},
+    {"scope":"週五｜台新 Richart 卡","code":"TS261016","benefit":"10/16 限定：全球商品滿 3,000 折 240 元","start":"2026-10-10","end":"2026-10-16","url":"https://www.kkday.com/zh-tw/promo/richart?cid=5149"},
+    {"scope":"週五｜台新 Richart 卡","code":"TS261023","benefit":"10/23 限定：全球商品滿 3,000 折 240 元","start":"2026-10-17","end":"2026-10-23","url":"https://www.kkday.com/zh-tw/promo/richart?cid=5149"},
+    {"scope":"週二｜街口支付","code":"","benefit":"領券最高享 20.5% 優惠","start":"2026-10-01","end":"2026-10-31","url":"https://www.kkday.com/zh-tw/promo/jko?cid=5149"}
+  ]
 }
