@@ -1,4 +1,80 @@
 {
-  "updated_at": "2026-10-01T21:20:00+08:00",
-  "items": []
+  "schema_version": 1,
+  "brand": "KKday",
+  "cid": "5149",
+  "updated_at": "2026-10-01T21:30:00+08:00",
+  "source": {
+    "name": "KKpartners 夥伴百科",
+    "url": "https://kkdaypartners.github.io/KKpartners/",
+    "repository": "https://github.com/kkdaypartners/KKpartners",
+    "source_commit": "2be3b976023252303f169082d9594d645bab579d",
+    "source_commit_at": "2026-10-01T18:28:01+08:00"
+  },
+  "items": [
+    {
+      "id": "2026-10-main-all95",
+      "category": "本月主打",
+      "title": "十尚玩咖｜10 月全站優惠",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "offer": "10 月全站最高折 600 元",
+      "code": "ALL95",
+      "note": "KKpartners 10/1 更新列為十月全月主打；實際折扣門檻與適用商品以 KKday 結帳頁為準。",
+      "affiliate_url": "https://www.kkday.com/zh-tw?cid=5149",
+      "source_url": "https://kkdaypartners.github.io/KKpartners/#code=ALL95",
+      "priority": 100
+    },
+    {
+      "id": "2026-10-double-ten",
+      "category": "主題活動",
+      "title": "雙十連假｜國旅主題包",
+      "start": "2026-10-01",
+      "end": "2026-10-11",
+      "offer": "雙十連假主打樂園＋離島國旅商品",
+      "code": "",
+      "note": "KKpartners 本週重點列為雙十連假國旅主題包。",
+      "affiliate_url": "https://www.kkday.com/zh-tw?cid=5149",
+      "source_url": "https://kkdaypartners.github.io/KKpartners/#packs-lianjia",
+      "priority": 90
+    },
+    {
+      "id": "2026-10-seaday-1007",
+      "category": "每週優惠",
+      "title": "週三東南亞日",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "offer": "東南亞商品 93 折",
+      "code": "SEADAY",
+      "note": "KKpartners 10/1 更新列為 10/7 週三限定。",
+      "affiliate_url": "https://www.kkday.com/zh-tw?cid=5149",
+      "source_url": "https://kkdaypartners.github.io/KKpartners/#packs-sea",
+      "priority": 80
+    },
+    {
+      "id": "2026-10-arashiyama-moonlight",
+      "category": "熱門主題",
+      "title": "嵐山月燈路",
+      "start": "2026-10-01",
+      "end": "2026-11-08",
+      "offer": "期間限定｜竹林點燈一日遊",
+      "code": "",
+      "note": "KKpartners 本週重點推薦。商品連結待下一輪商品資料同步確認後補入。",
+      "affiliate_url": "https://www.kkday.com/zh-tw?cid=5149",
+      "source_url": "https://kkdaypartners.github.io/KKpartners/#today",
+      "priority": 70
+    },
+    {
+      "id": "2026-10-tokyo-christmas-market",
+      "category": "熱門主題",
+      "title": "東京聖誕市集",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "offer": "KKday 獨家｜線上買送馬克杯",
+      "code": "",
+      "note": "KKpartners 本週重點推薦。商品連結待下一輪商品資料同步確認後補入。",
+      "affiliate_url": "https://www.kkday.com/zh-tw?cid=5149",
+      "source_url": "https://kkdaypartners.github.io/KKpartners/#today",
+      "priority": 60
+    }
+  ]
 }
