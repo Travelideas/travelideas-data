@@ -1,4 +1,31 @@
 {
-  "updated_at": "2026-10-01T21:20:00+08:00",
-  "items": []
+  "schema_version": 1,
+  "brand": "KKday",
+  "cid": "5149",
+  "updated_at": "2026-10-01T21:30:00+08:00",
+  "source": {
+    "name": "KKpartners 夥伴百科",
+    "url": "https://kkdaypartners.github.io/KKpartners/",
+    "source_commit": "2be3b976023252303f169082d9594d645bab579d"
+  },
+  "items": [
+    {
+      "code": "ALL95",
+      "label": "10 月全站主打",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "10 月全站最高折 600 元",
+      "scope": "適用範圍以 KKday 結帳頁及 KKpartners 商品檢查結果為準",
+      "source_url": "https://kkdaypartners.github.io/KKpartners/#code=ALL95"
+    },
+    {
+      "code": "SEADAY",
+      "label": "週三東南亞日",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "benefit": "東南亞商品 93 折",
+      "scope": "東南亞指定商品；實際適用商品以 KKpartners 檢查結果為準",
+      "source_url": "https://kkdaypartners.github.io/KKpartners/#packs-sea"
+    }
+  ]
 }
