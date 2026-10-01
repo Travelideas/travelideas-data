@@ -1,8 +1,8 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "brand": "KKday",
   "cid": "5149",
-  "updated_at": "2026-10-01T21:30:00+08:00",
+  "updated_at": "2026-10-02T06:30:00+08:00",
   "source": {
     "name": "KKpartners 夥伴百科",
     "url": "https://kkdaypartners.github.io/KKpartners/",
@@ -11,12 +11,219 @@
   "items": [
     {
       "code": "ALL95",
-      "label": "10 月全站主打",
+      "label": "10月十尚玩咖｜全站95折",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "benefit": "10 月全站最高折 600 元",
-      "scope": "適用範圍以 KKday 結帳頁及 KKpartners 商品檢查結果為準",
-      "source_url": "https://kkdaypartners.github.io/KKpartners/#code=ALL95"
+      "benefit": "全站95折",
+      "scope": "全站商品；實際排除商品以結帳頁為準",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "ALL200",
+      "label": "10月十尚玩咖｜滿3,000折200",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "滿 NT$3,000 折 NT$200",
+      "scope": "10月全站活動",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "ALL600",
+      "label": "10月十尚玩咖｜滿8,000折600",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "滿 NT$8,000 折 NT$600",
+      "scope": "10月全站活動",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "WIN600",
+      "label": "冬遊春旅早鳥｜滿5,000折600",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "行程體驗滿 NT$5,000 折 NT$600",
+      "scope": "冬季早鳥指定行程體驗",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "WIN1200",
+      "label": "冬季超早鳥｜折1,200",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "冬季超早鳥行程體驗折 NT$1,200",
+      "scope": "冬季早鳥指定行程體驗",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "KKTW95EX",
+      "label": "台灣日｜滿2,000享93折",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "滿 NT$2,000 享 93 折",
+      "scope": "台灣日指定商品",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "ESUNSKI09",
+      "label": "玉山全卡｜日韓滑雪9折",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "日韓滑雪滿額享9折",
+      "scope": "玉山全卡／指定日韓滑雪",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "JPSKI600",
+      "label": "日本滑雪｜滿額88折",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "日本滑雪商品滿額享88折",
+      "scope": "指定日本滑雪商品",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "WINTERJP95",
+      "label": "日本冬季｜指定品項95折",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "指定日本冬季商品95折",
+      "scope": "指定日本冬季商品",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "KRWINT",
+      "label": "韓冬追雪｜滿4,000折350",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "韓國行程滿 NT$4,000 折 NT$350",
+      "scope": "指定韓國冬季行程",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "KRWINTA",
+      "label": "歲末追雪｜滿1,888折88",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "韓國商品滿 NT$1,888 折 NT$88",
+      "scope": "指定韓國商品",
+      "source_url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "WEDKKHOTEL",
+      "label": "週三飯店日｜晚鳥9折",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "飯店週三晚鳥9折",
+      "scope": "指定飯店商品；週三飯店日",
+      "source_url": "https://www.kkday.com/zh-tw/promo/kkhotel?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "KKHOTELNEW",
+      "label": "全球飯店新客｜92折",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "全球飯店新客92折",
+      "scope": "新客／指定全球飯店",
+      "source_url": "https://www.kkday.com/zh-tw/promo/kkhotel?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "KKHOTEL",
+      "label": "全球飯店｜95折",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "benefit": "全球飯店95折",
+      "scope": "指定全球飯店",
+      "source_url": "https://www.kkday.com/zh-tw/promo/kkhotel?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "FLYDAY500TKT",
+      "label": "每月27號飛航日｜機票折500",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "benefit": "指定機票現折 NT$500",
+      "scope": "每月27號飛航日指定機票",
+      "source_url": "https://www.kkday.com/zh-tw/promo/self-guided-tour?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "FLYDAY1000PKG",
+      "label": "每月27號飛航日｜迷你團/機加酒折1,000",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "benefit": "指定迷你團／機加酒折 NT$1,000",
+      "scope": "每月27號飛航日指定商品",
+      "source_url": "https://www.kkday.com/zh-tw/promo/self-guided-tour?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "FLYDAY2000CUZ",
+      "label": "每月27號飛航日｜郵輪折2,000",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "benefit": "指定郵輪現折 NT$2,000",
+      "scope": "每月27號飛航日指定郵輪",
+      "source_url": "https://www.kkday.com/zh-tw/promo/self-guided-tour?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
+    },
+    {
+      "code": "FLYDAY3000FUZ",
+      "label": "每月27號飛航日｜機票+郵輪折3,000",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "benefit": "指定機票＋郵輪現折 NT$3,000",
+      "scope": "每月27號飛航日指定商品",
+      "source_url": "https://www.kkday.com/zh-tw/promo/self-guided-tour?cid=5149",
+      "source_type": "official",
+      "verified_at": "2026-10-02T06:30:00+08:00",
+      "status": "active"
     },
     {
       "code": "SEADAY",
@@ -25,7 +232,32 @@
       "end": "2026-10-07",
       "benefit": "東南亞商品 93 折",
       "scope": "東南亞指定商品；實際適用商品以 KKpartners 檢查結果為準",
-      "source_url": "https://kkdaypartners.github.io/KKpartners/#packs-sea"
+      "source_url": "https://kkdaypartners.github.io/KKpartners/#packs-sea",
+      "source_type": "kkpartners",
+      "verified_at": "2026-10-01T23:30:00+08:00",
+      "status": "active"
+    }
+  ],
+  "sources": [
+    {
+      "name": "KKpartners 夥伴百科",
+      "url": "https://kkdaypartners.github.io/KKpartners/"
+    },
+    {
+      "name": "KKday 10月全站活動",
+      "url": "https://www.kkday.com/zh-tw/promo/autumn_trip_10?cid=5149"
+    },
+    {
+      "name": "KKday 會員優惠專區",
+      "url": "https://www.kkday.com/zh-tw/promo/membership_mall?cid=5149"
+    },
+    {
+      "name": "KKday 全球飯店",
+      "url": "https://www.kkday.com/zh-tw/promo/kkhotel?cid=5149"
+    },
+    {
+      "name": "KKday 機票機加酒專區",
+      "url": "https://www.kkday.com/zh-tw/promo/self-guided-tour?cid=5149"
     }
   ]
 }
