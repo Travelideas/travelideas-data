@@ -2,7 +2,7 @@
   "schema_version": 3,
   "brand": "KKday",
   "cid": "5149",
-  "updated_at": "2026-10-02T06:35:00+08:00",
+  "updated_at": "2026-10-02T06:55:00+08:00",
   "source": {
     "name": "KKpartners 夥伴百科",
     "url": "https://kkdaypartners.github.io/KKpartners/",
@@ -408,6 +408,53 @@
       "landing_type": "promo",
       "cta_label": "查看飛航日",
       "priority": 82
+    },
+    {
+      "id": "2026-10-new-customer",
+      "category": "新客優惠",
+      "title": "10月新客好禮｜全站89折起",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "offer": "全站89折、飯店92折、支付／信用卡滿額折、日本鐵路93折、泰國88折",
+      "code": "26NEW89",
+      "codes": [
+        "26NEW89",
+        "KKHOTELNEW",
+        "JKO26H1",
+        "PX26H1",
+        "CUBNEW26",
+        "CUBNEWJPFNB",
+        "TSNEW26",
+        "26EXNEW",
+        "JPNEWTRAIN",
+        "THAINEW88"
+      ],
+      "note": "新客限定；各碼限制不同。",
+      "landing_url": "https://www.kkday.com/zh-tw/promo/welcome-package_2610?cid=5149",
+      "landing_type": "promo",
+      "cta_label": "查看新客優惠",
+      "priority": 96
+    },
+    {
+      "id": "2026-10-weekly-destination",
+      "category": "每週優惠",
+      "title": "會員目的地日｜週一至週日",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "offer": "週一港澳中、週三東南亞、週五台灣、週六歐美、週日紐澳",
+      "code": "HMCFHF",
+      "codes": [
+        "HMCFHF",
+        "SEAWED",
+        "KKTW95EX",
+        "EEASAT",
+        "OOCSUN"
+      ],
+      "note": "各目的地日折扣與門檻不同；以當月會員優惠頁為準。",
+      "landing_url": "https://www.kkday.com/zh-tw/promo/kk_member_mall?cid=5149",
+      "landing_type": "promo",
+      "cta_label": "查看會員優惠",
+      "priority": 95
     }
   ]
 }
