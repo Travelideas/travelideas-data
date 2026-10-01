@@ -27,7 +27,7 @@
 
   host.className='ti-wrap'; host.innerHTML='<div class="loading">載入中…</div>';
 
-  Promise.all([get(BASE+'campaigns.json'),get(BASE+'credit-cards.json'),get(BASE+'catalog/index.json')]).then(async([cd,bd,idx])=>{
+  Promise.all([get(BASE+'campaigns-staging.json'),get(BASE+'credit-cards.json'),get(BASE+'catalog/index.json')]).then(async([cd,bd,idx])=>{
     const shardData=await Promise.all((idx.shards||[]).map(s=>get(BASE+s)));
     const catalog=shardData.flatMap(x=>x.items||[]);
     const products=catalog.filter(x=>x.kind==='product').sort((a,b)=>(b.priority||0)-(a.priority||0));
