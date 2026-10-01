@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-01T23:38:00+08:00",
+  "groups": [
+    {"category":"KKday 獨家","subgroups":[
+      {"name":"日本","product_ids":[123906,533823,573307,148912]},
+      {"name":"澳洲","product_ids":[241590,148857]},
+      {"name":"中國大陸","product_ids":[29259]}
+    ]},
+    {"category":"雙十連假國旅","subgroups":[
+      {"name":"北部／中部","product_ids":[27980]},
+      {"name":"東部","product_ids":[107922]},
+      {"name":"宜蘭／東北角","product_ids":[5297]},
+      {"name":"南部","product_ids":[8700,133332]},
+      {"name":"離島","product_ids":[125913,118424]}
+    ]},
+    {"category":"東南亞","subgroups":[
+      {"name":"越南","product_ids":[19531,132389,548097,262170]},
+      {"name":"泰國","product_ids":[4127,7313,287411]}
+    ]},
+    {"category":"極光","subgroups":[
+      {"name":"加拿大・黃刀鎮","product_ids":[148959,150392,147660,148962]},
+      {"name":"北歐・芬蘭","product_ids":[30238]}
+    ]},
+    {"category":"韓國冬季","subgroups":[
+      {"name":"冰釣／玩雪體驗","product_ids":[17682,135333]},
+      {"name":"滑雪／雪場","product_ids":[133356,5852]},
+      {"name":"雪場交通／接駁","product_ids":[573532,573804,573964,574009]}
+    ]},
+    {"category":"日本滑雪","subgroups":[
+      {"name":"北海道","product_ids":[157140]},
+      {"name":"長野／白馬","product_ids":[601836]}
+    ]},
+    {"category":"賞楓","subgroups":[
+      {"name":"日本・關西","product_ids":[771487,531213]},
+      {"name":"韓國","product_ids":[145375,27790,172159]}
+    ]},
+    {"category":"白川鄉","subgroups":[
+      {"name":"名古屋出發","product_ids":[153486,17716]},
+      {"name":"高山出發","product_ids":[18610]},
+      {"name":"金澤／多日行程","product_ids":[4376,28049,137376]}
+    ]},
+    {"category":"銀山溫泉","subgroups":[
+      {"name":"銀山溫泉經典線","product_ids":[285155]},
+      {"name":"銀山＋藏王周邊","product_ids":[535840,160112]}
+    ]},
+    {"category":"避冬紐澳","subgroups":[
+      {"name":"澳洲・墨爾本","product_ids":[137696,155423,137693]},
+      {"name":"紐西蘭・南島","product_ids":[24814,123626,250380]}
+    ]}
+  ]
+}
