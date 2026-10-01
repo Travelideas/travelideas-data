@@ -1,13 +1,13 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "brand": "KKday",
   "cid": "5149",
-  "updated_at": "2026-10-02T07:30:00+08:00",
+  "updated_at": "2026-10-02T07:40:00+08:00",
   "source": {
     "name": "KKpartners 夥伴百科",
     "repository": "https://github.com/kkdaypartners/KKpartners",
     "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
-    "note": "以 KKpartners 結構化優惠清單 + DAILY 每日目的地為主資料源；截至 2026-10-02 篩選未過期項目。"
+    "note": "以 KKpartners 結構化優惠清單 + DAILY 每日目的地為主資料源；截至 2026-10-02 篩選未過期項目。 已同步 CODE_GEO 的國家／城市／類別限制。"
   },
   "items": [
     {
@@ -21,7 +21,15 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "機票",
+        "郵輪"
+      ],
+      "excluded_categories": [
+        "機票",
+        "郵輪"
+      ]
     },
     {
       "code": "KKAFF700",
@@ -34,7 +42,15 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "機票",
+        "郵輪"
+      ],
+      "excluded_categories": [
+        "機票",
+        "郵輪"
+      ]
     },
     {
       "code": "KKAFF1000A",
@@ -47,7 +63,17 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "機票",
+        "住宿",
+        "郵輪"
+      ],
+      "excluded_categories": [
+        "機票",
+        "住宿",
+        "郵輪"
+      ]
     },
     {
       "code": "AFFNEW88A",
@@ -73,7 +99,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "KKAFFLH520",
@@ -86,7 +115,16 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Europe",
+        "North America",
+        "Australia",
+        "New Zealand"
+      ],
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "KKCCCAR",
@@ -99,7 +137,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "包車"
+      ]
     },
     {
       "code": "KKAFF1200",
@@ -112,7 +153,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "行程體驗",
+        "包車"
+      ]
     },
     {
       "code": "KKTWOUR9",
@@ -125,7 +170,13 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Taiwan"
+      ],
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "KKFLY",
@@ -138,7 +189,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "機票"
+      ]
     },
     {
       "code": "KKFHP500",
@@ -151,7 +205,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "機票",
+        "住宿"
+      ]
     },
     {
       "code": "EXCUZ2000",
@@ -164,7 +222,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "郵輪"
+      ]
     },
     {
       "code": "EXCUZ3000",
@@ -177,7 +238,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "郵輪"
+      ]
     },
     {
       "code": "AFFKDDI85",
@@ -190,7 +254,13 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "網路"
+      ]
     },
     {
       "code": "ALL95",
@@ -333,7 +403,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ]
     },
     {
       "code": "FINDSEOUL20",
@@ -346,7 +419,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Korea"
+      ]
     },
     {
       "code": "KKNPT50",
@@ -359,7 +435,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Hong Kong and Macau"
+      ]
     },
     {
       "code": "26KDRAMA15",
@@ -372,7 +451,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Korea"
+      ]
     },
     {
       "code": "TWPASS94",
@@ -385,7 +467,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Taiwan"
+      ]
     },
     {
       "code": "THSR26OF5",
@@ -398,7 +483,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Taiwan"
+      ],
+      "categories": [
+        "交通",
+        "票券通票"
+      ]
     },
     {
       "code": "26EXNEW",
@@ -411,7 +503,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "景點門票"
+      ]
     },
     {
       "code": "WKNEX97",
@@ -424,7 +519,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "景點門票",
+        "行程體驗"
+      ]
     },
     {
       "code": "WKNME98",
@@ -437,7 +536,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "美食"
+      ]
     },
     {
       "code": "LH500",
@@ -450,7 +552,13 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Europe",
+        "North America",
+        "Australia",
+        "New Zealand"
+      ]
     },
     {
       "code": "LH50002",
@@ -463,7 +571,13 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Europe",
+        "North America",
+        "Australia",
+        "New Zealand"
+      ]
     },
     {
       "code": "26AUR94",
@@ -476,7 +590,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Europe",
+        "North America"
+      ],
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "GOFUKUOKA",
@@ -489,7 +610,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ]
     },
     {
       "code": "USJBUNDLE5OFF",
@@ -515,7 +639,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "交通",
+        "票券通票"
+      ]
     },
     {
       "code": "JPNEWTRAIN",
@@ -528,7 +659,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "交通",
+        "票券通票"
+      ]
     },
     {
       "code": "KKJPTRAIN",
@@ -541,7 +679,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "交通",
+        "票券通票"
+      ]
     },
     {
       "code": "26KRGOJ",
@@ -554,7 +699,18 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Korea"
+      ],
+      "categories": [
+        "機票",
+        "住宿"
+      ],
+      "excluded_categories": [
+        "機票",
+        "住宿"
+      ]
     },
     {
       "code": "KBEAUTY88",
@@ -567,7 +723,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Korea"
+      ]
     },
     {
       "code": "KKENCORE85",
@@ -580,7 +739,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Korea"
+      ]
     },
     {
       "code": "WIN600",
@@ -593,7 +755,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "WIN1200",
@@ -606,7 +771,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "KKHOTELNEW",
@@ -619,7 +787,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "住宿"
+      ]
     },
     {
       "code": "KKHOTEL",
@@ -632,7 +803,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "住宿"
+      ]
     },
     {
       "code": "WEDKKHOTEL",
@@ -645,7 +819,13 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Taiwan"
+      ],
+      "categories": [
+        "住宿"
+      ]
     },
     {
       "code": "DLPTW95",
@@ -671,7 +851,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "destinations": [
+        "kr-busan",
+        "kr-gyeongju"
+      ],
+      "categories": [
+        "住宿"
+      ]
     },
     {
       "code": "TSNEW26",
@@ -684,7 +871,19 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "TH",
+        "VN",
+        "ID",
+        "MY",
+        "SG",
+        "PH",
+        "Europe",
+        "North America",
+        "Australia",
+        "New Zealand"
+      ]
     },
     {
       "code": "TS26H2350",
@@ -723,7 +922,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "交通",
+        "票券通票"
+      ]
     },
     {
       "code": "FUBON300H2",
@@ -736,7 +942,12 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "景點門票",
+        "票券通票",
+        "行程體驗"
+      ]
     },
     {
       "code": "FUBONAIRPORT",
@@ -749,7 +960,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "包車",
+        "交通"
+      ]
     },
     {
       "code": "FUBONSP7510",
@@ -762,7 +977,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "FUBONLH500",
@@ -775,7 +993,13 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Europe",
+        "North America",
+        "Australia",
+        "New Zealand"
+      ]
     },
     {
       "code": "FUBONTOKYO",
@@ -788,7 +1012,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "destinations": [
+        "jp-tokyo"
+      ]
     },
     {
       "code": "FUBONSKATING",
@@ -801,7 +1028,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Taiwan"
+      ]
     },
     {
       "code": "FUBONBASEBALL",
@@ -814,7 +1044,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Taiwan"
+      ]
     },
     {
       "code": "JCARD2693",
@@ -827,7 +1060,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "包車",
+        "交通"
+      ]
     },
     {
       "code": "JCBJPTRAIN",
@@ -840,7 +1077,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "交通",
+        "票券通票"
+      ]
     },
     {
       "code": "PX8826",
@@ -853,7 +1097,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "JKO26H1",
@@ -879,7 +1126,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan",
+        "Europe",
+        "North America",
+        "Australia",
+        "New Zealand"
+      ]
     },
     {
       "code": "CUB26H2SP180",
@@ -905,7 +1159,21 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan",
+        "Korea",
+        "TH",
+        "VN",
+        "ID",
+        "MY",
+        "SG",
+        "PH",
+        "Europe",
+        "North America",
+        "Australia",
+        "New Zealand"
+      ]
     },
     {
       "code": "CUB26H1SP9",
@@ -931,7 +1199,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan",
+        "Korea"
+      ],
+      "categories": [
+        "行程體驗"
+      ]
     },
     {
       "code": "DBSKDDI10",
@@ -944,7 +1219,13 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "網路"
+      ]
     },
     {
       "code": "JCARD1000OCT",
@@ -957,7 +1238,13 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "機票"
+      ]
     },
     {
       "code": "JCARD26OCT",
@@ -983,7 +1270,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ],
+      "categories": [
+        "機票",
+        "住宿"
+      ]
     },
     {
       "code": "NEXT8OCT26",
@@ -996,7 +1290,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Taiwan"
+      ]
     },
     {
       "code": "NEXT600OCT",
@@ -1009,7 +1306,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan",
+        "Korea"
+      ]
     },
     {
       "code": "NEXT300OCT",
@@ -1022,7 +1323,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan",
+        "Korea"
+      ]
     },
     {
       "code": "26JCB10",
@@ -1035,7 +1340,14 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan",
+        "Korea",
+        "Hong Kong and Macau",
+        "TH",
+        "VN"
+      ]
     },
     {
       "code": "AFTEE85OCT",
@@ -1061,7 +1373,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ]
     },
     {
       "code": "JKO245H2610",
@@ -1113,7 +1428,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ]
     },
     {
       "code": "CUBEJP9OCT",
@@ -1126,7 +1444,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ]
     },
     {
       "code": "CTBCLP261008",
@@ -1231,7 +1552,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Hong Kong and Macau",
+        "China"
+      ]
     },
     {
       "code": "BSDAY",
@@ -1245,7 +1570,12 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "destinations": [
+        "kr-busan",
+        "kr-daegu",
+        "kr-gyeongju"
+      ]
     },
     {
       "code": "SEADAY",
@@ -1259,7 +1589,16 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "TH",
+        "VN",
+        "ID",
+        "MY",
+        "SG",
+        "PH",
+        "SEA"
+      ]
     },
     {
       "code": "JPDAY",
@@ -1273,7 +1612,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Japan"
+      ]
     },
     {
       "code": "SELDAY",
@@ -1287,7 +1629,12 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "destinations": [
+        "kr-seoul",
+        "kr-gyeonggi-do",
+        "kr-incheon"
+      ]
     },
     {
       "code": "TWDAY",
@@ -1301,7 +1648,10 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Taiwan"
+      ]
     },
     {
       "code": "EADAY",
@@ -1315,7 +1665,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Europe",
+        "North America"
+      ]
     },
     {
       "code": "OCDAY",
@@ -1329,7 +1683,11 @@
       "source_type": "kkpartners",
       "source_commit": "087d8ddebb44cf5ebdeef2e90cab12414ad21b37",
       "verified_at": "2026-10-02T07:30:00+08:00",
-      "status": "active"
+      "status": "active",
+      "countries": [
+        "Australia",
+        "New Zealand"
+      ]
     }
   ]
 }
