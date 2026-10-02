@@ -64,7 +64,7 @@
       document.getElementById('productCount').textContent='商品 '+products.length+' 筆';
       document.getElementById('cardCount').textContent='信用卡 '+cards.length+' 筆';
       document.getElementById('updated').textContent='最後更新：'+(c.updated_at||'—');
-      document.getElementById('source').innerHTML=`來源：<a href="${esc(c.source?.url||'#')}" target="_blank" rel="noopener">${esc(c.source?.name||'KKpartners')}</a> · Source commit ${esc(c.source?.source_commit||'—')}`;
+      document.getElementById('source').innerHTML=`來源：<a href="${esc(c.source?.url||'#')}" target="_blank" rel="noopener">${esc(c.source?.name||'KKday 官方資料')}</a> · Source commit ${esc(c.source?.source_commit||'—')}`;
       bindCopy();
     }).catch(e=>{console.error(e);document.querySelectorAll('.panel').forEach(x=>x.innerHTML='<div class="err">資料讀取失敗，請檢查 JSON。</div>')});
   document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));document.querySelectorAll('.panel').forEach(x=>x.classList.toggle('active',x.id===b.dataset.tab))});
