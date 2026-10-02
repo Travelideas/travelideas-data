@@ -10,9 +10,9 @@
   "policy": {
     "consumer_safe_only": true,
     "excluded": [
-      "partner-only benefits",
-      "KOL/internal instructions",
-      "commission/payout",
+      "internal-only benefits",
+      "internal editorial instructions",
+      "commission/payout data",
       "FREE_ITEMS"
     ],
     "url_rule": "Do not synthesize product URLs from ids. Only explicit source URLs may be stored."
