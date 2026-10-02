@@ -11,9 +11,9 @@
   "policy": {
     "consumer_safe_only": true,
     "excluded": [
-      "partner-only benefits",
-      "KOL/internal instructions",
-      "commission/payout",
+      "internal-only benefits",
+      "internal editorial instructions",
+      "commission/payout data",
       "FREE_ITEMS"
     ]
   },
@@ -367,7 +367,6 @@
       "code": "JCARD1000SEP",
       "price": [
         {
-          "n": "KOL 專屬牌價",
           "v": "4,388 起"
         },
         {
