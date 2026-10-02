@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "source": {
+    "type": "internal_source_extract",
+    "source_section": [
+      "PICKS"
+    ],
+    "source_blob": "5f1151c8be32ee58867ac9637d7ef2d6a3fbb997"
+  },
+  "policy": {
+    "consumer_render": "Only top-level theme/product fields may be used for public selection. editorial_internal.render is always false."
+  },
+  "week_count": 3,
+  "items": [
+    {
+      "week": "2026 W40（9/29–10/5）",
+      "theme": "紅葉、樹冰、滑雪：秋冬線全面起量",
+      "source_window": {
+        "as_of": "2026-09-27",
+        "comparison_window": "近 28 天 vs 前 28 天",
+        "market": "台灣"
+      },
+      "products": [
+        {
+          "product_name": "九州紅葉巡禮一日遊｜九年庵・環境藝術之森",
+          "url": "https://www.kkday.com/zh-tw/product/529663",
+          "reference_price": 1700,
+          "tier": "基本盤",
+          "related_product": {
+            "product_id": 150984,
+            "product_name": "九州由布院・金鱗湖一日遊"
+          }
+        },
+        {
+          "product_name": "北海道登別一日遊｜1 人成團・洞爺湖展望台",
+          "url": "https://www.kkday.com/zh-tw/product/185814",
+          "reference_price": 1700,
+          "tier": "基本盤",
+          "related_product": {
+            "product_id": 155327,
+            "product_name": "北海道旭川動物園冬季一日遊"
+          }
+        },
+        {
+          "product_name": "北海道滑雪團一日遊｜手稻滑雪場",
+          "url": "https://www.kkday.com/zh-tw/product/157140",
+          "reference_price": 8300,
+          "tier": "主力",
+          "related_product": {
+            "product_id": 155327,
+            "product_name": "北海道旭川動物園冬季一日遊"
+          }
+        },
+        {
+          "product_name": "九州包車｜中文司機・一日／多日遊",
+          "url": "https://www.kkday.com/zh-tw/product/269107",
+          "reference_price": 17900,
+          "tier": "主力"
+        },
+        {
+          "product_name": "極地探險號破冰船 Polar Explorer I｜芬蘭",
+          "url": "https://www.kkday.com/zh-tw/product/18133",
+          "reference_price": 31300,
+          "tier": "加碼"
+        }
+      ],
+      "editorial_internal": {
+        "render": false,
+        "note": "Internal editorial signal only. Never render this object directly to consumer pages.",
+        "summary": "全站熱度續跌 16.2%，但日本紅葉與北國冬季行程逆勢暴衝：九州紅葉一日遊熱度翻了近七倍、東北樹冰一日遊也 +748%。這期照新配比排：兩支入門價位維持成交手感、兩支中高價位拉分潤、一支高價長線給已經在推的人加碼。",
+        "metrics": {
+          "asof": "2026-09-27",
+          "win": "近 28 天 vs 前 28 天",
+          "mkt": "台灣",
+          "baseHeat": -16.2,
+          "baseCr": 4.39,
+          "cat": "行程＆體驗",
+          "catN": 941,
+          "catCr": 1.35
+        },
+        "items": [
+          {
+            "product_name": "九州紅葉巡禮一日遊｜九年庵・環境藝術之森",
+            "cr": 2.82,
+            "pct": 85,
+            "heat": 559,
+            "read": "瀏覽 377→2,484、熱度 +559%，轉換率贏過同類 85%，量價齊揚",
+            "why": "秋季限定 11/14–12/10 出發，讀者現在就在排紅葉行程。9/30 前可用夥伴專屬日遊碼 KKAFFTOUR88（88 折、上限折 300）。可寫：九州紅葉一日遊怎麼選、跟阿蘇行程怎麼搭（阿蘇一日遊熱度也 +212%）",
+            "intel": [
+              "買的人中位數提前 67 天訂，多數落在出發前 8–10 週",
+              "84% 訂 11 月出發、16% 訂 12 月，現在就是下訂高峰",
+              "過半是 2 人同行，約 4 成是獨旅"
+            ],
+            "cmp": {
+              "vs": "九州紅葉一日團 vs 九州包車",
+              "q": [
+                "幾個人以上，包車平均每人會比跟團便宜？",
+                "想在九年庵、環境藝術之森多拍一會兒，哪種玩法時間比較彈性？",
+                "從福岡出發，一天實際能走完幾個紅葉點？"
+              ],
+              "calc": "一日團：___ 元 × 人數　vs　包車：___ 元 ÷ 人數（平台數據：買一日團的過半是 2 人同行，就用 2 人和 4 人各算一次）"
+            }
+          },
+          {
+            "product_name": "北海道登別一日遊｜1 人成團・洞爺湖展望台",
+            "cr": 2.93,
+            "pct": 86,
+            "heat": 331,
+            "read": "近 28 天 179 筆訂單、熱度 +331%，轉換率贏過同類 86%，這期最會成交的一支",
+            "why": "1 人成團、兩條路線可選，獨旅也能下訂；可加選雪地摩托車，冬季題材直接接得上。這支不適用日遊碼，要用全站碼。可寫：兩條路線差在哪、雪地摩托車值不值得加",
+            "intel": [
+              "中位數提前 85 天訂，4 分之 1 的人提前 4 個月就訂好",
+              "出發集中在 12 月（29%）與 1 月（19%），接得上雪季",
+              "獨旅、2 人、3–4 人各約 3 成，家庭客也不少"
+            ],
+            "cmp": {
+              "vs": "登別一日團 vs 自己搭車去登別",
+              "q": [
+                "札幌到登別自己搭車要轉幾次、單程多久？",
+                "把交通、門票、時間都算進去，自己去真的比較省嗎？",
+                "冬天加雪地摩托車，行程還排得完嗎？"
+              ],
+              "calc": "一日團：___ 元　vs　自己去：來回車票 ___ 元＋景點門票 ___ 元＋多花的時間 ___ 小時"
+            }
+          },
+          {
+            "product_name": "北海道滑雪團一日遊｜手稻滑雪場",
+            "cr": 2.24,
+            "pct": 77,
+            "heat": 47,
+            "read": "熱度 +47%、60 筆訂單，轉換率贏過同類 77%，主力價帶裡最穩的一支",
+            "why": "第一次滑雪的人最常問一日團怎麼選，主力價帶單筆分潤高。9/30 前可用 KKAFFTOUR88。可寫：手稻跟札幌近郊其他雪場怎麼選、第一次滑雪要準備什麼",
+            "intel": [
+              "中位數提前 113 天訂，多數人 3–4 個月前就訂好",
+              "55% 在 12 月出發、33% 在 1 月，現在寫剛好接到下訂期",
+              "55% 是 2 人同行，情侶、朋友檔為主"
+            ],
+            "cmp": {
+              "vs": "手稻滑雪一日團 vs 自己搭車去滑雪",
+              "q": [
+                "雪具、雪衣自己租加上來回交通，總共要花多少？",
+                "第一次滑雪，需要教練嗎？跟團有沒有差？",
+                "手稻跟其他札幌近郊雪場，人潮和難度差在哪？"
+              ],
+              "calc": "一日團：___ 元　vs　自己去：交通 ___＋纜車 ___＋雪具租借 ___ 元（平台數據：55% 是 2 人同行，用 2 人算）"
+            }
+          },
+          {
+            "product_name": "九州包車｜中文司機・一日／多日遊",
+            "cr": 1.49,
+            "pct": 44,
+            "heat": 83,
+            "read": "熱度 +83%，包車是優先推的品類，轉換率在交通類中段",
+            "why": "跟第一支九州紅葉同一條線：想自己排紅葉景點的，包車比一日團彈性。可寫：九州紅葉包車一天怎麼排、幾個人包最划算",
+            "intel": [
+              "中位數只提前 24 天訂，屬於臨時決定的品類",
+              "8–9 月出發最多，12 月、11 月接著起量",
+              "一單就是一台車，不按人頭計"
+            ],
+            "cmp": {
+              "vs": "九州包車 vs 租車自駕",
+              "q": [
+                "租車要國際駕照、油錢、停車費、高速公路費，實際加起來多少？",
+                "中文司機除了開車，還幫上哪些忙？",
+                "幾個人一起、玩幾天，包車會比自駕划算？"
+              ],
+              "calc": "包車：___ 元／天　vs　自駕：租車 ___＋油錢 ___＋停車 ___＋高速公路 ___ 元／天"
+            }
+          },
+          {
+            "product_name": "極地探險號破冰船 Polar Explorer I｜芬蘭",
+            "cr": 3.39,
+            "pct": 90,
+            "heat": 15,
+            "read": "加碼價帶裡轉換率最高，贏過同類 90%",
+            "why": "高價長線，適合已經在推高價帶的創作者當加碼：成交量小，但一單的分潤抵得過好幾張低價票。可寫：芬蘭冬季行程怎麼排、破冰船要搭配哪些北極圈體驗",
+            "intel": [
+              "中位數提前 143 天訂，將近 5 個月前就訂好",
+              "41% 在 2 月出發、25% 在 1 月",
+              "43% 獨旅、25% 2 人同行，3–4 人一起的也有約 25%"
+            ],
+            "cmp": {
+              "vs": "芬蘭破冰船 vs 北海道破冰船",
+              "q": [
+                "兩邊的體驗差在哪？能不能下冰海漂浮？",
+                "預算、天數、飛行時間各差多少，適合什麼樣的人？",
+                "幾月去最好？（平台數據：芬蘭這團 41% 在 2 月出發）"
+              ],
+              "calc": "芬蘭：團費 ___＋機票 ___，共 ___ 天　vs　北海道：團費 ___＋機票 ___，共 ___ 天"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "week": "2026 W39（9/22–9/28）",
+      "theme": "國旅交通爆量，日本冬季題材同步開跑",
+      "source_window": {
+        "as_of": "2026-09-20",
+        "comparison_window": "近 28 天 vs 前 28 天",
+        "market": "台灣"
+      },
+      "products": [
+        {
+          "product_name": "Taiwan PASS 台鐵版｜台鐵＋捷運＋景區接駁",
+          "url": "https://www.kkday.com/zh-tw/product/284326",
+          "reference_price": 1700
+        },
+        {
+          "product_name": "北海道旭川動物園一日遊｜冬季限定雪地摩托車・四季彩之丘",
+          "url": "https://www.kkday.com/zh-tw/product/155327",
+          "reference_price": 1517
+        },
+        {
+          "product_name": "吉伊卡哇餐廳（池袋 PARCO）THE GUEST CAFE",
+          "url": "https://www.kkday.com/zh-tw/product/584238",
+          "reference_price": 452
+        },
+        {
+          "product_name": "富士山河口湖全景纜車一日遊｜天上山公園・淺間公園",
+          "url": "https://www.kkday.com/zh-tw/product/570685",
+          "reference_price": 1542
+        }
+      ],
+      "editorial_internal": {
+        "render": false,
+        "note": "Internal editorial signal only. Never render this object directly to consumer pages.",
+        "summary": "全站熱度續跌 23.5%，但兩條線逆勢竄升：Taiwan PASS 雙省方案帶動國旅交通爆量，日本冬季限定行程開始有人查資料。前者現在就在成交，後者是提前布局。",
+        "metrics": {
+          "asof": "2026-09-20",
+          "win": "近 28 天 vs 前 28 天",
+          "mkt": "台灣",
+          "baseHeat": -23.5,
+          "baseCr": 4.16,
+          "cat": "行程＆體驗",
+          "catN": 230,
+          "catCr": 2.19
+        },
+        "items": [
+          {
+            "product_name": "Taiwan PASS 台鐵版｜台鐵＋捷運＋景區接駁",
+            "cr": 10.63,
+            "pct": 95,
+            "heat": 2374,
+            "read": "瀏覽 4,259→105,359、訂單 11,195 筆，不是新品基數小造成的假象，是真的爆量",
+            "why": "觀光署 9/1 開賣雙省方案在推，轉換率是交通類中位數的三倍。專屬折扣碼 TWPASS94，結帳直接 94 折、折抵無上限。可寫：台鐵版 vs 高鐵版怎麼選、捷運四選一與景區接駁十五選一怎麼配最划算"
+          },
+          {
+            "product_name": "北海道旭川動物園一日遊｜冬季限定雪地摩托車・四季彩之丘",
+            "cr": 2.81,
+            "pct": 69,
+            "heat": 300,
+            "read": "熱度翻三倍，轉換率贏過同類 69%，動能與成交力都在",
+            "why": "企鵝遊行 12 月才開始，讀者現在查資料、還沒下訂，正是內容切進去的時間點。可用夥伴專屬日遊碼 KKAFFTOUR88（不限低消 88 折、上限折 300）。可寫：冬季行程怎麼排、雪地摩托車值不值得加"
+          },
+          {
+            "product_name": "吉伊卡哇餐廳（池袋 PARCO）THE GUEST CAFE",
+            "cr": 6.58,
+            "pct": 73,
+            "heat": 230,
+            "read": "IP 熱潮帶動，沖繩 PARCO CITY 那家同步 +185%，兩家可以合寫一篇",
+            "why": "轉換率 6.58% 在美食類偏高，訂位型商品寫了就會成交。可寫：兩家分店差在哪、幾點訂得到位、限定周邊怎麼買"
+          },
+          {
+            "product_name": "富士山河口湖全景纜車一日遊｜天上山公園・淺間公園",
+            "cr": 1.99,
+            "pct": 42,
+            "heat": 82,
+            "read": "四支裡最弱的一支，同類排名只贏 42%，純靠熱度入選",
+            "why": "紅葉季 10 月中開跑、河口湖是經典拍點。轉換力普通，適合當補充題材而不是主打"
+          }
+        ]
+      }
+    },
+    {
+      "week": "2026 W38（9/15–9/21）",
+      "theme": "秋冬長線開跑，現在寫剛好",
+      "source_window": {
+        "as_of": "2026-09-16",
+        "comparison_window": "近 28 天 vs 前 28 天",
+        "market": "台灣"
+      },
+      "products": [
+        {
+          "product_name": "北海道道東流冰體驗二日遊",
+          "url": "https://www.kkday.com/zh-tw/product/135943"
+        },
+        {
+          "product_name": "日本東北二日遊・銀山溫泉＆藏王樹冰",
+          "url": "https://www.kkday.com/zh-tw/product/182060"
+        },
+        {
+          "product_name": "黑部立山楓紅三日遊",
+          "url": "https://www.kkday.com/zh-tw/product/158778"
+        },
+        {
+          "product_name": "紐西蘭庫克山塔斯曼冰川探險半日遊",
+          "url": "https://www.kkday.com/zh-tw/product/24814"
+        }
+      ],
+      "editorial_internal": {
+        "render": false,
+        "note": "Internal editorial signal only. Never render this object directly to consumer pages.",
+        "summary": "全站熱度正在退潮（暑假結束），但這四條線逆勢在漲。讀者正在查資料、還沒下訂——這正是內容切進去的時間點。",
+        "metrics": {
+          "asof": "2026-09-16",
+          "win": "近 28 天 vs 前 28 天",
+          "mkt": "台灣",
+          "baseHeat": -21.7,
+          "baseCr": 4.15,
+          "cat": "行程＆體驗",
+          "catN": 1472,
+          "catCr": 1.18
+        },
+        "items": [
+          {
+            "product_name": "北海道道東流冰體驗二日遊",
+            "cr": 1.6,
+            "pct": 65,
+            "heat": 109,
+            "read": "熱度近月翻倍，四支裡動能最強",
+            "why": "流冰季 1–3 月，但熱門日期現在就要訂。可寫：破冰船怎麼選、層雲峽溫泉怎麼配"
+          },
+          {
+            "product_name": "日本東北二日遊・銀山溫泉＆藏王樹冰",
+            "cr": 0.77,
+            "pct": 34,
+            "heat": 62,
+            "read": "熱度在漲、寫過的人還不多，內容缺口最大",
+            "why": "季節限定，寫過的人不多，題材很新。可寫：銀山溫泉拍照時段、樹冰纜車怎麼搭"
+          },
+          {
+            "product_name": "黑部立山楓紅三日遊",
+            "cr": 1.01,
+            "pct": 44,
+            "heat": -0.4,
+            "read": "熱度持平但逆住全站跌勢，10 月中紅葉季才會真正起量",
+            "why": "紅葉季 10 月中開跑，讀者現在查行程。可寫：三天怎麼排、白川鄉要不要住一晚"
+          },
+          {
+            "product_name": "紐西蘭庫克山塔斯曼冰川探險半日遊",
+            "cr": 3.88,
+            "pct": 95,
+            "heat": -14,
+            "read": "同類排名贏過 95%，四支裡最會成交，適合要立刻見效",
+            "why": "紐西蘭夏季剛開始，詢問度在上升。可寫：直升機＋健行值不值得、天氣怎麼看"
+          }
+        ]
+      }
+    }
+  ]
+}
