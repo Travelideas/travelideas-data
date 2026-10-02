@@ -35,19 +35,19 @@
   #${ROOT} details.theme[open]{box-shadow:0 5px 18px rgba(16,24,40,.045)}
   #${ROOT} summary{cursor:pointer;list-style:none;padding:17px 18px;display:flex;align-items:center;gap:12px}
   #${ROOT} summary::-webkit-details-marker{display:none}
-  #${ROOT} .theme-thumb{width:70px;height:50px;object-fit:cover;border-radius:9px;background:#f3f4f6;flex:0 0 auto}
-  #${ROOT} .sum-main{min-width:0;flex:1}
+    #${ROOT} .sum-main{min-width:0;flex:1}
   #${ROOT} .sum-main b{display:block;font-size:18px}
   #${ROOT} .sum-main span{font-size:12px;color:var(--muted)}
   #${ROOT} .arrow{font-size:19px;color:#98a2b3}
   #${ROOT} details[open] .arrow{transform:rotate(90deg)}
   #${ROOT} .theme-body{padding:0 18px 20px;border-top:1px solid #f0f2f4}
   #${ROOT} .group-title{font-size:16px!important;margin:20px 0 9px!important;padding:0!important;border:0!important;color:#243342!important}
+  #${ROOT} .product-set{margin:10px 0 16px}
+  #${ROOT} .set-label{font-size:12px;font-weight:800;color:#667085;margin:0 0 7px}
   #${ROOT} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:11px}
   #${ROOT} .product{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:#fff;display:flex;flex-direction:column;min-width:0}
   #${ROOT} .product.hidden-extra{display:none}
-  #${ROOT} .pimg{width:100%;aspect-ratio:16/10;object-fit:cover;background:#f4f5f6}
-  #${ROOT} .pbody{padding:13px;display:flex;flex-direction:column;flex:1}
+    #${ROOT} .pbody{padding:13px;display:flex;flex-direction:column;flex:1}
   #${ROOT} .badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
   #${ROOT} .badge{font-size:10.5px;border-radius:999px;background:#eef7f7;color:#17646c;padding:3px 7px;font-weight:750}
   #${ROOT} .badge.sale{background:#fff1e6;color:#a94c00}
@@ -56,8 +56,7 @@
   #${ROOT} .promo{font-size:12px;color:#7a3f00;background:#fff8ef;border-radius:8px;padding:7px 8px;margin-top:8px}
   #${ROOT} .pactions{margin-top:auto;padding-top:11px}
   #${ROOT} .btn{display:inline-block;border-radius:8px;padding:7px 10px;background:#172033;color:#fff!important;text-decoration:none!important;font-size:12px;font-weight:750}
-  #${ROOT} .nolink{font-size:11px;color:#98a2b3}
-  #${ROOT} .more{margin-top:10px;border:1px solid #d8dee4;background:#fff;border-radius:9px;padding:7px 10px;font-size:12px;cursor:pointer}
+    #${ROOT} .more{margin-top:10px;border:1px solid #d8dee4;background:#fff;border-radius:9px;padding:7px 10px;font-size:12px;cursor:pointer}
   #${ROOT} .notice{margin-top:22px;padding:13px 15px;border:1px solid #e7eaee;background:#f8fafb;border-radius:12px;color:#667085;font-size:12px}
   @media(max-width:700px){#${ROOT} .hero{padding:20px 16px}#${ROOT} h2{font-size:24px!important}#${ROOT} .grid{grid-template-columns:1fr}}
   `;
@@ -80,60 +79,77 @@
       return String(a.title).localeCompare(String(b.title),'zh-Hant');
     });
 
-    function productCard(x,i){
+    function resolveProduct(x){
       const id=Number(x.product_id)||null;
       const norm=id?productMap.get(id):null;
       const fp=id?promoById.get(id):null;
       const deal=id?dealById.get(id):null;
-      const title=x.product_name||x.short_title||norm?.title||('商品 '+id);
-      const img=x.image||norm?.image||fp?.image||'';
+      const title=x.product_name||x.short_title||norm?.title||'';
       const url=x.url||norm?.url||fp?.url||deal?.url||'';
+      if(!title||!url)return null;
       const price=x.reference_price??norm?.price_ref;
-      const promo=x.promotion||fp?.promotion||deal?.promotion||'';
+      const promotion=x.promotion||fp?.promotion||deal?.promotion||'';
       const code=x.explicit_code||deal?.code||'';
+      const isDeal=Boolean(promotion||code||fp||deal);
+      const isPick=Boolean(id&&pickedIds.has(id));
+      return {id,title,url,price,promotion,code,isDeal,isPick};
+    }
+
+    function productCard(p,i){
       const badges=[];
-      if(id&&pickedIds.has(id))badges.push('<span class="badge">本週選品</span>');
-      if(fp||deal)badges.push('<span class="badge sale">當期優惠</span>');
-      if(code)badges.push('<span class="badge">'+esc(code)+'</span>');
+      if(p.isDeal)badges.push('<span class="badge sale">當期優惠</span>');
+      if(p.isPick)badges.push('<span class="badge">熱門選品</span>');
+      if(p.code)badges.push('<span class="badge">'+esc(p.code)+'</span>');
       return '<article class="product'+(i>=6?' hidden-extra':'')+'">'+
-        (img?'<img class="pimg" loading="lazy" src="'+esc(img)+'" alt="'+esc(title)+'">':'')+
         '<div class="pbody">'+
           (badges.length?'<div class="badges">'+badges.join('')+'</div>':'')+
-          '<div class="ptitle">'+esc(title)+'</div>'+
-          (price!==undefined&&price!==null?'<div class="price">參考價格 NT$ '+esc(Number(price).toLocaleString('zh-TW'))+' 起</div>':'')+
-          (promo?'<div class="promo">'+esc(promo)+'</div>':'')+
-          '<div class="pactions">'+(url?'<a class="btn" href="'+esc(addCid(url))+'" target="_blank" rel="nofollow sponsored noopener">查看商品</a>':'<span class="nolink">目前未提供公開商品連結</span>')+'</div>'+
+          '<div class="ptitle">'+esc(p.title)+'</div>'+
+          (p.price!==undefined&&p.price!==null?'<div class="price">參考價格 NT$ '+esc(Number(p.price).toLocaleString('zh-TW'))+' 起</div>':'')+
+          (p.promotion?'<div class="promo">'+esc(p.promotion)+'</div>':'')+
+          '<div class="pactions"><a class="btn" href="'+esc(addCid(p.url))+'" target="_blank" rel="nofollow sponsored noopener">查看商品</a></div>'+
         '</div></article>';
     }
 
+    function renderGroupProducts(tid,gi,label,items){
+      if(!items.length)return '';
+      const key=tid+'-'+gi+'-'+label;
+      return '<div class="product-set"><div class="set-label">'+(label==='deal'?'🔥 有當期優惠':'⭐ 熱門／主題商品')+'</div>'+
+        '<div class="grid" data-group="'+esc(key)+'">'+items.map(productCard).join('')+'</div>'+
+        (items.length>6?'<button class="more" type="button" data-target="'+esc(key)+'">顯示更多（'+(items.length-6)+'）</button>':'')+
+      '</div>';
+    }
+
     function themeBlock(t,idx){
-      const count=(t.groups||[]).reduce((a,g)=>a+(g.products||[]).length,0);
-      const thumb=t.image||((t.groups?.[0]?.products||[]).find(p=>p.image)?.image)||'';
       const groups=(t.groups||[]).map((g,gi)=>{
-        const products=g.products||[];
+        const resolved=(g.products||[]).map(resolveProduct).filter(Boolean);
+        const deals=resolved.filter(p=>p.isDeal);
+        const regular=resolved.filter(p=>!p.isDeal).sort((a,b)=>(b.isPick?1:0)-(a.isPick?1:0));
+        if(!resolved.length)return '';
         return '<section class="group"><h4 class="group-title">'+esc(g.title)+'</h4>'+
-          '<div class="grid" data-group="'+esc(t.id)+'-'+gi+'">'+products.map(productCard).join('')+'</div>'+
-          (products.length>6?'<button class="more" type="button" data-target="'+esc(t.id)+'-'+gi+'">顯示更多（'+(products.length-6)+'）</button>':'')+
+          renderGroupProducts(t.id,gi,'deal',deals)+
+          renderGroupProducts(t.id,gi,'regular',regular)+
         '</section>';
-      }).join('');
+      }).filter(Boolean).join('');
+      if(!groups)return '';
+      const visibleCount=(t.groups||[]).reduce((sum,g)=>sum+(g.products||[]).map(resolveProduct).filter(Boolean).length,0);
       return '<details class="theme" id="topic-'+esc(t.id)+'" '+(idx<2?'open':'')+'>'+
-        '<summary>'+(thumb?'<img class="theme-thumb" loading="lazy" src="'+esc(thumb)+'" alt="">':'')+
-        '<div class="sum-main"><b>'+esc(t.title)+'</b><span>'+(t.groups||[]).length+' 個分類 · '+count+' 個商品</span></div><span class="arrow">›</span></summary>'+
+        '<summary><div class="sum-main"><b>'+esc(t.title)+'</b><span>'+visibleCount+' 個可直接查看的商品</span></div><span class="arrow">›</span></summary>'+
         '<div class="theme-body">'+groups+'</div></details>';
     }
 
     const seasonal=themes.filter(t=>preferred.includes(t.id)).slice(0,6);
     const chips=seasonal.map(t=>'<a class="chip" href="#topic-'+esc(t.id)+'">'+esc(t.title)+'</a>').join('');
     const index=themes.map(t=>{
-      const c=(t.groups||[]).reduce((a,g)=>a+(g.products||[]).length,0);
-      return '<a class="index-card" href="#topic-'+esc(t.id)+'"><b>'+esc(t.title)+'</b><span>'+c+' 個商品</span></a>';
+      const c=(t.groups||[]).reduce((a,g)=>a+(g.products||[]).map(resolveProduct).filter(Boolean).length,0);
+      if(!c)return '';
+      return '<a class="index-card" href="#topic-'+esc(t.id)+'"><b>'+esc(t.title)+'</b><span>'+c+' 個可查看商品</span></a>';
     }).join('');
 
     host.innerHTML=
-      '<div class="hero"><div class="eyebrow">里程家 Travelideas</div><h2>KKday 熱門商品與旅遊主題大全</h2><p>依旅遊季節、目的地與玩法分類整理 KKday 熱門商品，從賞楓、滑雪、極光，到東南亞、JR PASS、包車、機票與郵輪，都可以快速找到適合的行程。</p></div>'+
+      '<div class="hero"><div class="eyebrow">里程家 Travelideas</div><h2>KKday 熱門商品與旅遊主題大全</h2><p>依旅遊季節、目的地與玩法整理目前值得關注的 KKday 商品；有當期折扣的優惠優先標示，其他則收錄近期熱門與主題代表商品，方便直接比較與查看。</p></div>'+
       '<section class="season"><h3 class="season-title">現在值得看的主題</h3><div class="chips">'+chips+'</div></section>'+
       '<h3 class="all-title">全部旅遊主題</h3><div class="theme-index">'+index+'</div>'+
-      themes.map(themeBlock).join('')+
+      themes.map(themeBlock).filter(Boolean).join('')+
       '<div class="notice">商品內容、價格、供應日期與優惠可能調整，實際訂購條件請以 KKday 官方商品頁及結帳頁顯示為準。</div>';
 
     host.querySelectorAll('.more').forEach(btn=>btn.addEventListener('click',()=>{
