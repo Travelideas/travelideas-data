@@ -69,8 +69,6 @@
 
   host.className='ti-wrap';
   host.innerHTML='<div class="card">載入中…</div>';
-  injectDisclaimerBeforeFaq();
-
   Promise.all([get('campaigns.json'),get('coupons.json'),get('products.json'),get('credit-cards.json')]).then(([campaignData,couponData,productData,bankData])=>{
     const campaigns=(campaignData.items||[]).filter(x=>active(x)||upcoming(x)).sort((a,b)=>(b.priority||0)-(a.priority||0));
     const coupons=(couponData.items||[]).filter(active);
@@ -107,9 +105,9 @@
       '<section id="ti-weekly"><h3 class="section-title">📅 每週目的地優惠</h3><div class="grid">'+daily.map(x=>couponCard(x)).join('')+'</div></section>'+
       '<section id="ti-seasonal"><h3 class="section-title">🍁 季節／常青優惠</h3><div class="grid">'+seasonal.map(x=>couponCard(x)).join('')+'</div></section>'+
       '<section id="ti-cards"><h3 class="section-title">💳 信用卡／支付優惠</h3><div class="grid">'+banks.map(bankCard).join('')+'</div></section>'+
+      '<div class="notice" id="ti-kkday-official-disclaimer">資料整理自 KKday 官方公開資訊及活動頁面。活動內容、價格、折扣、名額、適用商品與使用條件可能隨時調整；如本頁資訊與 KKday 官方頁面或實際結帳頁不同，請以 KKday 官方頁面及結帳時顯示的最新資訊為準。</div>'+
       '<div class="notice">部分連結為合作推廣連結。優惠內容與價格可能調整，訂購前請再次確認 KKday 官方頁面及結帳頁顯示。</div>';
 
     host.querySelectorAll('.copy').forEach(btn=>btn.addEventListener('click',async()=>{const code=btn.dataset.code;try{await navigator.clipboard.writeText(code);const old=btn.textContent;btn.textContent='已複製';setTimeout(()=>btn.textContent=old,1200)}catch(e){window.prompt('複製優惠碼：',code)}}));
-    injectDisclaimerBeforeFaq();
   }).catch(err=>{console.error(err);host.innerHTML='<div class="card">目前暫時無法顯示，請稍後再試。</div>';});
 })();
