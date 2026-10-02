@@ -97,7 +97,7 @@
     const currentPromos=promos.slice(0,6);
 
     host.innerHTML=
-      '<div class="hero"><div class="kicker">里程家 Travelideas</div><h2>2026 KKday 最新優惠整理</h2><p>折扣碼、機票／機加酒／包車、信用卡與當期熱門商品一起整理；本月主打優先，常青優惠往後排。</p></div>'+
+      '<div class="hero"><div class="kicker">里程家 Travelideas</div><h2>2026 KKday 最新優惠整理</h2><p>這一頁整理 KKday 最新折扣碼、機票／機加酒、包車、信用卡優惠與熱門旅遊商品，並依當期活動、季節主題與實用性分類整理，方便快速找到適合自己的優惠與行程。</p></div>'+
       '<nav class="nav">'+nav+'</nav>'+
       '<section id="ti-current"><h3 class="section-title">🔥 本月主打</h3><div class="grid">'+currentCampaigns.map(campaignCard).join('')+currentCodes.map(x=>couponCard(x,true)).join('')+currentPromos.map(promoCard).join('')+'</div></section>'+
       '<section id="ti-codes"><h3 class="section-title">🎟️ 精選折扣碼</h3><div class="grid">'+main.map(x=>couponCard(x)).join('')+'</div></section>'+
