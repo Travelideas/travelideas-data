@@ -1,0 +1,863 @@
+{
+  "schema_version": 1,
+  "source": {
+    "type": "internal_source_extract",
+    "source_section": [
+      "DEALS",
+      "EVENT/EVENT_LIST"
+    ],
+    "source_blob": "5f1151c8be32ee58867ac9637d7ef2d6a3fbb997"
+  },
+  "policy": {
+    "consumer_safe_only": true,
+    "excluded": [
+      "partner-only benefits",
+      "KOL/internal instructions",
+      "commission/payout",
+      "FREE_ITEMS"
+    ]
+  },
+  "item_count": 41,
+  "items": [
+    {
+      "id": "deal-001",
+      "title": "香港海洋公園＋昂坪 360",
+      "tag": "限時 30% OFF",
+      "price": [
+        {
+          "n": "海洋公園門票",
+          "v": "30% OFF"
+        },
+        {
+          "n": "昂坪 360 雙人",
+          "v": "31% OFF"
+        }
+      ],
+      "price_from": "2026-10-01",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_17917/20240723100829_yE16v/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/2306"
+    },
+    {
+      "id": "deal-002",
+      "title": "昂坪 360 纜車｜5 折",
+      "tag": "限時 5 折",
+      "code": "KKNPT50",
+      "price": [
+        {
+          "n": "輸碼 KKNPT50",
+          "v": "5 折"
+        },
+        {
+          "n": "限量",
+          "v": "全市場 20 組"
+        }
+      ],
+      "price_from": "2026-09-30",
+      "start": "2026-09-30",
+      "end": "2026-12-30",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_17917/20240723100829_yE16v/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/4360"
+    },
+    {
+      "id": "deal-003",
+      "title": "大曲花火｜買一送一",
+      "tag": "急件・買一送一",
+      "code": "KKAFFTOUR88",
+      "price": [
+        {
+          "n": "團體席 2 人",
+          "v": "¥19,800／組"
+        },
+        {
+          "n": "輸碼再折",
+          "v": "88 折・最高 300"
+        },
+        {
+          "n": "日期",
+          "v": "10/3（六）"
+        }
+      ],
+      "price_from": "2026-09-30",
+      "start": "2026-09-30",
+      "end": "2026-10-02",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_23634/20260821044833_msEUL/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/765154"
+    },
+    {
+      "id": "deal-004",
+      "title": "曼谷船＋巴士通票｜31 元",
+      "tag": "超殺促銷",
+      "price": [
+        {
+          "n": "一日通行證",
+          "v": "NT$31"
+        },
+        {
+          "n": "兌換期限",
+          "v": "買後 365 天內"
+        }
+      ],
+      "price_from": "2026-09-30",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_550798/20260529093911_VnE40/png",
+      "url": "https://www.kkday.com/zh-tw/product/550798"
+    },
+    {
+      "id": "deal-005",
+      "title": "釜山煙火節｜最後一批",
+      "tag": "最後釋票",
+      "code": "26KRGOJ",
+      "price": [
+        {
+          "n": "R 席（桌＋椅）",
+          "v": "剩 26 張"
+        },
+        {
+          "n": "S 席（椅子）",
+          "v": "剩 300 張"
+        },
+        {
+          "n": "活動日",
+          "v": "11/7（六）"
+        }
+      ],
+      "price_from": "2026-09-29",
+      "start": "2026-09-29",
+      "end": "2026-11-06",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_17613/20240807012928_NokpO/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/17613"
+    },
+    {
+      "id": "deal-006",
+      "title": "酷航仁川｜再降價",
+      "tag": "清倉機票",
+      "price": [
+        {
+          "n": "含稅",
+          "v": "4,288"
+        },
+        {
+          "n": "出發",
+          "v": "10/1、10/2"
+        },
+        {
+          "n": "行李",
+          "v": "托運 20kg＋手提 10kg"
+        }
+      ],
+      "price_from": "2026-09-29",
+      "start": "2026-09-29",
+      "end": "2026-09-30T10:00",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_138818/20260528055223_6b5xE/png",
+      "url": "https://www.kkday.com/zh-tw/product/138818"
+    },
+    {
+      "id": "deal-007",
+      "title": "迪士尼郵輪｜10 月清倉",
+      "code": "EXCUZ2000",
+      "price": [
+        {
+          "n": "10/5 內側",
+          "v": "每人 11,999 起"
+        },
+        {
+          "n": "10/8 海景房",
+          "v": "雙人 39,000"
+        },
+        {
+          "n": "10/15 豪華房",
+          "v": "雙人 42,000"
+        },
+        {
+          "n": "官網同房型",
+          "v": "雙人 78,176"
+        }
+      ],
+      "price_from": "2026-09-29",
+      "start": "2026-09-29",
+      "end": "2026-10-06",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_712213/20260811081739_wZhIn/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/712213"
+    },
+    {
+      "id": "deal-008",
+      "title": "六本木之丘夜景門票",
+      "tag": "特惠商品",
+      "code": "26SEP95",
+      "price": [
+        {
+          "n": "限時特惠",
+          "v": "600 JPY"
+        },
+        {
+          "n": "原價",
+          "v": "2,400 JPY"
+        },
+        {
+          "n": "直降",
+          "v": "1,800 JPY"
+        }
+      ],
+      "end": "2026-09-30",
+      "image": "img/roppongi-v3.webp",
+      "url": "https://www.kkday.com/zh-tw/product/18946"
+    },
+    {
+      "id": "deal-009",
+      "title": "高鐵光復節｜9/25 開搶",
+      "tag": "光復節連假",
+      "code": "THSR26OF5",
+      "price": "輸碼 95 折＋聰明選時 65 折起",
+      "price_from": "2026-09-24",
+      "start": "2026-09-24",
+      "end": "2026-09-26",
+      "image": "img/thsr-1024.webp",
+      "url": "https://www.kkday.com/zh-tw/transportation/taiwan"
+    },
+    {
+      "id": "deal-010",
+      "title": "歐鐵全境通行證｜5 折起",
+      "tag": "限時優惠",
+      "price": "最低 5 折起＋送 20GB eSIM",
+      "price_from": "2026-09-24",
+      "start": "2026-09-24",
+      "end": "2026-09-30T23:59",
+      "image": "img/eurail-1024.webp",
+      "url": "https://www.kkday.com/zh-tw/product/119917"
+    },
+    {
+      "id": "deal-011",
+      "title": "魔戒一日遊｜送存錢筒",
+      "tag": "限時贈品",
+      "code": "KKAFF400",
+      "price": [
+        {
+          "n": "贈品",
+          "v": "魔戒存錢筒 NZD 19"
+        },
+        {
+          "n": "成團",
+          "v": "2 人起"
+        }
+      ],
+      "end": "2026-12-31",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_124714/20260922112556_xsLFf/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/124714",
+      "links": [
+        {
+          "n": "【皇后鎮出發】魔戒&哈比人電影場景 Safari 一日遊",
+          "u": "https://www.kkday.com/zh-tw/product/124714"
+        },
+        {
+          "n": "【皇后鎮出發】米爾福德峽灣一日遊",
+          "u": "https://www.kkday.com/zh-tw/product/182712"
+        },
+        {
+          "n": "【蒂安瑙出發】米爾福德峽灣巴士遊船巴士一日遊",
+          "u": "https://www.kkday.com/zh-tw/product/182721"
+        },
+        {
+          "n": "【世界十大健行目的地】路特本導覽健行｜皇后鎮出發",
+          "u": "https://www.kkday.com/zh-tw/product/181678"
+        },
+        {
+          "n": "【皇后鎮出發，小團】黃金遺產一日遊",
+          "u": "https://www.kkday.com/zh-tw/product/181351"
+        }
+      ]
+    },
+    {
+      "id": "deal-012",
+      "title": "韓國美妝節｜體驗 88 折",
+      "tag": "韓國美妝節",
+      "code": "KBEAUTY88",
+      "price": "體驗 88 折，最高折 450",
+      "price_from": "2026-09-24",
+      "start": "2026-09-24",
+      "end": "2026-10-05",
+      "image": "img/kbf-1000.webp",
+      "url": "https://www.kkday.com/zh-tw/promo/korea-beauty-festival"
+    },
+    {
+      "id": "deal-013",
+      "title": "瑞士通行證｜買 4 送 1",
+      "tag": "限時促銷",
+      "code": "SWISSWINTER26",
+      "price": "最便宜一天 NT$1,600",
+      "end": "2026-10-01T12:00",
+      "image": "img/swiss-1000.webp",
+      "url": "https://www.kkday.com/zh-tw/product/2524",
+      "plans": [
+        {
+          "n": "瑞士專屬",
+          "c": "SWISSWINTER26",
+          "x": "買 4 送 1、買 8 送 2",
+          "d": "銷售至 10/1，搭乘期間 10/1–12/31"
+        },
+        {
+          "n": "特別延長",
+          "c": "LH1050",
+          "x": "滿 15,000 折 1,050",
+          "d": "延長到 10/1 23:59"
+        },
+        {
+          "n": "特別延長",
+          "c": "26SEP800",
+          "x": "滿 8,000 折 800",
+          "d": "延長到 10/1 12:00"
+        }
+      ]
+    },
+    {
+      "id": "deal-014",
+      "title": "四大樂園門票｜49 折起",
+      "tag": "十月樂園季",
+      "code": "26SEP95",
+      "price": "四園 49 折起，可再疊 95 折",
+      "end": "2026-10-31",
+      "url": "https://www.kkday.com/zh-tw/product/6370",
+      "links": [
+        {
+          "n": "六福村主題遊樂園門票（49 折）",
+          "u": "https://www.kkday.com/zh-tw/product/6370"
+        },
+        {
+          "n": "高雄義大遊樂世界門票（63 折）",
+          "u": "https://www.kkday.com/zh-tw/product/8700"
+        },
+        {
+          "n": "小人國主題樂園門票（63 折）",
+          "u": "https://www.kkday.com/zh-tw/product/27980"
+        },
+        {
+          "n": "花蓮遠雄海洋公園門票（78 折）",
+          "u": "https://www.kkday.com/zh-tw/product/107922"
+        }
+      ]
+    },
+    {
+      "id": "deal-015",
+      "title": "星宇｜東京 6 天機票",
+      "tag": "清倉機票",
+      "code": "26SEP800",
+      "price": [
+        {
+          "n": "出發日",
+          "v": "10/10（六）"
+        },
+        {
+          "n": "航班",
+          "v": "午去晚回"
+        },
+        {
+          "n": "26SEP800",
+          "v": "折 800"
+        }
+      ],
+      "end": "2026-09-30",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_136386/20260617074941_fD0ys/png",
+      "url": "https://www.kkday.com/zh-tw/product/136386"
+    },
+    {
+      "id": "deal-016",
+      "title": "台灣虎航｜石垣島機票",
+      "code": "JCARD1000SEP",
+      "price": [
+        {
+          "n": "KOL 專屬牌價",
+          "v": "4,388 起"
+        },
+        {
+          "n": "再輸 26SEP95",
+          "was": "4,388",
+          "v": "4,238"
+        },
+        {
+          "n": "富邦 J 卡 JCARD1000SEP",
+          "was": "4,388",
+          "v": "3,388"
+        }
+      ],
+      "end": "2026-09-23T09:00",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_246671/20240904130617_LpCC7/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/246671"
+    },
+    {
+      "id": "deal-017",
+      "title": "釜山通行證｜週二 96 折",
+      "tag": "週二限定",
+      "code": "BSDAY",
+      "price": [
+        {
+          "n": "48H 兩張同行",
+          "was": "NT$ 3,738",
+          "v": "NT$ 3,588"
+        },
+        {
+          "n": "24H 三張同行",
+          "was": "NT$ 3,627",
+          "v": "NT$ 3,482"
+        },
+        {
+          "n": "BIG5 三張同行",
+          "was": "NT$ 4,287",
+          "v": "NT$ 4,116"
+        },
+        {
+          "n": "48H 三張同行",
+          "was": "NT$ 5,607",
+          "v": "NT$ 5,427"
+        }
+      ],
+      "end": "每週二限定：釜山全線商品單筆滿 NT$2,200 享 96 折，最高折 180 元。⚠️ 上面列的四組是三家比過之後我方最便宜的組合（2026-09-22 三家比價結果），可以直接打「全網最低」。單張買則我方每個方案都輸 Klook 69～100 元，所以文案一律打「揪團一起買」，不要寫單買最便宜。",
+      "day_of_week": [
+        2
+      ],
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_138477/20260728003807_cF2SE/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/138477"
+    },
+    {
+      "id": "deal-018",
+      "title": "龜山島賞鯨｜四選一",
+      "tag": "中秋節精選",
+      "code": "KKAFFTOUR88",
+      "price": "88 折後每人 790 元起",
+      "end": "2026-09-28",
+      "url": "https://www.kkday.com/zh-tw/product/5297",
+      "links": [
+        {
+          "n": "龜山島登島・賞鯨・繞島｜烏石傳奇",
+          "u": "https://www.kkday.com/zh-tw/product/601590"
+        },
+        {
+          "n": "【保證成行】龜山島賞鯨趣｜1 人贈小禮",
+          "u": "https://www.kkday.com/zh-tw/product/575917"
+        },
+        {
+          "n": "宜蘭龜山島登島賞鯨半日遊（已售 20K+）",
+          "u": "https://www.kkday.com/zh-tw/product/5297"
+        },
+        {
+          "n": "【保證有位】賞鯨豚・繞島・登島｜贈兒童繪本",
+          "u": "https://www.kkday.com/zh-tw/product/102159"
+        }
+      ]
+    },
+    {
+      "id": "deal-019",
+      "title": "酷航｜東京 5 天機票",
+      "tag": "清倉機票",
+      "code": "26SEP95",
+      "price": [
+        {
+          "n": "牌價",
+          "v": "8,588 起"
+        },
+        {
+          "n": "26SEP95",
+          "v": "折 150"
+        },
+        {
+          "n": "輸碼後",
+          "v": "8,438 起"
+        }
+      ],
+      "end": "2026-09-30",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_259305/20241018115501_klNyr/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/259305"
+    },
+    {
+      "id": "deal-020",
+      "title": "嵐山月燈路點燈一日遊",
+      "tag": "期間限定",
+      "code": "KKAFFTOUR88",
+      "price": "點燈 9/30–11/8・9 人小團・大阪出發",
+      "end": "2026-11-08",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_771487/20260914050112_CIBLD/png",
+      "url": "https://www.kkday.com/zh-tw/product/771487"
+    },
+    {
+      "id": "deal-021",
+      "title": "日光中禪寺湖遊覽船",
+      "tag": "新品上架",
+      "price": "一周航線・可自由上下船",
+      "end": "2026-11-30",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_771835/20260917072434_ma6sE/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/771835"
+    },
+    {
+      "id": "deal-022",
+      "title": "大邱機場↔釜山直達",
+      "tag": "新品上架",
+      "price": "每人 ₩28,000（約 NT$658）",
+      "end": "2026-12-31",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_580317/20260511072734_FrSM1/png",
+      "url": "https://www.kkday.com/zh-tw/product/580317"
+    },
+    {
+      "id": "deal-023",
+      "title": "東京聖誕市集｜送馬克杯",
+      "tag": "KKday 獨家",
+      "price": "10/1 17:00 開賣・線上買送原創馬克杯",
+      "end": "2026-12-25",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_123906/20260930044108_MxAE3/png",
+      "url": "https://www.kkday.com/zh-tw/product/123906"
+    },
+    {
+      "id": "deal-024",
+      "title": "虎航普吉島｜6,999",
+      "tag": "清倉機票",
+      "code": "26SEP95",
+      "price": "10/6 出發・含稅含行李 6,999",
+      "end": "2026-10-05",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_163974/20260209090640_H80qv/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/163974"
+    },
+    {
+      "id": "deal-025",
+      "title": "首爾跨年日出團",
+      "tag": "新品上架",
+      "code": "26KRGOJ",
+      "price": "去年已售 100+・中英導遊＋專車",
+      "end": "2026-12-31",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_23261/20260918015433_9Edec/png",
+      "url": "https://www.kkday.com/zh-tw/product/20313"
+    },
+    {
+      "id": "deal-026",
+      "title": "釜山跨年日出團",
+      "tag": "新品上架",
+      "code": "26KRGOJ",
+      "price": "一晚串 3 大景點・中英導遊＋專車",
+      "end": "2026-12-31",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_23135/20260918060015_2YItG/png",
+      "url": "https://www.kkday.com/zh-tw/product/32149"
+    },
+    {
+      "id": "deal-027",
+      "title": "海生館萬聖夜派對",
+      "tag": "新品上架",
+      "price": "10/31 限定・9/24 18:00 開賣",
+      "end": "2026-10-30",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_772068/20260922033633_jm1hh/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/772068"
+    },
+    {
+      "id": "deal-028",
+      "title": "閃動格子體感遊戲",
+      "tag": "新品上架",
+      "code": "26SEP95",
+      "price": "全台據點・LED 地磚體感遊戲",
+      "end": "26SEP95 不限門檻 95 折、單筆最高折 NT$150，2026/9/30 到期（Alen 已確認可用）。購買後至閃動格子官網預約兌換，使用效期至 2027/8/31。",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_765204/20260821102343_WsTcN/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/765204"
+    },
+    {
+      "id": "deal-029",
+      "title": "PaPark 親子樂園",
+      "tag": "新品上架",
+      "price": "南港・土城・不限時暢玩",
+      "end": "南港中信店、土城日月光店，每日 11:00–21:00（依各館公告）。效期至 2027/1/31。",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_634599/20260722083438_sElQh/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/634599"
+    },
+    {
+      "id": "deal-030",
+      "title": "京都 teamLab 門票",
+      "tag": "新品上架",
+      "code": "26SEP95",
+      "end": "26SEP95 不限門檻 95 折、單筆最高折 NT$150，2026/9/30 到期。",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_533773/20260824015035_Rd2p1/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/533773"
+    },
+    {
+      "id": "deal-031",
+      "title": "MSC 榮耀號｜三四人房",
+      "tag": "新品上架",
+      "code": "EXCUZ2000",
+      "price": "中秋訂陽台房送酒水暢飲",
+      "end": "2027-03-23",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_575458/20260407093837_I2QKG/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/575458",
+      "plans": [
+        {
+          "n": "郵輪專屬｜滿 3 萬",
+          "c": "EXCUZ2000",
+          "x": "折 2,000",
+          "d": "郵輪商品單筆滿 NT$30,000 適用，9/30 到期"
+        },
+        {
+          "n": "郵輪專屬｜滿 5 萬",
+          "c": "EXCUZ3000",
+          "x": "折 3,000",
+          "d": "郵輪商品單筆滿 NT$50,000 適用，9/30 到期"
+        }
+      ]
+    },
+    {
+      "id": "deal-032",
+      "title": "弘大猛男秀 NUNA",
+      "tag": "新品上架",
+      "code": "26SEP95",
+      "price": "NUNA 新團 10 月開演，輸碼 95 折",
+      "end": "2026-10-31",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_266953/20260812061645_dLIGz/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/266953"
+    },
+    {
+      "id": "deal-033",
+      "title": "澳門 TOUCH FIVE",
+      "tag": "新品上架",
+      "code": "26SEP95",
+      "price": [
+        {
+          "n": "R 座位票",
+          "v": "NT$ 2,755"
+        },
+        {
+          "n": "VIP 含飲品",
+          "v": "NT$ 3,970"
+        },
+        {
+          "n": "VVIP 含飲品",
+          "v": "NT$ 4,780"
+        }
+      ],
+      "end": "2026-09-30",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_771872/20260918024003_pVles/png",
+      "url": "https://www.kkday.com/zh-tw/product/771872"
+    },
+    {
+      "id": "deal-034",
+      "title": "六福村墓碑鎮 95 折",
+      "tag": "新品上架",
+      "code": "26SEP95",
+      "end": "全站商品單筆不限門檻享 95 折",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_26191/20260910054712_E7Leh/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/26191",
+      "links": [
+        {
+          "n": "六福村接駁直達特快車",
+          "u": "https://www.kkday.com/zh-tw/product/26191"
+        }
+      ]
+    },
+    {
+      "id": "deal-035",
+      "title": "嵐山夜楓點燈小火車",
+      "tag": "新品上架",
+      "code": "KKAFFTOUR88",
+      "end": "不限低消 88 折，上限折 300 元",
+      "kind": "new",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_546301/20251105142649_bamlY/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/546301",
+      "links": [
+        {
+          "n": "京都秋季限定賞楓一日遊｜金閣寺・嵐山夜楓點燈・嵯峨野小火車體驗（含票）",
+          "u": "https://www.kkday.com/zh-tw/product/546301"
+        },
+        {
+          "n": "嵐山半日遊｜保津川遊船＆嵐山小火車夢幻點燈（夜楓限定方案）",
+          "u": "https://www.kkday.com/zh-tw/product/12189"
+        }
+      ]
+    },
+    {
+      "id": "deal-036",
+      "title": "四大人氣一日遊買一送一",
+      "tag": "限時買一送一",
+      "code": "KKAFFTOUR88",
+      "end": "2026-09-19",
+      "url": "https://www.kkday.com/zh-tw/product/271227",
+      "links": [
+        {
+          "n": "富士山打卡一日遊｜河口湖・忍野八海",
+          "u": "https://www.kkday.com/zh-tw/product/573307"
+        },
+        {
+          "n": "九州阿蘇山一日遊｜草千里・上色見熊野座神社",
+          "u": "https://www.kkday.com/zh-tw/product/271227"
+        },
+        {
+          "n": "北海道一日遊",
+          "u": "https://www.kkday.com/zh-tw/product/185814"
+        },
+        {
+          "n": "天橋立一日遊｜伊根舟屋・伊根灣遊船",
+          "u": "https://www.kkday.com/zh-tw/product/770690"
+        }
+      ]
+    },
+    {
+      "id": "deal-037",
+      "title": "日本鐵路兩人同行 92 折",
+      "tag": "9/19 上線",
+      "code": "KYUSHUTW",
+      "price_from": "2026-09-19",
+      "start": "2026-09-19",
+      "end": "折扣碼使用 2026/9/19–9/30，適用出發 10/01–12/25，限量 100 組",
+      "image": "img/kyushu-0919.webp",
+      "url": "https://www.kkday.com/zh-tw/transportation/japan-rail",
+      "links": [
+        {
+          "n": "JR P2P 日本鐵路購票頁",
+          "u": "https://www.kkday.com/zh-tw/transportation/japan-rail"
+        }
+      ]
+    },
+    {
+      "id": "deal-038",
+      "title": "韓國指定商品送 Uber 券",
+      "tag": "9/21 上線",
+      "price_from": "2026-09-21",
+      "start": "2026-09-21",
+      "end": "2026/9/21–12/31，優惠碼數量有限，送完提前結束",
+      "image": "img/p-a39ef136f3.webp",
+      "url": "https://www.kkday.com/zh-tw/promo/kto_traveldeeper#uber",
+      "links": [
+        {
+          "n": "釜山通行證 VISIT BUSAN PASS",
+          "u": "https://www.kkday.com/zh-tw/product/138477"
+        },
+        {
+          "n": "新世界 SPA LAND 汗蒸幕入場券",
+          "u": "https://www.kkday.com/zh-tw/product/12213"
+        },
+        {
+          "n": "SEA LIFE COEX 首爾水族館門票",
+          "u": "https://www.kkday.com/zh-tw/product/14947"
+        },
+        {
+          "n": "AQUAFIELD 汗蒸幕入場券",
+          "u": "https://www.kkday.com/zh-tw/product/138205"
+        },
+        {
+          "n": "釜山 X the Sky 展望台門票",
+          "u": "https://www.kkday.com/zh-tw/product/105514"
+        },
+        {
+          "n": "釜山斜坡滑車門票",
+          "u": "https://www.kkday.com/zh-tw/product/152412"
+        },
+        {
+          "n": "Club D Oasis 汗蒸幕 Spa & 水上樂園",
+          "u": "https://www.kkday.com/zh-tw/product/158792"
+        },
+        {
+          "n": "大邱機場 ↔ 釜山海雲台／廣安里 共享接送",
+          "u": "https://www.kkday.com/zh-tw/product/580317"
+        },
+        {
+          "n": "WOWPASS 換匯付款交通卡",
+          "u": "https://www.kkday.com/zh-tw/product/149562"
+        },
+        {
+          "n": "松島海上纜車來回門票",
+          "u": "https://www.kkday.com/zh-tw/product/19674"
+        },
+        {
+          "n": "江陵哈斯拉藝術世界",
+          "u": "https://www.kkday.com/zh-tw/product/168700"
+        },
+        {
+          "n": "韓國樂高樂園門票",
+          "u": "https://www.kkday.com/zh-tw/product/140195"
+        },
+        {
+          "n": "63 SkyPicnic 首爾",
+          "u": "https://www.kkday.com/zh-tw/product/621650"
+        },
+        {
+          "n": "韓國機場貴賓室通行證",
+          "u": "https://www.kkday.com/zh-tw/product/113733"
+        }
+      ]
+    },
+    {
+      "id": "deal-039",
+      "title": "USJ 神級 3 大套票",
+      "tag": "最新開碼",
+      "price": "95 折起，最高折 1,000 日圓",
+      "end": "環球影城商品不適用一般折扣碼，只有下面三組指定套票碼可以折",
+      "image": "img/p-b39ee015a1.webp",
+      "url": "https://www.kkday.com/zh-tw/product/2247",
+      "plans": [
+        {
+          "n": "方案一｜快閃閃電戰",
+          "d": "門票＋哈咪酷瑪爆米花桶＋關西樂享周遊券",
+          "c": "HAMIKUMA5OFF",
+          "x": "95 折・限時延至 9/30"
+        },
+        {
+          "n": "方案二｜萬聖限定・敲磚必備",
+          "d": "門票＋關西樂享周遊券＋周邊任選（能量手環™／無敵星爆米花桶／哈咪酷瑪爆米花桶）",
+          "c": "USJBUNDLE5OFF",
+          "x": "95 折"
+        },
+        {
+          "n": "方案三｜任天堂保證入園套票",
+          "d": "保證入園＋門票＋能量手環™或無敵星爆米花桶＋關西樂享周遊券",
+          "c": "USJBUNDLE1000",
+          "x": "現折 JPY 1,000"
+        }
+      ]
+    },
+    {
+      "id": "deal-040",
+      "title": "JR PASS 10/1 漲價",
+      "tag": "倒數最後",
+      "price": "7 日券 ¥50,000，10/1 起漲價",
+      "end": "2026-09-30",
+      "image": "img/jrpass-fare-v2.webp",
+      "url": "https://www.kkday.com/zh-tw/product/20291"
+    },
+    {
+      "id": "deal-041",
+      "title": "新加坡景點票選狂歡",
+      "price": "最高回饋等值 NT$2,000",
+      "end": "滿 5,000 送等值 1,000 點｜滿 8,000 送等值 2,000 點。同筆訂單擇高回饋，不累積不疊加。每週三發放前一週訂單。",
+      "image": "img/p-5f57024f48.webp",
+      "url": "https://forms.gle/ZNmYM1buWBrEhZn47",
+      "links": [
+        {
+          "n": "F1 新加坡大獎賽 2026 濱海灣市街賽道門票",
+          "u": "https://www.kkday.com/zh-tw/product/129639"
+        },
+        {
+          "n": "新加坡環球影城門票",
+          "u": "https://www.kkday.com/zh-tw/product/2312"
+        },
+        {
+          "n": "新加坡夜間野生動物園門票",
+          "u": "https://www.kkday.com/zh-tw/product/100158"
+        },
+        {
+          "n": "聖淘沙 Skyline Luge 斜坡滑車＆空中吊椅",
+          "u": "https://www.kkday.com/zh-tw/product/17924"
+        },
+        {
+          "n": "新加坡濱海灣花園門票",
+          "u": "https://www.kkday.com/zh-tw/product/3158"
+        }
+      ]
+    }
+  ]
+}
