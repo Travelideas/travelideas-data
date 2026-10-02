@@ -4,7 +4,7 @@
     "type": "internal_source_extract",
     "source_section": [
       "DEALS",
-      "EVENT/EVENT_LIST"
+      "EVENT_LIST special offers"
     ],
     "source_blob": "5f1151c8be32ee58867ac9637d7ef2d6a3fbb997"
   },
@@ -17,7 +17,7 @@
       "FREE_ITEMS"
     ]
   },
-  "item_count": 41,
+  "item_count": 65,
   "items": [
     {
       "id": "deal-001",
@@ -858,6 +858,300 @@
           "u": "https://www.kkday.com/zh-tw/product/3158"
         }
       ]
+    },
+    {
+      "id": "event-001",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "富士山經典一日遊",
+      "promotion": "5 折",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12322/20260907033602_dlbZr/png",
+      "url": "https://www.kkday.com/zh-tw/product/148912"
+    },
+    {
+      "id": "event-002",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "京都奈良一日遊",
+      "promotion": "5 折",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12102/20260907071932_dQRMz/png",
+      "url": "https://www.kkday.com/zh-tw/product/13894"
+    },
+    {
+      "id": "event-003",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "天橋立伊根一日遊",
+      "promotion": "5 折",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_16932/20260525022416_U3x5M/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/155289"
+    },
+    {
+      "id": "event-004",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "白川鄉合掌村一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_30312/20260915081752_4Yj9k/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/771707"
+    },
+    {
+      "id": "event-005",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "九州湯布院一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12348/20260320083004_XBQa2/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/150984"
+    },
+    {
+      "id": "event-006",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "濟州島一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_23104/20260626060653_3Sfuv/png",
+      "url": "https://www.kkday.com/zh-tw/product/23104"
+    },
+    {
+      "id": "event-007",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "巴黎迪士尼門票",
+      "promotion": "買 2 送 1",
+      "code": "26DLPSEP5",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_24625/20260914134238_UCAnA/png",
+      "url": "https://www.kkday.com/zh-tw/product/20829"
+    },
+    {
+      "id": "event-008",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "華納電影世界門票",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_6593/20230703050558_UsKKu/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/6593"
+    },
+    {
+      "id": "event-009",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/28 首日",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "title": "阿里山日出一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_150883/20230828065414_GrrJL/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/150883"
+    },
+    {
+      "id": "event-010",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/29 第二日",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "title": "札幌滑雪一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_152445/20240920100330_8ocuQ/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/152445"
+    },
+    {
+      "id": "event-011",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/29 第二日",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "title": "六甲山滑雪溫泉",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_195662/20240920100026_s8NG4/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/195662"
+    },
+    {
+      "id": "event-012",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/29 第二日",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "title": "富士山 YETI 滑雪",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_151891/20250812070329_CRq2u/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/151891"
+    },
+    {
+      "id": "event-013",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/29 第二日",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "title": "箱館山滑雪一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_137860/20251114072019_aEKlK/png",
+      "url": "https://www.kkday.com/zh-tw/product/137860"
+    },
+    {
+      "id": "event-014",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/29 第二日",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "title": "輕井澤一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_36724/20250814014319_WOrlL/png",
+      "url": "https://www.kkday.com/zh-tw/product/36724"
+    },
+    {
+      "id": "event-015",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/29 第二日",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "title": "常陸海濱公園一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_13397/20260623032706_segFY/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/533691"
+    },
+    {
+      "id": "event-016",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/29 第二日",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "title": "合歡山福壽山一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_105102/20230515034416_QtlaD/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/105102"
+    },
+    {
+      "id": "event-017",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/29 第二日",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "title": "小琉球來回船票",
+      "promotion": "兩人同行 5 折",
+      "code": "26929LC",
+      "image": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_100243/20200610083420_h6jVc/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/100243"
+    },
+    {
+      "id": "event-018",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/30 最後一日",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "title": "豪斯登堡門票",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_18555/20260908091939_VIsUg/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/3988"
+    },
+    {
+      "id": "event-019",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/30 最後一日",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "title": "皿倉山纜車一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12719/20260626064924_PPGjA/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/180965"
+    },
+    {
+      "id": "event-020",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/30 最後一日",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "title": "京都祕境一日遊",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_287665/20250613032221_x4hX6/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/287665"
+    },
+    {
+      "id": "event-021",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/30 最後一日",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "title": "飛驒高山白川鄉",
+      "promotion": "5 折",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_150943/20260619081411_CQnVO/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/150943"
+    },
+    {
+      "id": "event-022",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/30 最後一日",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "title": "河口湖絕景一日遊",
+      "promotion": "5 折",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12173/20260902082454_JLpBV/png",
+      "url": "https://www.kkday.com/zh-tw/product/35701"
+    },
+    {
+      "id": "event-023",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/30 最後一日",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "title": "THE TOKYO PASS",
+      "promotion": "買一送一",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_269798/20250624062646_CIcbq/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/269798"
+    },
+    {
+      "id": "event-024",
+      "source_kind": "event_special",
+      "campaign": "月底閃購日｜9/28–9/30 三天",
+      "event_day": "9/30 最後一日",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "title": "道頓堀浪花遊船",
+      "promotion": "5 折",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_533896/20251001081444_Pd6qE/jpg",
+      "url": "https://www.kkday.com/zh-tw/product/533896"
     }
-  ]
+  ],
+  "breakdown": {
+    "deals": 41,
+    "event_specials": 24
+  }
 }
