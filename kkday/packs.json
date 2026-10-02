@@ -1,0 +1,3137 @@
+{
+  "schema_version": 1,
+  "source": {
+    "type": "internal_source_extract",
+    "source_section": [
+      "PACKS"
+    ],
+    "source_blob": "5f1151c8be32ee58867ac9637d7ef2d6a3fbb997"
+  },
+  "policy": {
+    "consumer_safe_only": true,
+    "excluded": [
+      "partner-only benefits",
+      "KOL/internal instructions",
+      "commission/payout",
+      "FREE_ITEMS"
+    ],
+    "url_rule": "Do not synthesize product URLs from ids. Only explicit source URLs may be stored."
+  },
+  "theme_count": 17,
+  "themes": [
+    {
+      "id": "only",
+      "title": "KKday 獨家",
+      "image": "img/pk-only.webp",
+      "groups": [
+        {
+          "title": "日本",
+          "products": [
+            {
+              "product_id": 123906,
+              "short_title": "東京聖誕市集｜新豐洲（送馬克杯）",
+              "product_name": "【KKday獨家！含原創馬克杯】2026年新豐洲東京聖誕市集入場券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_123906/20260930044108_MxAE3/png",
+              "reference_price": 1000,
+              "public_note": "11/20–12/25，今年首次舉辦；10/1 17:00 開賣"
+            },
+            {
+              "product_id": 533823,
+              "short_title": "東京聖誕市集｜芝公園（送馬克杯）",
+              "product_name": "【KKday獨家】2026 東京聖誕市集 in 芝公園入場券",
+              "reference_price": 1000,
+              "public_note": "12/4–12/25，東京鐵塔當背景"
+            },
+            {
+              "product_id": 573307,
+              "product_name": "KKday 專屬團｜東京富士山打卡一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_573307/20260526031056_8FGuu/jpg",
+              "reference_price": 1500,
+              "public_note": "新倉山淺間公園、忍野八海、河口湖一次收"
+            },
+            {
+              "product_id": 148912,
+              "short_title": "富士山一日遊｜升級 A5 和牛",
+              "product_name": "富士山經典一日遊｜1 人成團・可升級 A5 黑毛和牛",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12322/20260907033602_dlbZr/png",
+              "reference_price": 3300,
+              "public_note": "獨家和牛升級方案，別家沒有"
+            },
+            {
+              "product_id": 284721,
+              "short_title": "勝尾寺・嵐山・清水寺｜神戶牛",
+              "product_name": "大阪出發｜勝尾寺・嵐山・清水寺｜可升級神戶牛",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_13202/20260908041942_hrxCZ/png",
+              "reference_price": 4100,
+              "public_note": "獨家 A5 神戶牛午餐"
+            },
+            {
+              "product_id": 18204,
+              "product_name": "淺草和服浴衣體驗｜獨家可選攝影方案",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_509/20260114075509_N9DJS/jpg",
+              "reference_price": 1800,
+              "public_note": "攝影方案是 KKday 獨家"
+            },
+            {
+              "product_id": 529231,
+              "short_title": "吉伊卡哇拉麵豚池袋店入場券",
+              "product_name": "KKday 獨家｜吉伊卡哇拉麵豚池袋店入場券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_529231/20250820062311_0eRcJ/jpg",
+              "reference_price": 200,
+              "public_note": "IP 聯名獨家，話題性強"
+            },
+            {
+              "product_id": 154146,
+              "short_title": "北海道三大螃蟹吃到飽",
+              "product_name": "KKday 獨家｜北海道螃蟹餐廳訂位｜三大螃蟹吃到飽",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_154146/20231017092113_p7NVS/jpg",
+              "reference_price": 3400,
+              "public_note": "獨家訂位權"
+            },
+            {
+              "product_id": 528834,
+              "short_title": "富士山親子一日・叢林巴士",
+              "product_name": "KKday 獨家｜富士山親子一日遊・野生動物園叢林巴士",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_528834/20250813133626_UYxd3/jpg",
+              "reference_price": 7200,
+              "public_note": "親子限定獨家"
+            },
+            {
+              "product_id": 182624,
+              "short_title": "香川讚岐烏龍麵手作體驗",
+              "product_name": "香川讚岐手工烏龍麵體驗｜KKday 限定冷熱皆可",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_182624/20240618065402_gjdHe/jpg",
+              "reference_price": 2000,
+              "public_note": "限定方案"
+            }
+          ]
+        },
+        {
+          "title": "台灣",
+          "products": [
+            {
+              "product_id": 23914,
+              "short_title": "南方四島｜龍蝦洞・藍洞・七美",
+              "product_name": "澎湖南方四島一日體驗｜獨家龍蝦洞・藍洞・七美",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_23914/20200527033729_5jYWr/jpg",
+              "reference_price": 2900,
+              "public_note": "獨家龍蝦洞航線，量最大的台灣獨家"
+            },
+            {
+              "product_id": 102159,
+              "short_title": "龜山島賞鯨・繞島・登島｜贈繪本",
+              "product_name": "宜蘭龜山島賞鯨・繞島・登島｜獨家贈兒童繪本",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_102159/20220606022051_GznPm/jpg",
+              "reference_price": 2700,
+              "public_note": "保證有位，獨家贈品"
+            },
+            {
+              "product_id": 33759,
+              "short_title": "阿里山拼車｜贈檜木甜甜圈",
+              "product_name": "嘉義阿里山拼車一日遊｜獨家贈檜木甜甜圈",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_33759/20240331173254_46hQO/jpg",
+              "reference_price": 2800,
+              "public_note": "1 人成團、保證出團"
+            },
+            {
+              "product_id": 2460,
+              "short_title": "澎湖忘憂島｜無人島＋珊瑚秘境",
+              "product_name": "澎湖忘憂島一日體驗｜獨家無人島與珊瑚秘境",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_2460/20250606062832_a3Vja/jpg",
+              "reference_price": 7800,
+              "public_note": "客單最高的台灣獨家"
+            },
+            {
+              "product_id": 130133,
+              "product_name": "北投山水樂會館泡湯券｜大眾風呂",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_130133/20240822070252_xyxP6/jpg",
+              "reference_price": 400,
+              "public_note": "KKday 推薦方案"
+            },
+            {
+              "product_id": 100730,
+              "product_name": "KKday 獨家套票｜高雄貢多拉遊愛河",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_100730/20200609025558_4U2wW/jpg",
+              "reference_price": 400,
+              "public_note": "獨家套票組合"
+            }
+          ]
+        },
+        {
+          "title": "韓國",
+          "products": [
+            {
+              "product_id": 267638,
+              "short_title": "Inspire Arena 接駁＋送機",
+              "product_name": "KKday 獨家｜Inspire Arena 演唱會接駁車＋機場送機",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_5848/20260428044345_VEdN1/jpg",
+              "reference_price": 1500,
+              "public_note": "演唱會接駁是獨家，追星族剛需"
+            },
+            {
+              "product_id": 267656,
+              "short_title": "高陽體育場 K-POP 接駁",
+              "product_name": "KKday 獨家｜高陽體育場 K-POP 接駁巴士",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_5849/20260901045415_JNAdI/png",
+              "reference_price": 1300,
+              "public_note": "同上，散場直達機場"
+            },
+            {
+              "product_id": 528542,
+              "short_title": "仁川亞運主體育場演唱會接駁",
+              "product_name": "KKday 獨家｜仁川亞運主體育場演唱會接駁",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_5857/20260708124934_r5NVS/png",
+              "reference_price": 1500,
+              "public_note": "演唱會接駁系列"
+            },
+            {
+              "product_id": 594103,
+              "short_title": "釜山 Nundongja 30 分鐘配鏡",
+              "product_name": "KKday 獨家｜釜山 Nundongja 眼鏡店 30 分鐘快速配鏡",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_594103/20260526042210_bUAzB/jpg",
+              "reference_price": 100,
+              "public_note": "30 年老店獨家合作，題材少見"
+            },
+            {
+              "product_id": 569432,
+              "short_title": "K-Eyewear 首爾 4 店配鏡",
+              "product_name": "KKday 獨家｜K-Eyewear 配鏡（弘大／聖水／江南／明洞）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_569432/20251230010630_ApYRc/jpg",
+              "reference_price": 100,
+              "public_note": "四店可選"
+            },
+            {
+              "product_id": 17612,
+              "short_title": "濟州西歸浦豪華遊艇",
+              "product_name": "KKday 獨家｜濟州島西歸浦日間豪華遊艇",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_10605/20260723031307_xERHT/jpg",
+              "reference_price": 2200,
+              "public_note": "獨家促銷價"
+            }
+          ]
+        },
+        {
+          "title": "港澳",
+          "products": [
+            {
+              "product_id": 10445,
+              "short_title": "金光飛航 上環↔氹仔｜送 eSIM",
+              "product_name": "澳門船票｜上環 ↔ 氹仔金光飛航（獨家送 eSIM）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_10445/20250903085618_GyjKm/jpg",
+              "reference_price": 1300,
+              "public_note": "獨家加送 eSIM，量最大的港澳獨家"
+            },
+            {
+              "product_id": 19071,
+              "short_title": "噴射飛航 上環↔外港｜送 eSIM",
+              "product_name": "澳門船票｜上環 ↔ 外港／氹仔噴射飛航（獨家送 eSIM）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_19071/20240223024208_6b3AX/jpg",
+              "reference_price": 1500,
+              "public_note": "同上，另一家船公司"
+            },
+            {
+              "product_id": 101007,
+              "short_title": "澳門 teamLab｜送 eSIM",
+              "product_name": "澳門 teamLab 超自然空間門票｜獨家送 eSIM",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_101007/20200618074441_lrvZd/jpg",
+              "reference_price": 2000,
+              "public_note": "熱門展覽加獨家贈品"
+            },
+            {
+              "product_id": 141248,
+              "short_title": "旅遊塔旋轉餐廳下午茶｜送 eSIM",
+              "product_name": "澳門旅遊塔 360° 旋轉餐廳下午茶｜獨家送 eSIM",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_141248/20250123130428_z2NSV/jpg",
+              "reference_price": 2500,
+              "public_note": "獨家優惠價"
+            },
+            {
+              "product_id": 265110,
+              "short_title": "澳門 2049 Show｜送 eSIM",
+              "product_name": "澳門 2049 Show｜張藝謀執導｜獨家送 eSIM",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_265110/20241216033330_w04lZ/jpg",
+              "reference_price": 3000,
+              "public_note": "美高梅大秀"
+            },
+            {
+              "product_id": 527375,
+              "product_name": "KKday 獨家｜香港吉伊卡哇拉麵預約證",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_527375/20250806034253_og2mh/jpg",
+              "reference_price": 200,
+              "public_note": "IP 聯名，需預約才進得去"
+            }
+          ]
+        },
+        {
+          "title": "東南亞與其他",
+          "products": [
+            {
+              "product_id": 19531,
+              "short_title": "專屬團｜湄公河・美托檳椥搖船",
+              "product_name": "KKday 專屬團｜湄公河一日遊・美托檳椥搖船",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_19531/20251224062037_PdYH6/jpg",
+              "reference_price": 2100,
+              "public_note": "專屬團、保證出發"
+            },
+            {
+              "product_id": 153145,
+              "short_title": "專屬團｜巴拿山一日・峴港出發",
+              "product_name": "KKday 專屬團｜越南巴拿山一日遊・峴港出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_153145/20230929071430_kk2k1/jpg",
+              "reference_price": 4800,
+              "public_note": "含導遊，可選門票"
+            },
+            {
+              "product_id": 144324,
+              "short_title": "美奈一日遊・白沙丘 ATV",
+              "product_name": "KKday 特色旅遊｜美奈一日遊・白沙丘 ATV",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_144324/20260417110024_DeEiI/png",
+              "reference_price": 2800,
+              "public_note": "保證 1 人出發"
+            },
+            {
+              "product_id": 241590,
+              "short_title": "墨爾本企鵝＆蒸汽火車小團",
+              "product_name": "KKday 專屬團｜墨爾本企鵝遊行＆蒸汽火車｜10 人小團",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_241590/20250611045123_xP23O/png",
+              "reference_price": 9200,
+              "public_note": "中文導遊小團，客單最高"
+            },
+            {
+              "product_id": 148857,
+              "product_name": "KKday 獨家｜雪梨 CBD 行李寄存",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_148857/20251123232652_Jgprf/jpg",
+              "reference_price": 100,
+              "public_note": "實用型獨家"
+            },
+            {
+              "product_id": 29259,
+              "product_name": "深圳野生動物園門票｜KKday 獨家優惠",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_29259/20230406034650_QJZBM/jpg",
+              "reference_price": 800,
+              "public_note": "無限次任玩 7 大項目"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lianjia",
+      "title": "雙十連假國旅",
+      "public_intro": "10/9–10/11 三天連假，來不及出國的就玩台灣。國旅多半出發前 3–4 天才訂，10/5–10/8 是下訂高峰。樂園門票、船票用 ALL95／ALL200；跳島、賞鯨這類行程用 KKTWOUR9（9 折、最高折 300）比較划算。",
+      "image": "img/pk-lianjia.webp",
+      "end": "2026-10-13",
+      "groups": [
+        {
+          "title": "台灣樂園",
+          "products": [
+            {
+              "product_id": 107922,
+              "short_title": "花蓮遠雄海洋公園",
+              "product_name": "花蓮遠雄海洋公園門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_107922/20260831020319_lEjxp/jpg",
+              "reference_price": 2000,
+              "public_note": "台灣樂園賣最好的一支"
+            },
+            {
+              "product_id": 27980,
+              "short_title": "小人國主題樂園",
+              "product_name": "小人國主題樂園門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_27980/20240402073215_Zvxxp/jpg",
+              "reference_price": 1600,
+              "public_note": "北部親子首選"
+            },
+            {
+              "product_id": 8700,
+              "short_title": "高雄義大遊樂世界",
+              "product_name": "高雄義大遊樂世界門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_8700/20260708061240_WQ8rr/png",
+              "reference_price": 1600,
+              "public_note": "南部樂園＋outlet 一起逛"
+            },
+            {
+              "product_id": 133332,
+              "short_title": "墾丁水世界｜室內水上樂園",
+              "product_name": "屏東墾丁水世界｜室內水上樂園",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_133332/20220916021420_1osMO/jpg",
+              "reference_price": 1000,
+              "public_note": "室內玩水，不怕下雨"
+            },
+            {
+              "product_id": 114876,
+              "short_title": "高雄鈴鹿賽道樂園｜卡丁車",
+              "product_name": "高雄鈴鹿賽道樂園｜一日無限暢遊券・卡丁車體驗",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_114876/20210104053017_lf0hw/jpg",
+              "reference_price": 1100,
+              "public_note": "大人小孩都能玩"
+            },
+            {
+              "product_id": 115161,
+              "short_title": "台中異想新樂園",
+              "product_name": "台中異想新樂園門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_115161/20230302093316_nr5lZ/png",
+              "reference_price": 1200,
+              "public_note": "中部親子"
+            },
+            {
+              "product_id": 266810,
+              "short_title": "林口三井｜湯姆貝貝親子樂園",
+              "product_name": "新北林口三井｜湯姆貝貝親子樂園門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_266810/20250107064037_NwzuN/jpg",
+              "reference_price": 600,
+              "public_note": "雨天備案，商場裡就能玩"
+            }
+          ]
+        },
+        {
+          "title": "台灣離島",
+          "products": [
+            {
+              "product_id": 100243,
+              "short_title": "小琉球來回船票",
+              "product_name": "屏東東港- 小琉球來回船票｜泰富航運",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_100243/20200610083420_h6jVc/jpg",
+              "reference_price": 1300,
+              "public_note": "連假離島第一名"
+            },
+            {
+              "product_id": 104397,
+              "short_title": "小琉球租機車套票",
+              "product_name": "屏東小琉球租機車 ｜尚美行租車｜小琉球套票組合",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_104397/20231225093248_SM9HZ/jpg",
+              "reference_price": 1900,
+              "public_note": "跟船票一起訂"
+            },
+            {
+              "product_id": 115576,
+              "short_title": "綠島來回船票",
+              "product_name": "綠島船票｜台東富岡漁港 - 綠島來回船票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_115576/20240129151913_lfbiN/png",
+              "reference_price": 2900,
+              "public_note": "台東出發"
+            },
+            {
+              "product_id": 23914,
+              "short_title": "澎湖南方四島｜藍洞・龍蝦洞・七美",
+              "product_name": "澎湖南方四島一日體驗｜ 絕美藍洞 & 獨家龍蝦洞 & 浪漫七美 & 雙心石滬 & 海上賞燕鷗｜得意遊艇",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_23914/20200527033729_5jYWr/jpg",
+              "reference_price": 4500,
+              "public_note": "獨家龍蝦洞"
+            },
+            {
+              "product_id": 22315,
+              "short_title": "澎湖南海跳島｜七美望安",
+              "product_name": "澎湖南海跳島 | 七美望安船票 & 島上機車・遊覽車環島",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_22315/20200520041039_wGZs7/jpg",
+              "reference_price": 3300,
+              "public_note": "船票＋島上交通一次包"
+            },
+            {
+              "product_id": 125913,
+              "short_title": "澎湖夜釣小管",
+              "product_name": "澎湖大益夜釣小管｜示範漁民下網捕撈小管＆現煮小管麵線及新鮮小管生魚片",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_125913/20220110102315_uEP6H/jpg",
+              "reference_price": 1300,
+              "public_note": "晚上的行程，白天跳島晚上釣"
+            },
+            {
+              "product_id": 118424,
+              "short_title": "馬祖藍眼淚｜北海坑道搖櫓船",
+              "product_name": "【馬祖藍眼淚】馬祖南竿 | 北海坑道搖櫓船 | 夢幻秘境體驗",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_118424/20210416031715_pf1fl/jpg",
+              "reference_price": 900,
+              "public_note": "秘境體驗"
+            },
+            {
+              "product_id": 5297,
+              "short_title": "龜山島登島賞鯨半日遊",
+              "product_name": "龜山島登島賞鯨半日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_5297/20250126145138_u2TsX/jpg",
+              "reference_price": 3500,
+              "public_note": "宜蘭出海，不用過夜"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "title": "東南亞",
+      "public_intro": "越南在長、泰國挑體驗：越南主推湄公河、下龍灣、富國島；泰國主推人妖秀、遊船晚餐、大象保育這類只有現場才體驗得到的。週三用 SEADAY（滿 1,700 享 93 折）；蝦皮聯名卡友用 CUB26H2SP8（東南亞 8 折，最高折 350）最划算。",
+      "image": "img/pk-sea.webp",
+      "groups": [
+        {
+          "title": "越南",
+          "products": [
+            {
+              "product_id": 19531,
+              "short_title": "湄公河一日遊｜KKday 專屬團",
+              "product_name": "【湄公河一日遊】越南美托、檳椥以及湄公河搖船體驗｜保證出發｜KKday 專屬團",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_19531/20251224062037_PdYH6/jpg",
+              "reference_price": 3200,
+              "public_note": "保證出發，越南賣最好的一日遊"
+            },
+            {
+              "product_id": 132389,
+              "short_title": "古芝地道＋湄公河｜1 人出發",
+              "product_name": "【保證1人出發】KKday特色一日遊 | 古芝地道與湄公河三角洲 | 胡志明市出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_132389/20260324102109_Jl2Ft/jpg",
+              "reference_price": 3900,
+              "public_note": "胡志明市出發"
+            },
+            {
+              "product_id": 548097,
+              "short_title": "下龍灣豪華一日遊",
+              "product_name": "下龍灣豪華五星級一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_8075/20260926055021_Mn6iK/jpg",
+              "reference_price": 3800,
+              "public_note": "熱度最高的越南北部行程"
+            },
+            {
+              "product_id": 262170,
+              "short_title": "富國島海洋交響曲",
+              "product_name": "海洋交響曲|富國島",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_262170/20250218035156_5PjLn/png",
+              "reference_price": 2500,
+              "public_note": "富國島夜間秀"
+            },
+            {
+              "product_id": 581841,
+              "short_title": "富國島全天私人包車",
+              "product_name": "富國島全天私人包車 | 可客製化彈性行程（4/8/12小時）| 無距離限制",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_19791/20260520185717_dUeQH/jpg",
+              "reference_price": 2200,
+              "public_note": "包車用 KKCCCAR 9 折"
+            }
+          ]
+        },
+        {
+          "title": "泰國",
+          "products": [
+            {
+              "product_id": 2568,
+              "short_title": "克里普索人妖秀",
+              "product_name": "克里普索人妖秀門票 Asiatique Calypso｜曼谷河濱夜市",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_2568/20250821023531_R56D8/png",
+              "reference_price": 2500,
+              "public_note": "曼谷河濱夜市，看秀＋逛夜市"
+            },
+            {
+              "product_id": 2567,
+              "short_title": "昭披耶公主號晚餐遊船",
+              "product_name": "【泰國】昭披耶公主號郵輪自助晚餐｜Chao Phraya Princess River Cruise",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_2567/20170909004648_dFH2Q/jpg",
+              "reference_price": 3900,
+              "public_note": "夜遊湄南河"
+            },
+            {
+              "product_id": 9793,
+              "short_title": "曼谷野生動物園",
+              "product_name": "曼谷野生動物園Safari World門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_9793/20250818103931_SESdW/png",
+              "reference_price": 3600,
+              "public_note": "親子必去"
+            },
+            {
+              "product_id": 11875,
+              "short_title": "三頭象神＋暹羅古城套票",
+              "product_name": "泰國曼谷三頭象神博物館＆暹羅古城 76 府套票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_11875/20250821023658_ZuSRc/png",
+              "reference_price": 1300,
+              "public_note": "台灣訂最多的泰國門票"
+            },
+            {
+              "product_id": 25082,
+              "short_title": "清邁大象保育體驗",
+              "product_name": "【清邁大象保育體驗】Kerchor 大象生態公園半日 & 一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_25082/20190603093333_vQPql/jpg",
+              "reference_price": 3100,
+              "public_note": "不騎大象的友善體驗"
+            },
+            {
+              "product_id": 4127,
+              "short_title": "清邁 Mama Noi 料理課",
+              "product_name": "泰國｜清邁 Mama Noi 泰式料理教室料理課",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_4127/20230126053657_0GN7h/jpg",
+              "reference_price": 2800,
+              "public_note": "清邁必上的料理課"
+            },
+            {
+              "product_id": 7313,
+              "short_title": "芭達雅真理寺",
+              "product_name": "泰國芭達雅真理寺門票 Sanctuary of Truth",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_7313/20250821024405_ZapDC/png",
+              "reference_price": 1700,
+              "public_note": "全木造寺廟"
+            },
+            {
+              "product_id": 287411,
+              "short_title": "丹嫩沙多水上市場＋美功鐵道市場",
+              "product_name": "曼谷：丹嫩沙多水上市場與美功鐵道市場一日遊 | 泰國",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_287411/20250624092149_4qRPY/jpg",
+              "reference_price": 1500,
+              "public_note": "曼谷經典一日遊"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aurora",
+      "title": "極光",
+      "public_intro": "今年是極光大爆發尾聲、買氣 lead time 約 90 天，現在是最後一波早鳥。含住宿全包版長得最快（+161%），先推全包。",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_900%2Cq_80%2Ct_webp%2Cw_1600/s1.kkday.com/product_148962/20250710033313_BSRD5/png",
+      "groups": [
+        {
+          "title": "加拿大黃刀鎮",
+          "products": [
+            {
+              "product_id": 148959,
+              "short_title": "黃刀鎮 4 天 3 夜｜全包",
+              "product_name": "黃刀鎮四天三夜｜玻璃帳篷賞極光｜含機場接送和住宿",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_148959/20250710023733_8nTVR/png",
+              "reference_price": 21500,
+              "public_note": "全包版，台灣賣最好的極光商品"
+            },
+            {
+              "product_id": 150392,
+              "short_title": "黃刀鎮 4 天 3 夜｜不含住宿",
+              "product_name": "黃刀鎮四天三夜｜玻璃帳篷賞極光｜不含住宿",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_150392/20230820134701_AUTlm/jpg",
+              "reference_price": 14100,
+              "public_note": "自己訂飯店的版本，可比全包差多少"
+            },
+            {
+              "product_id": 147660,
+              "short_title": "黃刀鎮 5 天 4 夜｜全包",
+              "product_name": "黃刀鎮五天四夜｜玻璃帳篷賞極光｜含機場接送和住宿",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_147660/20250709080918_tZd99/png",
+              "reference_price": 24800,
+              "public_note": "多一晚、看到機率更高"
+            },
+            {
+              "product_id": 148962,
+              "short_title": "黃刀鎮 3 天 2 夜｜全包",
+              "product_name": "黃刀鎮三天兩夜｜玻璃帳篷賞極光｜含機場接送和住宿",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_148962/20250710033313_BSRD5/png",
+              "reference_price": 14600,
+              "public_note": "天數最短的全包版"
+            }
+          ]
+        },
+        {
+          "title": "美國阿拉斯加",
+          "products": [
+            {
+              "product_id": 134106,
+              "short_title": "阿拉斯加 5 天 4 晚｜極光＋溫泉",
+              "product_name": "阿拉斯加 5 天 4 晚極光之旅｜費爾班克斯＋切納溫泉",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_134106/20221007015003_NHoFS/jpg",
+              "reference_price": 27400,
+              "public_note": "極光＋溫泉，跨主題題材"
+            },
+            {
+              "product_id": 17800,
+              "short_title": "阿拉斯加極光＋溫泉一日遊",
+              "product_name": "阿拉斯加一日遊｜極光＆珍娜溫泉｜費爾班克斯出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_17800/20220721033808_fKXTY/jpg",
+              "reference_price": 12600,
+              "public_note": "已經在阿拉斯加的人加購"
+            }
+          ]
+        },
+        {
+          "title": "北歐",
+          "products": [
+            {
+              "product_id": 30238,
+              "short_title": "芬蘭｜踏雪追極光野餐",
+              "product_name": "芬蘭羅瓦涅米｜森林踏雪追極光＆極光野餐",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_30238/20190830083341_XGAdU/jpg",
+              "reference_price": 5300,
+              "public_note": "北歐入門價，搭聖誕老人村一起寫"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "krwinter",
+      "title": "韓國冬季",
+      "public_intro": "韓國滑雪台灣 +53.5%、多日遊佔 7 成；不會滑雪的也有華川冰釣、冰谷、雪橇。機場直達雪場接駁車還沒人推，可以先卡位。",
+      "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_900%2Cq_80%2Ct_webp%2Cw_1600/s1.kkday.com/product_scm_5629/20260520010021_dJudX/jpg",
+      "groups": [
+        {
+          "title": "冬季限定（不用會滑雪）",
+          "products": [
+            {
+              "product_id": 17682,
+              "short_title": "華川冰釣＋冰谷一日遊",
+              "product_name": "2027 江原道慶典一日遊｜華川山鱒魚冰釣／Eobi 冰谷／九曲瀑布冰谷",
+              "reference_price": 3000,
+              "public_note": "華川鱒魚祭，1 月就結束"
+            },
+            {
+              "product_id": 135333,
+              "short_title": "冬季一日遊｜草莓＋冰谷＋南怡島",
+              "product_name": "首爾近郊冬季一日遊｜採草莓／Eobi 冰谷／南怡島／羊駝世界",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_21368/20260721063028_LqgAW/jpg",
+              "reference_price": 4400,
+              "public_note": "玩雪＋採草莓，親子最好寫"
+            },
+            {
+              "product_id": 133356,
+              "short_title": "伊利希安滑雪＋冰谷一日遊",
+              "product_name": "伊利希安江村滑雪＋魚飛冰谷一日遊｜初學者、雪橇",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_133356/20251017071221_BDig1/jpg",
+              "reference_price": 3900,
+              "public_note": "想試滑雪又想看冰谷"
+            }
+          ]
+        },
+        {
+          "title": "滑雪多日團",
+          "products": [
+            {
+              "product_id": 27366,
+              "short_title": "Vivaldi Park 滑雪 2 天 1 夜",
+              "product_name": "SONO VIVALDI PARK 兩天一夜滑雪團｜雙板／單板初級教學",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_5629/20260520010021_dJudX/jpg",
+              "reference_price": 13500,
+              "public_note": "Vivaldi Park 是韓國滑雪營收第一的雪場"
+            },
+            {
+              "product_id": 5852,
+              "short_title": "High One 滑雪 2–3 天團",
+              "product_name": "High One 滑雪二天／三天團｜初中級課程、私人教學",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_5852/20231101053544_QZAmm/jpg",
+              "reference_price": 18000,
+              "public_note": "多日團，客單最高"
+            }
+          ]
+        },
+        {
+          "title": "機場直達雪場",
+          "products": [
+            {
+              "product_id": 573532,
+              "short_title": "仁川機場↔龍平滑雪場接駁",
+              "product_name": "首爾／仁川機場↔龍平滑雪場接駁車",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_573532/20260206044553_Efqnt/jpg",
+              "reference_price": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oceania",
+      "title": "避冬紐澳",
+      "public_intro": "台灣冷的時候南半球是夏天。紐澳台灣 +17%，墨爾本企鵝歸巢＋蒸氣火車是唯一台港日三市場都在長的商品。",
+      "image": "img/pk-oceania.webp",
+      "groups": [
+        {
+          "title": "澳洲墨爾本",
+          "products": [
+            {
+              "product_id": 137696,
+              "short_title": "蒸氣火車＋企鵝歸巢一日遊",
+              "product_name": "墨爾本火車企鵝雙拼一日遊｜蒸氣小火車＋無尾熊動物園＋企鵝歸巢",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_137696/20230104073337_KwlAk/jpg",
+              "reference_price": 8000,
+              "public_note": "三市場同步成長"
+            },
+            {
+              "product_id": 155423,
+              "short_title": "彩虹小屋＋火車＋企鵝一日遊",
+              "product_name": "墨爾本彩虹小屋、普芬比利蒸汽小火車、無尾熊動物園＆企鵝歸巢一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_155423/20231103081411_nYbXq/jpg",
+              "reference_price": 9900,
+              "public_note": "多了彩虹小屋"
+            },
+            {
+              "product_id": 137693,
+              "short_title": "大洋路中文小團",
+              "product_name": "墨爾本大洋路中文小團｜十二使徒岩＋洛克阿德大峽谷",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_137693/20230104073308_EIG7S/jpg",
+              "reference_price": 3600,
+              "public_note": "大洋路經典路線"
+            }
+          ]
+        },
+        {
+          "title": "澳洲雪梨",
+          "products": [
+            {
+              "product_id": 5763,
+              "short_title": "雪梨藍山一日遊",
+              "product_name": "雪梨藍山一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_5763/20230323083705_aKe38/jpg",
+              "reference_price": 6600,
+              "public_note": "雪梨近郊賣最好的一日遊"
+            }
+          ]
+        },
+        {
+          "title": "紐西蘭",
+          "products": [
+            {
+              "product_id": 24814,
+              "short_title": "庫克山直升機＋冰川健行",
+              "product_name": "庫克山塔斯曼冰川探險半日遊｜觀光直升機＆徒步健行",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_24814/20231018062311_XS1wX/jpg",
+              "reference_price": 17700,
+              "public_note": "高客單、畫面最強"
+            },
+            {
+              "product_id": 123626,
+              "short_title": "塔斯曼冰川直升機健行",
+              "product_name": "塔斯曼冰川健行｜庫克山直升機之旅",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_123626/20260303081541_P0ly8/jpg",
+              "reference_price": 12400,
+              "public_note": "同線另一個選擇"
+            },
+            {
+              "product_id": 250380,
+              "short_title": "特卡波湖觀星",
+              "product_name": "特卡波湖黑暗天空計畫觀星體驗｜英日國語導遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_250380/20241118061933_xLeSw/jpg",
+              "reference_price": 2600,
+              "public_note": "南半球星空，入門價"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ski",
+      "title": "滑雪",
+      "public_intro": "雪季 12 月至過年是出發高峰，現在正是讀者查資料的時間點。",
+      "image": "img/pk-ski.webp",
+      "groups": [
+        {
+          "title": "日本",
+          "products": [
+            {
+              "product_id": 157140,
+              "product_name": "北海道滑雪團一日遊｜手稻滑雪場",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_157140/20250904060520_Gz37n/jpg",
+              "reference_price": 9500,
+              "public_note": "銷售 TOP，9 月訂單已超過 7＋8 月總和，庫存充足要力推"
+            },
+            {
+              "product_id": 601836,
+              "product_name": "長野白馬栂池滑雪二日遊｜含纜車與雪具・可加購中文教練",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_601836/20260611083827_WEFuY/jpg",
+              "reference_price": 14500,
+              "public_note": "KKday 專屬團，爭取到稀缺的中文教練資源，毛利高"
+            },
+            {
+              "product_id": 621988,
+              "product_name": "長野龍王 MOUNTAIN RESORT 滑雪二日遊｜可加購中文教練",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_621988/20260714082335_k41vc/jpg",
+              "reference_price": 8800,
+              "public_note": "同為專屬團，中文教練資源稀缺"
+            }
+          ]
+        },
+        {
+          "title": "韓國",
+          "products": [
+            {
+              "product_id": 27366,
+              "product_name": "江原道 SONO VIVALDI PARK 滑雪兩天一夜",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_5629/20260520010021_dJudX/jpg",
+              "public_note": "TOP1・85 折。附冰雪樂園，不會滑雪也能玩，Klook 今年尚未販售"
+            },
+            {
+              "product_id": 115178,
+              "product_name": "SONO VIVALDI PARK 三天兩夜／四天三夜",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_115178/20240711051856_2x7u1/jpg",
+              "reference_price": 18700,
+              "public_note": "TOP2・63 折，Klook 今年尚未販售"
+            },
+            {
+              "product_id": 528295,
+              "product_name": "龍平滑雪住宿套餐｜1–5 晚",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_528295/20251119001848_ygxFM/png",
+              "reference_price": 14000,
+              "public_note": "TOP3，住宿與滑雪一次搞定"
+            },
+            {
+              "product_id": 146949,
+              "product_name": "Elysian 伊利希安江村冬季滑雪一日遊｜首爾出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_21386/20260730091020_MbZUu/jpg",
+              "reference_price": 4900,
+              "public_note": "TOP4，當天來回門檻低"
+            },
+            {
+              "product_id": 13957,
+              "product_name": "伊甸園山谷滑雪一日遊｜釜山出發・初學者友善",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_13957/20251121085455_S317L/jpg",
+              "public_note": "釜山近郊唯一知名雪場，Klook 今年尚未販售"
+            },
+            {
+              "product_id": 5852,
+              "product_name": "江原道 High One 滑雪二／三天團｜含教學",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_5852/20231101053544_QZAmm/jpg",
+              "public_note": "含初中級課程與私人教練選項"
+            }
+          ]
+        },
+        {
+          "title": "機場接駁（新上架）",
+          "products": [
+            {
+              "product_id": 573532,
+              "product_name": "首爾／仁川機場 ↔ 龍平滑雪場接駁巴士",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_573532/20260206044553_Efqnt/jpg",
+              "reference_price": 1600,
+              "public_note": "新開純接駁，過去只有 daytour"
+            },
+            {
+              "product_id": 573804,
+              "product_name": "首爾／仁川機場 ↔ 阿爾卑西亞度假村接駁",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_573804/20260212090835_PM84F/jpg",
+              "reference_price": 1400,
+              "public_note": "同上，適合自由行客"
+            },
+            {
+              "product_id": 573964,
+              "product_name": "首爾／仁川機場 ↔ High1 度假村接駁",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_573964/20260220043539_SlU6t/jpg",
+              "reference_price": 1200,
+              "public_note": "同上"
+            },
+            {
+              "product_id": 574009,
+              "product_name": "首爾 ↔ 鳳凰公園滑雪度假村接駁",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_574009/20260224023030_MMJtU/jpg",
+              "reference_price": 1800,
+              "public_note": "同上"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maple",
+      "title": "賞楓",
+      "public_intro": "今年紅葉預測出爐，11 月下旬是高點；韓國 10 月下旬先開始。",
+      "image": "img/pk-maple.webp",
+      "groups": [
+        {
+          "title": "日本",
+          "products": [
+            {
+              "product_id": 771487,
+              "short_title": "嵐山月燈路點燈＋奈良＋伏見稻荷｜9 人小團",
+              "product_name": "日本京都奈良一日遊｜限定9人精品小團・嵐山月燈路點燈・奈良公園・伏見稻荷千本鳥居｜大阪出發・酒店接送",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_771487/20260914050112_CIBLD/png",
+              "reference_price": 0,
+              "public_note": "期間限定 9/30–11/8，竹林點燈時隔 4 年回歸"
+            },
+            {
+              "product_id": 531213,
+              "short_title": "嵐山月燈節限定｜伏見稻荷＋奈良＋月燈路",
+              "product_name": "【10 月嵐山月燈節限定】伏見稻荷大社 & 奈良 & 嵐山月燈路一日遊｜9 人小團｜大阪出發｜可選飯店接送",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_13341/20260910063950_nVooc/jpg",
+              "reference_price": 0,
+              "public_note": "可選飯店接送"
+            },
+            {
+              "product_id": 771835,
+              "short_title": "日光中禪寺湖遊覽船｜可自由上下船",
+              "product_name": "中禪寺湖遊覽船｜一周航線乘船票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_771835/20260917072434_ma6sE/jpg",
+              "reference_price": 0,
+              "public_note": "新品；菖蒲之濱下船走 10 分鐘到龍頭瀑布賞楓"
+            },
+            {
+              "product_id": 158778,
+              "product_name": "黑部立山楓紅三日遊｜室堂紅葉・上高地・白川鄉",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_158778/20250814023251_13Sva/jpg",
+              "reference_price": 28100,
+              "public_note": "長線主力，行程天數長、內容紮實"
+            },
+            {
+              "product_id": 601669,
+              "product_name": "北海道層雲峽賞楓一日遊｜銀河瀑布・黑岳纜車",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_23303/20260610034925_285Po/jpg",
+              "reference_price": 6000,
+              "public_note": "北海道楓況最早，10 月上旬就能寫"
+            },
+            {
+              "product_id": 669845,
+              "product_name": "香嵐溪夜楓一日遊｜虎溪山永保寺・名古屋往返",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_26539/20260731014626_AA0sD/png",
+              "reference_price": 3600,
+              "public_note": "夜楓題材，畫面辨識度高"
+            },
+            {
+              "product_id": 287555,
+              "product_name": "九州系島｜雷山千如寺賞紅葉",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_13246/20260720064412_whgg7/jpg",
+              "reference_price": 2800,
+              "public_note": "九州線，避開關西人潮"
+            },
+            {
+              "product_id": 529663,
+              "product_name": "九州紅葉巡禮一日遊｜九年庵・環境藝術之森",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_529663/20250827080540_MydY7/jpg",
+              "reference_price": 1300,
+              "public_note": "11/14–12/10 限定"
+            }
+          ]
+        },
+        {
+          "title": "韓國｜江原道",
+          "products": [
+            {
+              "product_id": 9120,
+              "product_name": "雪嶽山國立公園秋季賞楓巡禮一日遊｜首爾出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_9120/20170622072549_tqLBD/jpg",
+              "public_note": "韓國賞楓代表路線"
+            },
+            {
+              "product_id": 9102,
+              "product_name": "江原道精選｜雪嶽山＋洛山寺經典一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_23252/20260914062932_hub6q/jpg",
+              "public_note": "7 折"
+            },
+            {
+              "product_id": 39355,
+              "product_name": "雪嶽山賞楓・秋遊束草｜三大路線任選",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_21848/20260831061514_ZbFYa/png",
+              "reference_price": 3100,
+              "public_note": "新興寺／南怡島／束草海岸可選"
+            }
+          ]
+        },
+        {
+          "title": "韓國｜全羅道・大田・慶州",
+          "products": [
+            {
+              "product_id": 12339,
+              "product_name": "內藏山國家公園秋季賞楓一日遊｜首爾／釜山出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_12339/20250717023820_LEm2T/jpg",
+              "public_note": "內藏山主力"
+            },
+            {
+              "product_id": 3710,
+              "product_name": "秋季限定楓葉｜內藏山國立公園｜首爾／釜山出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_3710/20240708041723_jAXKn/png",
+              "public_note": "同區替代路線"
+            },
+            {
+              "product_id": 9147,
+              "product_name": "內藏山＋全州韓屋村秋季賞楓一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_9147/20160705113304_Bl7Ub/jpg",
+              "public_note": "賞楓加韓屋村，內容好寫"
+            },
+            {
+              "product_id": 146822,
+              "product_name": "內藏山一日遊｜可選在釜山下車",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_146822/20241031024100_pab9D/jpg",
+              "reference_price": 9800,
+              "public_note": "南部客友善"
+            },
+            {
+              "product_id": 184482,
+              "product_name": "大田長泰山森林＆聖心堂麵包店一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_184482/20250625151926_J7sdC/jpg",
+              "public_note": "長泰山＋名店麵包，差異化題材"
+            },
+            {
+              "product_id": 145375,
+              "product_name": "全州韓屋村之旅｜四季皆宜",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_10415/20260728090235_wne7Y/jpg",
+              "reference_price": 1700,
+              "public_note": "秋色與冬雪都能寫"
+            },
+            {
+              "product_id": 27790,
+              "product_name": "慶州賞楓一日遊｜普門觀光區與歷史城區｜釜山出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_27790/20250625155447_3LN7x/jpg",
+              "public_note": "慶州線"
+            },
+            {
+              "product_id": 172159,
+              "product_name": "慶州佛國寺、皇理團路一日遊｜釜山出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_21880/20260828072411_DoOUv/png",
+              "reference_price": 1300,
+              "public_note": "同區熱門景點"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shirakawa",
+      "title": "白川鄉",
+      "public_intro": "點燈一年只有四天，是全年最強的限定題材。名古屋、高山出發的一日遊與二日遊都有，名額賣完就沒有，現在就是推的時候。",
+      "image": "img/pk-shirakawa.webp",
+      "groups": [
+        {
+          "title": "點燈限定",
+          "products": [
+            {
+              "product_id": 153486,
+              "short_title": "白川鄉冬季點燈一日遊｜名古屋出發",
+              "product_name": "日本白川鄉冬季點燈一日遊｜合掌村夢幻雪景・飛驒高山古街・可選高山上下車・名古屋出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_153486/20231005060334_jGiwq/jpg",
+              "reference_price": 11000,
+              "public_note": "點燈這檔轉換最好，可選高山上下車"
+            },
+            {
+              "product_id": 4376,
+              "short_title": "白川鄉點燈二日遊｜含金澤住宿",
+              "product_name": "【白川鄉點燈二日遊】2027白川鄉合掌村點燈夜景、新穗高纜車＆雪之迴廊、飛驒高山｜含金澤1晚住宿（名古屋出發）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_4376/20161130100048_IfvgV/jpg",
+              "reference_price": 14500,
+              "public_note": "點燈＋新穗高纜車＋金澤一晚，客單最高"
+            },
+            {
+              "product_id": 18610,
+              "product_name": "白川鄉合掌村夜間點燈一日遊｜全日期確定成行・高山站出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_18610/20231101120935_ym75s/jpg",
+              "public_note": "全日期確定成行，不用擔心不成團"
+            },
+            {
+              "product_id": 531214,
+              "product_name": "白川鄉點燈一日遊｜僅限四天・JR 高山站出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_13342/20260818065145_ohrRB/jpg",
+              "reference_price": 9100,
+              "public_note": "高山站出發是銷售 TOP，而且是 Klook 沒有的路線"
+            },
+            {
+              "product_id": 136627,
+              "product_name": "童話世界白川鄉點燈一日遊｜名古屋出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_136627/20221202101927_Du74M/jpg",
+              "reference_price": 6900,
+              "public_note": "全市場最低價，追加庫存開售，比 Klook 便宜 JPY 1,000–4,000"
+            },
+            {
+              "product_id": 771707,
+              "short_title": "白川鄉點燈一日遊｜名古屋出發（新）",
+              "product_name": "日本白川鄉合掌村一日遊｜世界遺產白川鄉・高山飛驒古街・合掌村夜間點燈（全年限定4天）｜名古屋出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_30312/20260915081752_4Yj9k/jpg",
+              "public_note": "新上架，名古屋出發熱銷路線"
+            }
+          ]
+        },
+        {
+          "title": "常態行程",
+          "products": [
+            {
+              "product_id": 526215,
+              "product_name": "白川鄉合掌村一日遊｜1 人成團・名古屋出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_526215/20250714040205_AYn7F/jpg",
+              "reference_price": 3300,
+              "public_note": "量最大的常態路線"
+            },
+            {
+              "product_id": 135964,
+              "product_name": "白川鄉一日遊｜含展望台・可選飯店接送",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12224/20260515031418_xxy1r/jpg",
+              "reference_price": 3500,
+              "public_note": "可上展望台，畫面最好拍"
+            },
+            {
+              "product_id": 17716,
+              "product_name": "名古屋一日遊｜白川鄉＆飛驒高山老街",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12105/20260907061405_CfnYW/png",
+              "public_note": "經典組合"
+            },
+            {
+              "product_id": 28049,
+              "product_name": "金澤一日遊｜五箇山＆白川鄉＆飛驒高山",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_28049/20190828075634_EXtu6/jpg",
+              "public_note": "金澤出發，串北陸線"
+            },
+            {
+              "product_id": 137376,
+              "product_name": "白川鄉＆金澤二日遊｜兼六園・東茶屋街",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_137376/20240909081340_qr12y/jpg",
+              "reference_price": 9200,
+              "public_note": "二日遊，可深度寫金澤與白川鄉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ginzan",
+      "title": "銀山溫泉",
+      "public_intro": "千與千尋湯屋取景地，冬季點燈與藏王樹冰可以一起寫。",
+      "image": "img/pk-ginzan.webp",
+      "groups": [
+        {
+          "title": "一日遊",
+          "products": [
+            {
+              "product_id": 535840,
+              "product_name": "銀山溫泉、藏王纜車、御釜火山口一日遊｜仙台出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_13419/20260622053124_EUUi6/jpg",
+              "reference_price": 7400,
+              "public_note": "業績 TOP1"
+            },
+            {
+              "product_id": 285155,
+              "product_name": "銀山溫泉一日遊｜山寺健行＆足湯｜仙台出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_285155/20250509062646_t6Jci/jpg",
+              "reference_price": 5600,
+              "public_note": "行程輕鬆，親子與長輩友善"
+            },
+            {
+              "product_id": 160112,
+              "product_name": "銀山溫泉・藏王樹冰・狐狸村拼車一日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_160112/20260727030030_iPt3X/jpg",
+              "reference_price": 7600,
+              "public_note": "三個點一次收，CP 值題材"
+            },
+            {
+              "product_id": 196175,
+              "product_name": "銀山溫泉點燈・金蛇水神社｜全包式巴士",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_196175/20260417113807_Lyz7e/jpg",
+              "reference_price": 9400,
+              "public_note": "點燈題材"
+            }
+          ]
+        },
+        {
+          "title": "二日遊",
+          "products": [
+            {
+              "product_id": 182060,
+              "product_name": "東北二日遊｜銀山溫泉・藏王樹冰・狐狸村｜東京出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_182060/20251024082339_VlQCh/jpg",
+              "reference_price": 16000,
+              "public_note": "業績 TOP2。與 Klook 價差不到 10 元，但對方銷量是我們三倍、我方庫存 4,000＋有壓力，需要力推"
+            },
+            {
+              "product_id": 535652,
+              "product_name": "冬季銀山溫泉二日遊｜藏王中央纜車・大內宿",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_535652/20260302024147_kT2vN/jpg",
+              "reference_price": 14800,
+              "public_note": "加碼大內宿"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icebreaker",
+      "title": "破冰船",
+      "public_intro": "流冰季 1–3 月，熱門日期現在就要訂，客單兩萬起跳。",
+      "image": "img/pk-icebreaker.webp",
+      "groups": [
+        {
+          "title": "北海道",
+          "products": [
+            {
+              "product_id": 151492,
+              "product_name": "破冰船二日遊｜紋別 GARINKO＆層雲峽冰瀑祭｜札幌出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_151492/20230912073500_sE6vM/jpg",
+              "reference_price": 19700,
+              "public_note": "台灣市場 YoY 提升，9 月預估 MoM +90%，全日程保證出發"
+            },
+            {
+              "product_id": 135943,
+              "product_name": "道東流冰體驗二日遊｜GARINKO III＆層雲峽",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_135943/20230804045527_X0tf8/jpg",
+              "reference_price": 17800,
+              "public_note": "同線替代方案"
+            },
+            {
+              "product_id": 146864,
+              "product_name": "知床・網走流冰二日遊｜極光號＆流冰觸摸",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12303/20260603031736_4IYCJ/jpg",
+              "reference_price": 21700,
+              "public_note": "入住五星溫泉飯店，規格最高"
+            },
+            {
+              "product_id": 259458,
+              "product_name": "流冰二日遊｜流冰漫步＆極光號・單人同價",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_259458/20241113083217_FiwOE/jpg",
+              "reference_price": 11200,
+              "public_note": "單人同價，一個人也能去"
+            },
+            {
+              "product_id": 154373,
+              "product_name": "新造船 GARINKO III・IMERU 流冰破冰船",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_154373/20231020071356_qXze5/jpg",
+              "reference_price": 10700,
+              "public_note": "新船題材"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jrpass",
+      "title": "JR PASS",
+      "public_intro": "滑雪與賞楓都會帶動 JR PASS 需求，全國版 10/1 漲價。",
+      "groups": [
+        {
+          "title": "全國與跨區",
+          "products": [
+            {
+              "product_id": 20291,
+              "product_name": "全日本鐵路通票 JR PASS 全國版",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_22133/20241126072344_t939t/jpg",
+              "reference_price": 15800,
+              "public_note": "10/1 漲價。9/30 前買的票可在 12/30 前兌換，漲價前兩週會集中購買，宣傳要提早"
+            },
+            {
+              "product_id": 6681,
+              "product_name": "JR PASS 東日本鐵路周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_6681/20210220025736_kI6IP/jpg",
+              "reference_price": 10000,
+              "public_note": "東日本主力"
+            },
+            {
+              "product_id": 20316,
+              "product_name": "JR PASS 東北・南北海道鐵路周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_20316/20200130051356_Bo2M1/jpg",
+              "reference_price": 12600,
+              "public_note": "銀山溫泉與破冰船的交通配套"
+            },
+            {
+              "product_id": 20314,
+              "product_name": "山陽＆山陰＆北九州地區鐵路周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_20314/20181023032058_iDhQd/jpg",
+              "reference_price": 10200,
+              "public_note": "跨三區長天數"
+            }
+          ]
+        },
+        {
+          "title": "關西・北陸",
+          "products": [
+            {
+              "product_id": 20317,
+              "product_name": "JR 關西廣域鐵路周遊 5 日券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_25776/20210827084415_17E2V/jpg",
+              "reference_price": 4700,
+              "public_note": "關西量最大"
+            },
+            {
+              "product_id": 20310,
+              "product_name": "JR PASS 關西＆廣島地區鐵路周遊 5 日券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_25778/20190625125208_iehdY/jpg",
+              "reference_price": 6600,
+              "public_note": "關西延伸廣島"
+            },
+            {
+              "product_id": 25777,
+              "product_name": "JR 關西地區鐵路周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_25777/20210827082549_ewTQL/jpg",
+              "reference_price": 1300,
+              "public_note": "短天數入門款"
+            },
+            {
+              "product_id": 136346,
+              "product_name": "關西迷你鐵路周遊券｜eMCO 電子票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_136346/20221203054505_zUZKj/jpg",
+              "reference_price": 800,
+              "public_note": "門檻最低，適合首次到訪"
+            },
+            {
+              "product_id": 20286,
+              "product_name": "關西＆北陸地區鐵路周遊 7 日券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_20286/20181022061953_MSoGb/jpg",
+              "reference_price": 3900,
+              "public_note": "可串白川鄉與金澤"
+            },
+            {
+              "product_id": 20306,
+              "product_name": "JR PASS 北陸地區鐵路周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_20306/20181023060110_xkUrF/jpg",
+              "reference_price": 2800,
+              "public_note": "北陸單區"
+            },
+            {
+              "product_id": 20259,
+              "product_name": "JR PASS 高山＆北陸地區周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_20259/20181018073517_g8M7a/jpg",
+              "reference_price": 7800,
+              "public_note": "白川鄉行程的交通首選"
+            },
+            {
+              "product_id": 20301,
+              "product_name": "立山黑部＆高山＆松本地區周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_20301/20181022101608_MCMNR/jpg",
+              "reference_price": 9700,
+              "public_note": "黑部立山賞楓必備"
+            }
+          ]
+        },
+        {
+          "title": "北海道・東京・九州",
+          "products": [
+            {
+              "product_id": 122531,
+              "product_name": "北海道 JR PASS 鐵路周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_122531/20210824084522_rscrZ/jpg",
+              "reference_price": 5400,
+              "public_note": "滑雪與破冰船客的交通"
+            },
+            {
+              "product_id": 158964,
+              "product_name": "JR 東京廣域周遊券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_158964/20231222024010_sNZLS/jpg",
+              "reference_price": 6400,
+              "public_note": "東京近郊一次玩"
+            },
+            {
+              "product_id": 3494,
+              "product_name": "JR Pass 九州鐵路周遊券｜北九州／南九州／全九州",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_3494/20180511103549_IgLpF/jpg",
+              "reference_price": 5900,
+              "public_note": "九州賞楓可搭"
+            },
+            {
+              "product_id": 150953,
+              "product_name": "JR 九州電子周遊券 MOBILEPASS・福岡廣域版",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_150953/20231002083344_YjAzD/jpg",
+              "reference_price": 1400,
+              "public_note": "電子票免換票"
+            }
+          ]
+        },
+        {
+          "title": "中國・四國・山陰",
+          "products": [
+            {
+              "product_id": 20311,
+              "product_name": "岡山＆廣島＆山口地區鐵路周遊 5 日券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_20311/20181023025721_2q1XD/jpg",
+              "reference_price": 6500,
+              "public_note": "山陽線主力"
+            },
+            {
+              "product_id": 20315,
+              "product_name": "JR 山陽＆山陰地區鐵路周遊 7 日券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_20315/20181023034920_bwqWl/jpg",
+              "reference_price": 4700,
+              "public_note": "跨山陽山陰"
+            },
+            {
+              "product_id": 125457,
+              "product_name": "四國鐵路周遊券 All Shikoku Rail Pass",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_125457/20211223025006_N89Y6/jpg",
+              "reference_price": 4100,
+              "public_note": "四國唯一選擇"
+            },
+            {
+              "product_id": 153331,
+              "product_name": "鳥取・松江區域周遊券｜eMCO 電子票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_153331/20231001055111_6pikt/jpg",
+              "reference_price": 800,
+              "public_note": "山陰小區域，單價低"
+            },
+            {
+              "product_id": 126027,
+              "product_name": "西遊紀行・瀨戶內地區鐵路周遊 7 日券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_126027/20220114080236_3qWta/jpg",
+              "reference_price": 4400,
+              "public_note": "瀨戶內跳島"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "charter",
+      "title": "包車接送",
+      "image": "img/pk-charter.webp",
+      "groups": [
+        {
+          "title": "台灣",
+          "products": [
+            {
+              "product_id": 1781,
+              "product_name": "桃園國際機場接送｜接機含舉牌服務",
+              "reference_price": 900,
+              "public_note": "站上量最大的接送商品"
+            },
+            {
+              "product_id": 138845,
+              "product_name": "桃園機場接送｜全台各地市區專車",
+              "reference_price": 1000,
+              "public_note": "全台可接，南部客也適用"
+            },
+            {
+              "product_id": 570329,
+              "product_name": "TPE 桃園機場接送｜經濟型 5 人座",
+              "reference_price": 900,
+              "public_note": "固定車型明碼標價"
+            },
+            {
+              "product_id": 570559,
+              "product_name": "TPE 桃園機場接送｜經濟型 9 人座",
+              "reference_price": 1200,
+              "public_note": "家庭或多人適用"
+            },
+            {
+              "product_id": 267863,
+              "product_name": "機場巴士｜桃園機場－新竹轉運站",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_267863/20250121062853_0SzX6/jpg",
+              "reference_price": 200,
+              "public_note": "單價最低的入門選項"
+            },
+            {
+              "product_id": 570459,
+              "product_name": "基隆港口接送｜全省往返・賓士商務車",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_570459/20260115141006_6OCyt/jpg",
+              "reference_price": 1600,
+              "public_note": "郵輪客配套，可與郵輪包一起寫"
+            }
+          ]
+        },
+        {
+          "title": "日本",
+          "products": [
+            {
+              "product_id": 151505,
+              "product_name": "東京｜成田・羽田・迪士尼接送｜可選中文司機",
+              "reference_price": 3000,
+              "public_note": "禮遇專案價，中文司機是賣點"
+            },
+            {
+              "product_id": 532273,
+              "product_name": "TYO 成田機場接送｜舒適型 10 座",
+              "reference_price": 3000,
+              "public_note": "大團體適用"
+            },
+            {
+              "product_id": 18551,
+              "product_name": "東京利木津巴士｜羽田・成田至市區・迪士尼",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_18551/20180420085510_o1CyT/jpg",
+              "reference_price": 1300,
+              "public_note": "單價低、班次多"
+            },
+            {
+              "product_id": 174325,
+              "product_name": "日本拼車一日遊｜東京 23 區與近郊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_12696/20260814060629_8MMTe/jpg",
+              "reference_price": 3200,
+              "public_note": "一人可成團"
+            },
+            {
+              "product_id": 142125,
+              "product_name": "沖繩全島包車一日遊｜立即確認",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_142125/20230412070723_dfYR7/jpg",
+              "reference_price": 7600,
+              "public_note": "沖繩量最大，立即確認不用等"
+            },
+            {
+              "product_id": 133661,
+              "product_name": "大阪、京都、奈良、神戶 10 小時來回包車",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_133661/20220930082425_Dp7bK/jpg",
+              "reference_price": 10600,
+              "public_note": "關西主力，一車走完四城"
+            },
+            {
+              "product_id": 134740,
+              "product_name": "大阪－關西機場／京都／神戶專屬包車接送",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_134740/20221020064612_FI3fs/jpg",
+              "reference_price": 3500,
+              "public_note": "點對點接送"
+            }
+          ]
+        },
+        {
+          "title": "韓國",
+          "products": [
+            {
+              "product_id": 569507,
+              "product_name": "SEL 仁川機場接送｜經濟型 7 座",
+              "reference_price": 1500,
+              "public_note": "韓國量最大的接送"
+            },
+            {
+              "product_id": 157235,
+              "product_name": "仁川／金浦機場接送｜往返首爾市中心",
+              "reference_price": 1700,
+              "public_note": "兩個機場都能用"
+            },
+            {
+              "product_id": 526339,
+              "product_name": "仁川機場接送｜機場巴士票（豪華巴士）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_526339/20250709005046_HoBA6/jpg",
+              "reference_price": 700,
+              "public_note": "門檻最低"
+            },
+            {
+              "product_id": 18410,
+              "product_name": "釜山專車接送｜金海機場・KTX 站 ↔ 市區",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_32028/20240307034436_VWhZL/jpg",
+              "reference_price": 2300,
+              "public_note": "釜山線"
+            }
+          ]
+        },
+        {
+          "title": "東南亞",
+          "products": [
+            {
+              "product_id": 130539,
+              "product_name": "曼谷機場接送｜至市區、芭達雅、華欣、大城",
+              "reference_price": 700,
+              "public_note": "泰國量最大"
+            },
+            {
+              "product_id": 3431,
+              "product_name": "泰國機場包車接送｜BKK／DMK－曼谷市區",
+              "reference_price": 1100,
+              "public_note": "包車形式，行李多適用"
+            },
+            {
+              "product_id": 134096,
+              "product_name": "泰國機場包車｜廊曼／素萬那普 ↔ 多城市",
+              "reference_price": 700,
+              "public_note": "可到考艾與七岩"
+            },
+            {
+              "product_id": 128295,
+              "product_name": "越南包車｜峴港巴拿山往返私人包車",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_128295/20220407100725_tKnEc/jpg",
+              "reference_price": 800,
+              "public_note": "巴拿山行程配套"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "title": "機票",
+      "public_intro": "客單最高的一類，含稅含行李、1 人成行是主要賣點。",
+      "image": "img/pk-flight.webp",
+      "groups": [
+        {
+          "title": "日本｜東京・大阪・名古屋",
+          "products": [
+            {
+              "product_id": 135223,
+              "product_name": "酷航・桃園｜東京 5 天計劃機票・含行李",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_135223/20250711144337_sRbal/jpg",
+              "reference_price": 11000,
+              "public_note": "日本線量最大"
+            },
+            {
+              "product_id": 137109,
+              "product_name": "樂桃・桃園｜東京 5 天・早去晚回",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_137109/20240918023743_qhojH/jpg",
+              "reference_price": 12600,
+              "public_note": "早去晚回，天數用好用滿"
+            },
+            {
+              "product_id": 142756,
+              "product_name": "樂桃・桃園｜大阪 5 天計劃機票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_142756/20251127040616_1FsWf/jpg",
+              "reference_price": 13600,
+              "public_note": "關西主力"
+            },
+            {
+              "product_id": 182833,
+              "product_name": "樂桃・高雄｜大阪 6 天計劃機票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_182833/20240806095406_dClBr/jpg",
+              "reference_price": 13200,
+              "public_note": "南部出發"
+            },
+            {
+              "product_id": 151729,
+              "product_name": "樂桃・桃園｜名古屋 5 天計劃機票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_151729/20241002131315_ehF9t/jpg",
+              "reference_price": 10800,
+              "public_note": "可串白川鄉與立山黑部"
+            }
+          ]
+        },
+        {
+          "title": "日本｜北海道・九州・其他",
+          "products": [
+            {
+              "product_id": 135442,
+              "product_name": "酷航・桃園｜北海道 6／7 天計劃機票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_135442/20230503093548_u5NCe/jpg",
+              "reference_price": 14900,
+              "public_note": "滑雪與破冰船客的機票"
+            },
+            {
+              "product_id": 529695,
+              "product_name": "亞航・桃園｜北海道 6 天・加贈好禮",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_529695/20250919065138_iRXuD/jpg",
+              "reference_price": 15900,
+              "public_note": "北海道替代選擇"
+            },
+            {
+              "product_id": 135455,
+              "product_name": "台灣虎航・高雄｜北海道 5／6 天・限量清倉",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_135455/20230509070134_J60o8/jpg",
+              "reference_price": 12400,
+              "public_note": "南部出發北海道"
+            },
+            {
+              "product_id": 154340,
+              "product_name": "亞航・桃園｜九州福岡 5 天・抗漲超低價",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_154340/20250625084214_NW0yg/png",
+              "reference_price": 11100,
+              "public_note": "九州賞楓可搭"
+            },
+            {
+              "product_id": 133364,
+              "product_name": "台灣虎航・高雄｜仙台 5／6 天・限量清倉",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_133364/20260702042807_qJdt9/jpg",
+              "reference_price": 9800,
+              "public_note": "東北線，銀山溫泉交通"
+            },
+            {
+              "product_id": 156842,
+              "product_name": "台灣虎航・高雄｜小松 4／5 天",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_156842/20231122083950_iOrAk/jpg",
+              "reference_price": 12400,
+              "public_note": "北陸門戶，白川鄉近"
+            },
+            {
+              "product_id": 154792,
+              "product_name": "台灣虎航・桃園｜福島 4／5 天・保證有位",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_154792/20231027021905_mOhYg/jpg",
+              "reference_price": 9000,
+              "public_note": "東北替代路線"
+            },
+            {
+              "product_id": 133427,
+              "product_name": "樂桃・桃園｜沖繩 5 天計劃機票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_133427/20241223064241_mSyKS/jpg",
+              "reference_price": 11000,
+              "public_note": "沖繩主力"
+            },
+            {
+              "product_id": 154601,
+              "product_name": "亞航・桃園｜沖繩 4 天・午去晚回",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_154601/20250728124818_qWTU9/jpg",
+              "reference_price": 10000,
+              "public_note": "短天數沖繩"
+            },
+            {
+              "product_id": 134520,
+              "product_name": "樂桃・桃園｜沖繩 4 天自選航班",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_134520/20221016102251_ygFEz/png",
+              "reference_price": 12700,
+              "public_note": "航班可自選"
+            }
+          ]
+        },
+        {
+          "title": "韓國",
+          "products": [
+            {
+              "product_id": 138818,
+              "product_name": "自選航空・桃園／台中／高雄｜韓國計劃機票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_138818/20260528055223_6b5xE/png",
+              "reference_price": 9000,
+              "public_note": "韓國線量最大，三地出發"
+            },
+            {
+              "product_id": 137021,
+              "product_name": "泰瑞・松山／桃園｜首爾／大邱／濟州",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_137021/20260907075612_KyvWs/png",
+              "reference_price": 9400,
+              "public_note": "松山出發，市區近"
+            },
+            {
+              "product_id": 157399,
+              "product_name": "泰瑞・台中－仁川｜首爾計畫機票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_157399/20260907080903_wb3dp/png",
+              "reference_price": 7400,
+              "public_note": "中部出發"
+            },
+            {
+              "product_id": 158405,
+              "product_name": "濟州航空・高雄｜首爾／釜山",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_158405/20241113065518_416A6/png",
+              "reference_price": 8600,
+              "public_note": "南部出發"
+            },
+            {
+              "product_id": 135911,
+              "product_name": "易斯達・桃園｜首爾／濟州／釜山／清州",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_135911/20240725131451_RZY6E/png",
+              "reference_price": 8900,
+              "public_note": "四地可選"
+            },
+            {
+              "product_id": 139665,
+              "product_name": "泰瑞・高雄｜首爾／濟州／釜山",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_139665/20260907091941_WJFMJ/png",
+              "reference_price": 9400,
+              "public_note": "南部出發替代"
+            },
+            {
+              "product_id": 147248,
+              "product_name": "釜山航空・高雄－釜山｜2 人成行",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_147248/20241111082505_2Pane/png",
+              "reference_price": 14500,
+              "public_note": "釜山直飛，2 人成行"
+            },
+            {
+              "product_id": 154052,
+              "product_name": "濟州航空・桃園｜釜山",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_154052/20241108071955_hNt8G/png",
+              "reference_price": 7100,
+              "public_note": "門檻最低"
+            },
+            {
+              "product_id": 146962,
+              "product_name": "真航空・桃園｜首爾／釜山／濟州",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_146962/20241107085637_G56Nq/png",
+              "reference_price": 9300,
+              "public_note": "1 人成行"
+            },
+            {
+              "product_id": 144562,
+              "product_name": "釜山航空・桃園｜釜山・2 人成行",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_144562/20241108030611_BARLz/png",
+              "reference_price": 9200,
+              "public_note": "釜山直飛"
+            }
+          ]
+        },
+        {
+          "title": "其他",
+          "products": [
+            {
+              "product_id": 143059,
+              "product_name": "金廈小三通｜機票＋接駁＋船票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_143059/20230512032106_i30Jk/jpg",
+              "reference_price": 7400,
+              "public_note": "量最大的機票類商品"
+            },
+            {
+              "product_id": 182324,
+              "product_name": "越捷・桃園｜越南峴港 5／6 天",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_182324/20240614020404_e3sNe/jpg",
+              "reference_price": 7500,
+              "public_note": "東南亞線"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kbeauty",
+      "title": "韓國美妝保養",
+      "public_intro": "KBEAUTY88 能用的 158 支指定商品全部收在這裡，依主題分組。只有這份名單內的商品能折，名單外的韓國商品不適用。",
+      "image": "img/pk-kbeauty.webp",
+      "groups": [
+        {
+          "title": "首爾・釜山｜韓式妝髮改造",
+          "products": [
+            {
+              "product_id": 143376,
+              "short_title": "HOSU DOSAN 清潭洞明星妝髮",
+              "product_name": "韓國首爾K-POP美容沙龍體驗｜HOSU DOSAN清潭洞明星髮型與妝容設計",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_143376/20241204061619_SziYr/jpg",
+              "reference_price": 300,
+              "public_note": "明星級髮型與妝容設計"
+            },
+            {
+              "product_id": 609518,
+              "short_title": "釜山 Noir Hair 韓式美妝",
+              "product_name": "釜山廣安裡海景韓式美妝體驗 | 美髮、化妝、韓服租賃及頭部水療 @ Noir Hair",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_25103/20260629091731_v8f3y/png",
+              "reference_price": 1400,
+              "public_note": "美髮、化妝、韓服、頭部水療"
+            },
+            {
+              "product_id": 570274,
+              "short_title": "可可雷亞化妝＋個人色彩",
+              "product_name": "可可雷亞 |化妝與個人色彩分析",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_9821/20260113080933_oq9vb/jpg",
+              "reference_price": 3400,
+              "public_note": "化妝加個人色彩分析"
+            },
+            {
+              "product_id": 531668,
+              "short_title": "JUNO HAIR 弘大 1 號店",
+              "product_name": "JUNO HAIR 弘大1號店 |韓國首爾",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_531668/20250922080529_PyMP6/jpg",
+              "reference_price": 3400,
+              "public_note": "韓國連鎖美髮，弘大店"
+            },
+            {
+              "product_id": 536121,
+              "short_title": "JUNGSAEMMOOL 彩妝課",
+              "product_name": "JUNGSAEMMOOL K-Beauty 彩妝團體課程 & 一對一彩妝教學 (聖水店)",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_6625/20251020085511_sn8HR/png",
+              "reference_price": 3600,
+              "public_note": "鄭瑄茉彩妝團體課或一對一"
+            },
+            {
+              "product_id": 267164,
+              "short_title": "明洞 Bom 個人彩妝店",
+              "product_name": "首爾明洞的 Bom 個人彩妝店",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_267164/20250110051733_mc18K/jpg",
+              "reference_price": 5700,
+              "public_note": "明洞的個人彩妝體驗"
+            },
+            {
+              "product_id": 580907,
+              "short_title": "DeKo 韓式化妝＋色彩分析",
+              "product_name": "【首爾】DeKo 招牌韓式化妝 & 簡易個人色彩分析體驗",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_580907/20260623003405_vxzhp/png",
+              "reference_price": 3600,
+              "public_note": "招牌韓妝加簡易色彩分析"
+            },
+            {
+              "product_id": 528000,
+              "short_title": "JUNO HAIR 明洞 2 號店",
+              "product_name": "JUNO HAIR 明洞2號店 | 韓國首爾",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_528000/20250731100046_KzF4x/png",
+              "reference_price": 4800,
+              "public_note": "韓國連鎖美髮，明洞店"
+            },
+            {
+              "product_id": 166887,
+              "short_title": "明洞 Ye-Lead 美髮沙龍",
+              "product_name": "首爾 Hair Shop｜明洞 Ye-Lead 高級美髮沙龍",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_19854/20260721080305_AiwGf/png",
+              "reference_price": 3000,
+              "public_note": "明洞的高級美髮沙龍"
+            },
+            {
+              "product_id": 266895,
+              "short_title": "歐尼帶路 3+1 變美之旅",
+              "product_name": "首爾、釜山 / 韓式證件照、色彩鑑定、韓式妝容、髮型設計，歐尼帶路:3+1變美之旅",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_5959/20260119044146_kzx94/jpg",
+              "reference_price": 6600,
+              "public_note": "證件照、色彩、韓妝、髮型"
+            },
+            {
+              "product_id": 573318,
+              "short_title": "AI 肌膚診斷＋客製煥膚",
+              "product_name": "韓國高端肌膚管理｜AI 智能美學診斷[色彩鑑定/肌膚分析]+ 1:1 客製化煥膚（明洞/弘大）KLEAM",
+              "reference_price": 2300,
+              "public_note": "色彩鑑定、肌膚分析加煥膚"
+            },
+            {
+              "product_id": 527848,
+              "short_title": "JUNO HAIR 明洞街店",
+              "product_name": "JUNO HAIR 明洞街店 | 韓國首爾",
+              "reference_price": 3000,
+              "public_note": "韓國連鎖美髮，明洞街"
+            },
+            {
+              "product_id": 527895,
+              "short_title": "Sihyunh 色彩＋證件照＋妝造",
+              "product_name": "(一人成團)韓國首爾|色彩診斷、韓式證件照（包含美髮造型)、韓式妝造體驗|Sihyunhada",
+              "reference_price": 10200,
+              "public_note": "一人成團，變美一次包辦"
+            },
+            {
+              "product_id": 577088,
+              "short_title": "ECOJARDIN COEX 護髮彩妝",
+              "product_name": "都市綠洲，盡情享受高級護髮、頭皮護理及彩妝－ECOJARDIN COEX三星分店 | 韓國首爾",
+              "reference_price": 4100,
+              "public_note": "護髮、頭皮護理與彩妝"
+            },
+            {
+              "product_id": 536095,
+              "short_title": "Mariem 美髮沙龍",
+              "product_name": "首爾 Mariem 美髮沙龍：髮型設計/頭部水療/個人風格諮詢",
+              "reference_price": 1400,
+              "public_note": "髮型設計與頭部水療"
+            },
+            {
+              "product_id": 765141,
+              "short_title": "BLUEHOUR 弘大偶像妝",
+              "product_name": "首爾 | BLUEHOUR弘大偶像化妝/課程",
+              "reference_price": 3500,
+              "public_note": "偶像化妝或化妝課程"
+            },
+            {
+              "product_id": 577087,
+              "short_title": "V9 清潭洞美髮化妝",
+              "product_name": "V9，清潭洞頂級高端美髮化妝沙龍 | 韓國首爾",
+              "reference_price": 3300,
+              "public_note": "清潭洞高端美髮化妝"
+            },
+            {
+              "product_id": 151522,
+              "short_title": "SOONSOO 清潭總店",
+              "product_name": "SOONSOO 清潭總店美髮沙龍髮型設計 | 韓國首爾",
+              "reference_price": 5900,
+              "public_note": "清潭洞人氣美髮沙龍"
+            },
+            {
+              "product_id": 161723,
+              "short_title": "VIP 偶像妝髮套餐",
+              "product_name": "[首爾] VIP K-Beauty Idol 化妝及髮型設計套餐",
+              "reference_price": 3200,
+              "public_note": "K-Beauty 偶像化妝與髮型"
+            },
+            {
+              "product_id": 530987,
+              "short_title": "JUNO HAIR 江南站 Garden",
+              "product_name": "JUNO HAIR Garden 江南車站 | 韓國首爾",
+              "reference_price": 1000,
+              "public_note": "韓國連鎖美髮，江南站"
+            },
+            {
+              "product_id": 573305,
+              "short_title": "A:MUU 明洞美髮",
+              "product_name": "A:MUU 美髮沙龍明洞店 — 時尚剪髮造型",
+              "reference_price": 1400,
+              "public_note": "時尚剪髮造型"
+            },
+            {
+              "product_id": 573820,
+              "short_title": "NaNalog 聖水美髮諮詢",
+              "product_name": "NaNalog 個人美髮諮詢 K-Hairstyle 聖水店｜韓國首爾",
+              "reference_price": 2200,
+              "public_note": "個人化 K-Hairstyle 諮詢"
+            },
+            {
+              "product_id": 259477,
+              "short_title": "鐘路韓妝＋韓服妝容",
+              "product_name": "鐘路韓妝 | Jongno K-Beauty Makeup |景福宮韓服妝容",
+              "reference_price": 200,
+              "public_note": "景福宮韓服妝容體驗"
+            },
+            {
+              "product_id": 151792,
+              "short_title": "JOY 187 美髮店",
+              "product_name": "JOY 187 美髮店體驗 | 首爾",
+              "reference_price": 2200,
+              "public_note": "首爾美髮體驗"
+            },
+            {
+              "product_id": 20028,
+              "short_title": "CYoung 歐膩美妝課",
+              "product_name": "韓系美妝時尚｜CYoung（6 多萬粉絲）主持韓國專業化妝師歐膩 帶你學美妝技巧",
+              "reference_price": 4800,
+              "public_note": "跟韓國化妝師學美妝技巧"
+            },
+            {
+              "product_id": 621334,
+              "short_title": "VOG Hair 弘大美髮改造",
+              "product_name": "VOG Hair Hongdae Street | 私人韓式美髮改造",
+              "reference_price": 900,
+              "public_note": "私人韓式美髮改造"
+            },
+            {
+              "product_id": 573822,
+              "short_title": "NaNalog 弘大美髮諮詢",
+              "product_name": "NaNalog個人美髮諮詢K-Hairstyle弘大店|韓國首爾",
+              "reference_price": 2100,
+              "public_note": "個人化 K-Hairstyle 諮詢"
+            },
+            {
+              "product_id": 579263,
+              "short_title": "SOONSOO 韓妝美髮",
+              "product_name": "韓妝美髮 ㅣ SOONSOO",
+              "reference_price": 6200,
+              "public_note": "人氣沙龍的韓妝美髮"
+            },
+            {
+              "product_id": 579594,
+              "short_title": "ASHU 江南美髮",
+              "product_name": "ASHU 江南 | 男女通用美髮沙龍 | 所有髮長統一價格",
+              "reference_price": 2000,
+              "public_note": "男女通用、不分髮長同價"
+            },
+            {
+              "product_id": 168352,
+              "short_title": "弘大 AARKIN 美髮",
+              "product_name": "【首爾】弘大 AARKIN 美髮沙龍髮型設計體驗",
+              "reference_price": 6100,
+              "public_note": "弘大的髮型設計體驗"
+            },
+            {
+              "product_id": 13912,
+              "short_title": "CARADI 江南頭皮＋造型",
+              "product_name": "體驗 | CARADI 首爾美髮沙龍 - 江南頭部水療（磨砂護理）、韓國造型（髮型和化妝）、剪髮和燙髮",
+              "reference_price": 4200,
+              "public_note": "頭部水療加髮型化妝"
+            },
+            {
+              "product_id": 531132,
+              "short_title": "JUNO HAIR 林蔭路店",
+              "product_name": "JUNO HAIR 林蔭路店",
+              "reference_price": 4600,
+              "public_note": "韓國連鎖美髮，新沙林蔭路"
+            },
+            {
+              "product_id": 531226,
+              "short_title": "弘大 UNIQUE-by 美髮",
+              "product_name": "弘大髮型設計UNIQUE-by",
+              "reference_price": 900,
+              "public_note": "弘大髮型設計"
+            },
+            {
+              "product_id": 596494,
+              "short_title": "清潭洞美妝私人教練",
+              "product_name": "【首爾/清潭洞】高級韓式美妝私人教練 | 頭髮、化妝及頭髮水療體驗",
+              "reference_price": 3200,
+              "public_note": "頭髮、化妝與頭部水療"
+            },
+            {
+              "product_id": 286153,
+              "short_title": "弘大 Laurel 韓式護膚",
+              "product_name": "【弘大】韓式護膚儀式－韓服護膚專家為您帶來地暖地板護理及花茶體驗 | Laurel Studio Seoul",
+              "public_note": "地暖護膚加花茶體驗"
+            },
+            {
+              "product_id": 151484,
+              "short_title": "Mimm Beauty 美髮",
+              "product_name": "Mimm Beauty Hair Shop | 韓國首爾",
+              "public_note": "首爾美髮造型"
+            },
+            {
+              "product_id": 158284,
+              "short_title": "Yoning 美髮化妝",
+              "product_name": "[首爾] Yoning Hair Shop 美髮化妝體驗",
+              "public_note": "首爾美髮化妝體驗"
+            },
+            {
+              "product_id": 286556,
+              "short_title": "JUNGSAEMMOOL 旗艦店",
+              "product_name": "K-Beauty｜鄭瑄茉 JUNGSAEMMOOL Inspiration Avenuel分店｜韓國首爾",
+              "public_note": "鄭瑄茉 Inspiration Avenue"
+            },
+            {
+              "product_id": 526870,
+              "short_title": "偶像妝髮＋拍照",
+              "product_name": "首爾的 K-Pop 偶像、K-beauty 化妝服務：髮型、化妝和拍照",
+              "public_note": "髮型、化妝加拍照"
+            },
+            {
+              "product_id": 528308,
+              "short_title": "JUNO HAIR 明洞 1 號店",
+              "product_name": "JUNO HAIR 明洞1號店 | 韓國首爾",
+              "public_note": "韓國連鎖美髮，明洞店"
+            },
+            {
+              "product_id": 533747,
+              "short_title": "明洞 ECO JARDIN 美髮",
+              "product_name": "[首爾] 明洞 ECO JARDIN 美髮店",
+              "public_note": "明洞的美髮沙龍"
+            },
+            {
+              "product_id": 538830,
+              "short_title": "LOVEY 韓流妝髮",
+              "product_name": "韓流風格髮型妝容：LOVEY",
+              "public_note": "韓流風格髮型與妝容"
+            },
+            {
+              "product_id": 570714,
+              "short_title": "明洞韓妝＋寫真",
+              "product_name": "【首爾/明洞】韓妝體驗 - 個人寫真拍攝及化妝、髮型、個人色彩分析",
+              "public_note": "化妝、髮型、色彩加寫真"
+            },
+            {
+              "product_id": 573360,
+              "short_title": "A BY BOM 美髮",
+              "product_name": "A BY BOM 美髮店｜韓國首爾",
+              "public_note": "首爾美髮造型"
+            },
+            {
+              "product_id": 573760,
+              "short_title": "Comme Nana 總店妝髮",
+              "product_name": "奢華高級韓式美髮化妝 Comme Nana 總部｜韓國首爾",
+              "public_note": "奢華韓式美髮化妝"
+            },
+            {
+              "product_id": 580911,
+              "short_title": "清潭洞 Dr. Tunes 肌膚保養",
+              "product_name": "【首爾清潭洞醫美保養推薦】 Salon de Dr. Tunes 韓國藝人愛去的頂級皮膚管理｜海菲秀 HydraFacial／SkinCeuticals 修麗可三選一｜中文 1 對 1 VIP 服務",
+              "public_note": "藝人愛去的頂級皮膚保養"
+            },
+            {
+              "product_id": 641167,
+              "short_title": "景福宮偶像造型工作室",
+              "product_name": "【首爾】景福宮 K-Beauty & K-Pop 偶像造型工作室",
+              "public_note": "K-Beauty 與偶像造型"
+            },
+            {
+              "product_id": 659862,
+              "short_title": "VOG HAIR 弘大偶像髮型",
+              "product_name": "首爾：VOG HAIR弘大店提供K-Pop偶像髮型改造及頭部水療服務",
+              "public_note": "偶像髮型改造加頭部水療"
+            },
+            {
+              "product_id": 184846,
+              "short_title": "江南 Lulu 偶像美髮",
+              "product_name": "[Lulu] 韓國高級K-POP偶像美髮沙龍|江南",
+              "public_note": "K-POP 偶像美髮沙龍"
+            },
+            {
+              "product_id": 168353,
+              "short_title": "清潭洞 RaRa:PM 妝髮",
+              "product_name": "【首爾】清潭洞 RaRa:PM 美髮店美髮化妝體驗",
+              "public_note": "清潭洞美髮化妝"
+            },
+            {
+              "product_id": 531002,
+              "short_title": "JUNO HAIR 狎鷗亭 1 號店",
+              "product_name": "JUNO HAIR 狎鷗亭1號店 | 韓國首爾",
+              "public_note": "韓國連鎖美髮，狎鷗亭"
+            },
+            {
+              "product_id": 574503,
+              "short_title": "Comme Nana 漢南店妝髮",
+              "product_name": "奢華高級韓式美髮化妝 Comme Nana Hannam 分店｜韓國首爾",
+              "public_note": "奢華韓式美髮化妝"
+            },
+            {
+              "product_id": 576710,
+              "short_title": "Comme Nana 清潭店妝髮",
+              "product_name": "奢華高級韓式美髮化妝 Comme Nana 清潭店｜韓國首爾",
+              "public_note": "奢華韓式美髮化妝"
+            },
+            {
+              "product_id": 621338,
+              "short_title": "VOG Hair K-Beauty Lounge",
+              "product_name": "VOG Hair K-Beauty Lounge：高級美髮造型及頭部水療",
+              "public_note": "美髮造型加頭部水療"
+            },
+            {
+              "product_id": 630261,
+              "short_title": "廣安里 NOIR HAIR 2 號店",
+              "product_name": "廣安里NOIR HAIR 2號分店 | 高級韓式造型 + 免費韓服體驗",
+              "public_note": "韓式造型送韓服體驗"
+            },
+            {
+              "product_id": 683479,
+              "short_title": "LAMAISON 韓流妝髮改造",
+              "product_name": "LAMAISON BEAUTY｜韓流髮型與彩妝改造",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_683479/20260805025330_Fo2xv/jpg",
+              "public_note": "新上架，韓式彩妝與髮型一次完成，適合寫改造前後對比"
+            }
+          ]
+        },
+        {
+          "title": "個人色彩・證件照",
+          "products": [
+            {
+              "product_id": 102042,
+              "short_title": "弘大 Time on me 證件照",
+              "product_name": "韓國首爾｜弘大 Time on me 攝影棚 證件照、形象照專業拍攝",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_102042/20221026033908_1q5l4/jpg",
+              "reference_price": 2300,
+              "public_note": "證件照、形象照專業拍攝"
+            },
+            {
+              "product_id": 152681,
+              "short_title": "弘大 Color Of You 色彩鑑定",
+              "product_name": "首爾弘大 | Color Of You 個人色彩鑑定",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_152681/20230922043138_6OcFM/jpg",
+              "reference_price": 7500,
+              "public_note": "人氣個人色彩鑑定"
+            },
+            {
+              "product_id": 158373,
+              "short_title": "Woori Dongne 證件照＋化妝",
+              "product_name": "證件照拍攝&化妝服務：Woori Dongne Photo Studio 弘益大學站|韓國首爾",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_158373/20260130023317_Uhgfg/jpg",
+              "reference_price": 1900,
+              "public_note": "弘大證件照含化妝"
+            },
+            {
+              "product_id": 12804,
+              "short_title": "鐘路我們洞內照相館",
+              "product_name": "韓國首爾｜證件照、個人風格形象照專業拍攝、個人色彩診斷｜我們洞內照相館（鐘路店）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_12804/20240417073331_UkgO4/jpg",
+              "reference_price": 2400,
+              "public_note": "證件照、形象照、色彩診斷"
+            },
+            {
+              "product_id": 526606,
+              "short_title": "聖水照相館 K-Style 概念照",
+              "product_name": "首爾聖水照相館體驗 - K-Style ID/概念照",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_526606/20250711102616_IiiIF/png",
+              "reference_price": 1100,
+              "public_note": "K-Style 證件照或概念照"
+            },
+            {
+              "product_id": 156245,
+              "short_title": "Ho Personal Color 色彩諮詢",
+              "product_name": "K-Beauty形象 Ho Personal Color Group 諮詢經驗，使用自測產品 | 首爾",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_156245/20260327020818_8JrJs/jpg",
+              "reference_price": 4500,
+              "public_note": "團體個人色彩諮詢"
+            },
+            {
+              "product_id": 605268,
+              "short_title": "弘大個人色彩＋臉型分析",
+              "product_name": "在首爾弘大體驗個人色彩與形狀",
+              "reference_price": 5000,
+              "public_note": "找出適合的色彩與臉型"
+            },
+            {
+              "product_id": 290108,
+              "short_title": "香水工作室調香體驗",
+              "product_name": "香水工作室：調配、裝瓶並帶回家",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_290108/20250625061139_DZTNf/png",
+              "reference_price": 2200,
+              "public_note": "自己調配香水帶回家"
+            },
+            {
+              "product_id": 260353,
+              "short_title": "明洞色彩化妝時尚分析",
+              "product_name": "明洞的色彩、化妝與時尚分析 |首爾",
+              "reference_price": 8600,
+              "public_note": "色彩、化妝與時尚分析"
+            },
+            {
+              "product_id": 533659,
+              "short_title": "首爾韓式寫真",
+              "product_name": "首爾韓式寫真拍攝 | 髮型與化妝（可選）",
+              "reference_price": 1800,
+              "public_note": "可加選髮型與化妝"
+            },
+            {
+              "product_id": 610279,
+              "short_title": "釜山個人色彩分析",
+              "product_name": "釜山個人色彩分析 | 美妝實驗室 | 找到最適合你的色彩",
+              "reference_price": 2900,
+              "public_note": "釜山美妝實驗室色彩分析"
+            },
+            {
+              "product_id": 579850,
+              "reference_price": 7000,
+              "public_note": "提供中文服務的色彩分析"
+            },
+            {
+              "product_id": 573680,
+              "short_title": "Colore 色彩分析＋唇釉 DIY",
+              "product_name": "Colore Seoul — 弘大個人色彩分析及客製化唇釉 DIY",
+              "reference_price": 6000,
+              "public_note": "色彩分析加客製唇釉"
+            },
+            {
+              "product_id": 765007,
+              "short_title": "COCORY 明洞色彩分析",
+              "product_name": "首爾個人色彩 | 彩妝 | 臉部及身體分析 | COCORY Color 明洞分店",
+              "reference_price": 7500,
+              "public_note": "彩妝、臉部與身體分析"
+            },
+            {
+              "product_id": 581018,
+              "short_title": "釜山 odt.mode 自拍館",
+              "product_name": "[釜山] odt.mode 自拍體驗",
+              "reference_price": 1200,
+              "public_note": "釜山自拍照相館"
+            },
+            {
+              "product_id": 261580,
+              "short_title": "色彩分析＋彩妝課＋香水 DIY",
+              "product_name": "個人色彩分析及彩妝課程，附贈DIY香水製作 | 景福宮附近韓式美妝體驗",
+              "public_note": "景福宮附近韓式美妝"
+            },
+            {
+              "product_id": 621337,
+              "short_title": "弘大色彩骨架分析",
+              "product_name": "首爾弘大個人色彩、骨架結構及婚禮諮詢 | 提供",
+              "public_note": "色彩、骨架與婚禮諮詢"
+            },
+            {
+              "product_id": 651037,
+              "short_title": "濟州個人色彩分析",
+              "product_name": "【濟州島】個人色彩分析（圖 HO 濟州島）（集團諮詢）",
+              "public_note": "濟州島團體色彩諮詢"
+            },
+            {
+              "product_id": 581009,
+              "short_title": "大邱 odt.mode 自拍館",
+              "product_name": "[大邱] odt.mode 自拍體驗",
+              "public_note": "大邱自拍照相館"
+            },
+            {
+              "product_id": 765006,
+              "short_title": "COCORY 延熙總店色彩分析",
+              "product_name": "首爾個人色彩 | 彩妝 | 臉部及身體分析 | COCORY Color 延熙總店",
+              "public_note": "彩妝、臉部與身體分析"
+            },
+            {
+              "product_id": 765273,
+              "short_title": "Cocoricolor 弘大色彩分析",
+              "product_name": "首爾個人色彩 | 化妝 | 臉部及身體分析 | Cocoricolor弘大分店",
+              "public_note": "化妝、臉部與身體分析"
+            }
+          ]
+        },
+        {
+          "title": "韓服寫真",
+          "products": [
+            {
+              "product_id": 580327,
+              "short_title": "釜山南浦韓服租借",
+              "product_name": "釜山韓服租賃 | 韓民女韓服南浦分店（光復地下購物中心）· 含免費拍照區",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_17561/20260422075759_nLCKk/jpg",
+              "reference_price": 0,
+              "public_note": "光復地下街，含免費拍照區"
+            },
+            {
+              "product_id": 180714,
+              "short_title": "景福宮韓服＋專業攝影",
+              "product_name": "景福宮韓服體驗＋專業攝影服務｜首爾人氣韓服拍攝",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_21397/20260918005103_CALaF/jpg",
+              "reference_price": 2200,
+              "public_note": "韓服加攝影，好評送禮"
+            },
+            {
+              "product_id": 141634,
+              "short_title": "The day the hanbok 韓服",
+              "product_name": "首爾 The day the hanbok 韓服租借＆攝影體驗",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_141634/20230330063553_Qy6SC/jpg",
+              "reference_price": 4400,
+              "public_note": "韓服租借加攝影"
+            },
+            {
+              "product_id": 565013,
+              "short_title": "景福宮韓瞬間韓服拍攝",
+              "product_name": "首爾 景福宮 韓服拍攝體驗 | Hansungan 韓瞬間",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_scm_8736/20260110122032_M5ggO/jpg",
+              "reference_price": 1400,
+              "public_note": "景福宮韓服寫真"
+            },
+            {
+              "product_id": 23213,
+              "short_title": "四大宮殿韓服寫真",
+              "product_name": "在首爾四大宮殿（景福宮、德壽宮、昌德宮、昌慶宮）體驗韓服寫真拍攝",
+              "reference_price": 5500,
+              "public_note": "景福宮、德壽宮等任選"
+            },
+            {
+              "product_id": 405255,
+              "short_title": "K-POP 偶像畫報＋校服",
+              "product_name": "韓國首爾K-POP偶像畫報拍攝體驗｜含韓國校服租借",
+              "reference_price": 2700,
+              "public_note": "韓國校服偶像風拍攝"
+            },
+            {
+              "product_id": 29667,
+              "short_title": "北村 Cheese Smile 自拍館",
+              "product_name": "首爾北村自助拍照｜ Cheese Smile Studio 自拍照相館＋服裝租借體驗",
+              "reference_price": 1000,
+              "public_note": "自拍照相館加服裝租借"
+            },
+            {
+              "product_id": 263385,
+              "short_title": "大韓韓服韓劇風拍攝",
+              "product_name": "[大韓韓服] 景福宮私人韓劇韓服拍攝|韓國",
+              "public_note": "景福宮私人韓劇風寫真"
+            },
+            {
+              "product_id": 765314,
+              "short_title": "Studio YUL 高級韓服拍攝",
+              "product_name": "Studio YUL｜高級韓服攝影",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_765314/20260824063239_vmQxO/png",
+              "public_note": "新上架，韓服寫真畫面強，與彩妝改造可串成一日行程"
+            }
+          ]
+        },
+        {
+          "title": "汗蒸幕・溫泉",
+          "products": [
+            {
+              "product_id": 12213,
+              "short_title": "釜山新世界 SPA LAND 汗蒸幕",
+              "product_name": "韓國釜山汗蒸幕推薦｜新世界 SPA LAND 汗蒸幕入場券（非韓國籍旅客專用）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_12213/20170612084234_lDJVo/jpg",
+              "reference_price": 800,
+              "public_note": "釜山最大汗蒸幕，限非韓籍旅客"
+            },
+            {
+              "product_id": 158792,
+              "short_title": "釜山 Club D Oasis 汗蒸幕＋水樂園",
+              "product_name": "釜山 Club D Oasis｜汗蒸幕・Spa 與水上樂園",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_158792/20231219014859_pbDTi/jpg",
+              "reference_price": 2100,
+              "public_note": "近 120 天 1,589 筆，這一包裡最好賣的一支"
+            },
+            {
+              "product_id": 138205,
+              "short_title": "AQUAFIELD 汗蒸幕",
+              "product_name": "韓國汗蒸幕體驗－AQUAFIELD 入場券（首爾河南・高陽・安城）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_138205/20240229010540_qs9p8/jpg",
+              "reference_price": 1000,
+              "public_note": "河南、高陽、安城三館可選"
+            },
+            {
+              "product_id": 251827,
+              "short_title": "東大門 SPAREX 汗蒸幕",
+              "product_name": "首爾東大門 SPAREX 汗蒸幕門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_251827/20241016010400_1H1EP/png",
+              "reference_price": 700,
+              "public_note": "逛完東大門直接進去放鬆"
+            },
+            {
+              "product_id": 267802,
+              "short_title": "釜山 Hillspa 海景汗蒸房",
+              "product_name": "Hillspa（海景汗蒸房）釜山雲台",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_267802/20250120075824_c2gQK/jpg",
+              "reference_price": 600,
+              "public_note": "雲台海景汗蒸，邊蒸邊看海"
+            },
+            {
+              "product_id": 267140,
+              "short_title": "SPAREX 汗蒸房東廟店",
+              "product_name": "[首爾] SPAREX汗蒸房桑拿東廟店門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_267140/20250110042845_qAAwT/jpg",
+              "reference_price": 700,
+              "public_note": "首爾市區汗蒸，交通方便"
+            },
+            {
+              "product_id": 185046,
+              "short_title": "SeaLaLa 水上樂園＋三溫暖",
+              "product_name": "SeaLaLa水上樂園及三溫暖門票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_185046/20241022034550_ut9QA/jpg",
+              "reference_price": 600,
+              "public_note": "水上樂園加三溫暖，親子也適合"
+            },
+            {
+              "product_id": 158326,
+              "short_title": "日山 ONEMOUNT 水樂園＋汗蒸房",
+              "product_name": "【日山】ONEMOUNT水上樂園+汗蒸房套餐優惠票",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_158326/20231212005500_yUX2Y/png",
+              "reference_price": 1300,
+              "public_note": "水上樂園與汗蒸房套票"
+            },
+            {
+              "product_id": 185538,
+              "short_title": "釜山札嘎其海水溫泉",
+              "product_name": "札嘎其海水浴場 | 札嘎其海水浴場釜山溫泉",
+              "reference_price": 200,
+              "public_note": "札嘎其市場旁泡海水溫泉"
+            },
+            {
+              "product_id": 104868,
+              "short_title": "襄陽五色碳酸溫泉",
+              "product_name": "[江原/襄陽] 五色碳酸溫泉1人票",
+              "public_note": "江原道碳酸溫泉單人票"
+            }
+          ]
+        },
+        {
+          "title": "SPA・按摩・頭皮護理",
+          "products": [
+            {
+              "product_id": 37081,
+              "short_title": "明洞韓泥三溫暖＋磨砂按摩",
+              "product_name": "首爾明洞韓泥韓式三溫暖、身體磨砂及按摩水療中心（女性專屬）",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_37081/20260714023844_OrCi6/png",
+              "reference_price": 2800,
+              "public_note": "女性專屬，韓泥、磨砂、按摩一次做"
+            },
+            {
+              "product_id": 287623,
+              "short_title": "釜山韓國傳統艾灸",
+              "product_name": "韓國傳統艾灸體驗 |釜山",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_287623/20250612080938_POB4P/png",
+              "reference_price": 1600,
+              "public_note": "傳統艾灸體驗，身體暖起來"
+            },
+            {
+              "product_id": 9491,
+              "short_title": "明洞后 Whoo SPA 頂級保養",
+              "product_name": "韓國首爾｜后Whoo SPA頂級保養 明洞店",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_9491/20241029063656_porOq/jpg",
+              "reference_price": 5300,
+              "public_note": "韓國頂級保養品牌的 SPA"
+            },
+            {
+              "product_id": 182841,
+              "short_title": "明洞皮奧藝術護膚按摩",
+              "product_name": "皮奧藝術 |明洞韓國美容護膚及按摩理療",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_182841/20240621055635_XgHnJ/jpg",
+              "reference_price": 3400,
+              "public_note": "韓式護膚加按摩理療"
+            },
+            {
+              "product_id": 176971,
+              "short_title": "聖水 THE FORET SPA",
+              "product_name": "首爾SPA | THE FORET SPA 聖水首爾林站",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_176971/20240520020511_E3rP7/jpg",
+              "reference_price": 3400,
+              "public_note": "首爾林站旁的 SPA"
+            },
+            {
+              "product_id": 268688,
+              "short_title": "明洞天景水療全身按摩",
+              "product_name": "明洞美體天景水療中心 | 首爾全身按摩、臉部護理與足部護理",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_268688/20250208022411_oCN0H/jpg",
+              "reference_price": 2800,
+              "public_note": "全身、臉部、足部護理可選"
+            },
+            {
+              "product_id": 123447,
+              "short_title": "正官莊同仁美 Spa 1899",
+              "product_name": "正官莊同仁美 Spa 1899 大賞總店優惠券",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_123447/20211009145321_f3CYA/jpg",
+              "reference_price": 11700,
+              "public_note": "紅蔘品牌的 SPA 優惠券"
+            },
+            {
+              "product_id": 284643,
+              "short_title": "明洞全身頭部按摩＋臉部護理",
+              "product_name": "首爾明洞全身及頭部按摩及臉部護理",
+              "reference_price": 3400,
+              "public_note": "全身、頭部、臉部一次護理"
+            },
+            {
+              "product_id": 286424,
+              "short_title": "江南 IN SPA 飯店級按摩",
+              "product_name": "IN SPA 高級飯店 SPA 與按摩體驗 |首爾江南區",
+              "reference_price": 5800,
+              "public_note": "高級飯店 SPA 與按摩"
+            },
+            {
+              "product_id": 530945,
+              "short_title": "釜山南浦 NATURAESTHE 護膚",
+              "product_name": "韓式美容體驗 NATURAESTHE（護膚、身體療法）| 釜山南浦洞",
+              "reference_price": 2500,
+              "public_note": "韓式護膚與身體療程"
+            },
+            {
+              "product_id": 569746,
+              "short_title": "明洞 HERA 水療美容中心",
+              "product_name": "明洞 HERA 水療美容中心（世宗飯店分店）| 臉部及身體護理專家",
+              "reference_price": 2600,
+              "public_note": "世宗飯店內的臉部身體護理"
+            },
+            {
+              "product_id": 29754,
+              "short_title": "女容國傳統漢方 SPA",
+              "product_name": "韓國首爾 | 傳統漢方Spa按摩體驗｜女容國 YeoYongKuk",
+              "reference_price": 8400,
+              "public_note": "韓國傳統漢方按摩"
+            },
+            {
+              "product_id": 546789,
+              "short_title": "釜山南浦 SHE'S 護膚水療",
+              "product_name": "釜山南浦洞 SHE'S 護膚及高級水療中心（提供母語翻譯）",
+              "reference_price": 1400,
+              "public_note": "提供母語翻譯，溝通不用怕"
+            },
+            {
+              "product_id": 593881,
+              "short_title": "明洞 Nanda 泰式＋韓式護膚",
+              "product_name": "Nanda Thai & K-Beauty 護膚 | 首爾明洞",
+              "reference_price": 2400,
+              "public_note": "泰式按摩結合韓式護膚"
+            },
+            {
+              "product_id": 554343,
+              "short_title": "弘大 THE SEOL:HA 頭部水療",
+              "product_name": "THE SEOL:HA 弘大 | 有機療癒頭部水療中心",
+              "reference_price": 8900,
+              "public_note": "有機療程的頭部水療"
+            },
+            {
+              "product_id": 567443,
+              "short_title": "釜山西面頭部水療",
+              "product_name": "釜山西面高階頭部水療體驗 | 包括AI頭皮診斷和頭皮護理",
+              "reference_price": 1600,
+              "public_note": "含 AI 頭皮診斷與護理"
+            },
+            {
+              "product_id": 528733,
+              "short_title": "明洞韓式 SPA 按摩",
+              "product_name": "明洞韓國SPA及按摩體驗",
+              "reference_price": 4300,
+              "public_note": "明洞市區的 SPA 按摩"
+            },
+            {
+              "product_id": 569747,
+              "short_title": "明洞 HERA 磨砂艾草蒸",
+              "product_name": "明洞 HERA 水療美容中心（僅限女性）| 私人磨砂和艾草蒸氣護理",
+              "reference_price": 100,
+              "public_note": "女性專屬磨砂與艾草蒸氣"
+            },
+            {
+              "product_id": 570788,
+              "short_title": "明洞泥水療按摩",
+              "product_name": "首爾明洞泥水療按摩",
+              "reference_price": 1600,
+              "public_note": "泥療加按摩的韓式體驗"
+            },
+            {
+              "product_id": 599046,
+              "short_title": "大邱韓式美容日間水療",
+              "product_name": "大邱韓式美容日間水療體驗",
+              "reference_price": 2400,
+              "public_note": "大邱的韓式美容水療"
+            },
+            {
+              "product_id": 525899,
+              "short_title": "明洞 Green Scalp 頭髮護理",
+              "product_name": "Green Scalp 頭髮再生護理－明洞優質掉髮解決方案",
+              "reference_price": 2900,
+              "public_note": "頭皮與掉髮護理療程"
+            },
+            {
+              "product_id": 259377,
+              "short_title": "南美學明洞",
+              "product_name": "南美學明洞",
+              "public_note": "明洞的韓式美容護理"
+            },
+            {
+              "product_id": 34502,
+              "short_title": "大邱 Beaulounge SPA 按摩",
+              "product_name": "大邱 SPA 推薦｜Beaulounge SPA 按摩體驗",
+              "public_note": "大邱 SPA 按摩體驗"
+            },
+            {
+              "product_id": 529223,
+              "short_title": "明洞 Skinspa 護膚按摩",
+              "product_name": "明洞 Skinspa- 韓國美容護膚及按摩護理",
+              "public_note": "韓式護膚與按摩護理"
+            },
+            {
+              "product_id": 530234,
+              "short_title": "蠶室 EcoJardin 頭部水療",
+              "product_name": "EcoJardin 頭水療中心（含幹細胞療程）－首爾蠶室",
+              "public_note": "含幹細胞療程的頭部水療"
+            },
+            {
+              "product_id": 554386,
+              "short_title": "弘大 SEOL:HA 傳統身體磨砂",
+              "product_name": "THE SEOL:HA 弘大 | 韓國傳統身體磨砂膏（Seshin）",
+              "public_note": "韓國傳統身體磨砂 Seshin"
+            },
+            {
+              "product_id": 570322,
+              "short_title": "明洞逍遙酒店奢華水療",
+              "product_name": "瑞士奢華完美臉部及身體水療｜明洞逍遙酒店",
+              "public_note": "臉部與身體的奢華水療"
+            },
+            {
+              "product_id": 683571,
+              "short_title": "明洞夢幻按摩＋臉部護理",
+              "product_name": "首爾明洞夢幻身體按摩和韓國美容臉部護理",
+              "public_note": "身體按摩加韓式臉部護理"
+            },
+            {
+              "product_id": 554399,
+              "short_title": "弘大身體按摩＋臉部輪廓",
+              "product_name": "韓國弘大傳統身體按摩和臉部輪廓按摩",
+              "public_note": "傳統按摩加臉部輪廓按摩"
+            },
+            {
+              "product_id": 641137,
+              "short_title": "釜山 SMB 養生療癒計畫",
+              "product_name": "【釜山】SMB養生療癒體驗計畫（茶道、按摩、瑜珈、冥想）",
+              "public_note": "茶道、按摩、瑜珈、冥想"
+            },
+            {
+              "product_id": 651894,
+              "short_title": "VONESTIS MAISON 韓式水療",
+              "product_name": "[首爾/韓式美容水療] VONESTIS MAISON",
+              "public_note": "首爾韓式美容水療"
+            },
+            {
+              "product_id": 593903,
+              "short_title": "江南 Moclock 頭部水療",
+              "product_name": "首爾江南區 Moclock 頭部水療及頭皮護理",
+              "public_note": "頭部水療與頭皮護理"
+            },
+            {
+              "product_id": 641156,
+              "short_title": "清潭洞 PARK JUN 頭部水療",
+              "product_name": "[首爾] PARK JUN BEAUTY LAB 清潭洞頭部水療沙龍",
+              "public_note": "清潭洞的頭部水療沙龍"
+            },
+            {
+              "product_id": 326607,
+              "short_title": "草藥艾灸＋推拿體驗",
+              "product_name": "草藥艾灸和 Chuna 手法體驗",
+              "public_note": "草藥艾灸與 Chuna 手法"
+            },
+            {
+              "product_id": 570319,
+              "short_title": "明洞李韓診所火罐護理",
+              "product_name": "明洞李韓診所 東方醫學 臉部不對稱及火罐平衡護理",
+              "public_note": "東方醫學臉部平衡護理"
+            },
+            {
+              "product_id": 651936,
+              "short_title": "仁寺洞傳統拔罐按摩",
+              "product_name": "【首爾】仁寺洞傳統韓式拔罐療法及身體平衡按摩體驗",
+              "public_note": "傳統拔罐與身體平衡按摩"
+            }
+          ]
+        },
+        {
+          "title": "美甲・睫毛",
+          "products": [
+            {
+              "product_id": 268554,
+              "short_title": "弘大 Kimlee 美甲睫毛",
+              "product_name": "弘大美甲，睫毛燙美甲Kimlee在首爾",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_268554/20250203225233_HJUrV/jpg",
+              "reference_price": 1300,
+              "public_note": "睫毛燙與美甲"
+            },
+            {
+              "product_id": 144276,
+              "short_title": "弘大 Hey Objet 美甲",
+              "product_name": "首爾 K-Beauty | 弘大美甲店 Hey Objet 使用券 (手部／足部)",
+              "reference_price": 800,
+              "public_note": "手部、足部美甲使用券"
+            },
+            {
+              "product_id": 23305,
+              "short_title": "弘大 VIVIAN 接睫毛",
+              "product_name": "首爾弘大｜ Shop VIVIAN 韓式接睫毛體驗",
+              "reference_price": 1300,
+              "public_note": "韓式接睫毛體驗"
+            },
+            {
+              "product_id": 533753,
+              "short_title": "BEBROW 弘大睫毛嫁接",
+              "product_name": "BEBROW 弘大 | 韓妝：睫毛嫁接",
+              "reference_price": 2400,
+              "public_note": "韓妝睫毛嫁接"
+            },
+            {
+              "product_id": 582090,
+              "short_title": "弘大 Noir Nail 私人美甲",
+              "product_name": "【首爾】弘大私人美甲體驗：Noir Nail Studio",
+              "public_note": "私人美甲工作室"
+            },
+            {
+              "product_id": 533601,
+              "short_title": "BEBROW 弘大睫毛提拉",
+              "product_name": "BEBROW 弘大 | 韓妝：睫毛提拉燙",
+              "public_note": "韓妝睫毛提拉燙"
+            },
+            {
+              "product_id": 582089,
+              "short_title": "新村延熙洞美甲",
+              "product_name": "【首爾】弘大新村延熙洞美甲體驗",
+              "public_note": "弘大、新村、延熙洞美甲"
+            }
+          ]
+        },
+        {
+          "title": "療癒行程・度假村",
+          "products": [
+            {
+              "product_id": 536751,
+              "short_title": "High1 滑雪＋雪世界一日遊",
+              "product_name": "High1 度假村滑雪及雪世界一日遊｜首爾出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_536751/20251031134551_C2tji/jpg",
+              "reference_price": 6300,
+              "public_note": "可對接冬季旅遊檔期，與滑雪包互相導流"
+            },
+            {
+              "product_id": 136591,
+              "short_title": "橡樹谷中文滑雪一日遊",
+              "product_name": "【首爾出發】橡樹谷官方外國人滑雪學校｜中文滑雪教學・專屬休息室・初學者友善滑雪一日遊",
+              "reference_price": 1000,
+              "public_note": "中文教學，初學者友善"
+            },
+            {
+              "product_id": 578675,
+              "short_title": "釜山冥想之旅",
+              "product_name": "釜山冥想之旅 |釜山一日遊",
+              "reference_price": 2400,
+              "public_note": "釜山療癒一日遊"
+            },
+            {
+              "product_id": 181224,
+              "short_title": "發旺山纜車＋三養牧場",
+              "product_name": "發旺山纜車 & 三養牧場一日遊（首爾出發）",
+              "public_note": "首爾出發一日遊"
+            },
+            {
+              "product_id": 577033,
+              "short_title": "山清文化養生一日遊",
+              "product_name": "從釜山出發：山清文化養生一日遊",
+              "public_note": "釜山出發養生行程"
+            },
+            {
+              "product_id": 594301,
+              "short_title": "首爾郊區泳池派對一日遊",
+              "product_name": "首爾郊區一日遊。泳池派對、韓式烤肉、滑翔傘、購物中心",
+              "public_note": "泳池、烤肉、滑翔傘、購物"
+            },
+            {
+              "product_id": 596352,
+              "short_title": "保寧泥巴樂園一日遊",
+              "product_name": "首爾：保寧健康一日遊 | 泥巴主題樂園、空中自行車和聖州山森林",
+              "public_note": "泥巴樂園、空中自行車"
+            },
+            {
+              "product_id": 581936,
+              "short_title": "韓式養生烹飪靜修 3 天",
+              "product_name": "韓式養生與烹飪靜修營 2晚3天",
+              "public_note": "養生加料理課程"
+            },
+            {
+              "product_id": 583209,
+              "short_title": "韓國文化養生 7 日遊",
+              "product_name": "韓國文化與養生：韓國之心官方7日深度遊",
+              "public_note": "官方深度養生之旅"
+            },
+            {
+              "product_id": 581997,
+              "short_title": "首爾近郊療癒之旅",
+              "product_name": "首爾外療癒之旅：1晚2天或2晚3天",
+              "public_note": "2 天 1 夜或 3 天 2 夜"
+            },
+            {
+              "product_id": 159673,
+              "short_title": "京畿美食＋汗蒸一日遊",
+              "product_name": "京畿道拼團一日遊｜韓式美食 × 汗蒸 SPA 一日遊｜飯捲 DIY 體驗・AQUAFIELD（可選仁川機場接送）",
+              "public_note": "飯捲 DIY 加 AQUAFIELD"
+            },
+            {
+              "product_id": 115223,
+              "short_title": "龍平發旺山纜車＋天空步道",
+              "product_name": "韓國江原道平昌｜龍平度假村發旺山纜車＋ SKYWALK 門票",
+              "public_note": "平昌纜車加 SKYWALK"
+            },
+            {
+              "product_id": 581044,
+              "short_title": "釜山東部接駁＋美容按摩",
+              "product_name": "釜山市區出發 <->釜山東部接駁巴士 + Ceragem 韓式美容按摩體驗之旅：Osiria、樂天奧特萊斯、釜山樂天世界、天際線滑車",
+              "public_note": "接駁巴士加 Ceragem 按摩"
+            },
+            {
+              "product_id": 315932,
+              "short_title": "東海療養溫泉飯店",
+              "product_name": "東海療養溫泉會議飯店",
+              "public_note": "東海溫泉住宿"
+            },
+            {
+              "product_id": 317182,
+              "short_title": "五色溫泉綠地飯店",
+              "product_name": "五色溫泉綠地飯店",
+              "public_note": "江原道溫泉住宿"
+            },
+            {
+              "product_id": 663320,
+              "short_title": "PARK ROCHE 度假村",
+              "product_name": "PARK ROCHE Resort & Wellness",
+              "public_note": "江原道養生度假村"
+            },
+            {
+              "product_id": 309373,
+              "short_title": "派羅切健康度假飯店",
+              "product_name": "派羅切健康度假飯店",
+              "public_note": "養生度假飯店"
+            },
+            {
+              "product_id": 308717,
+              "short_title": "維斯塔華克山莊首爾飯店",
+              "product_name": "維斯塔華克山莊首爾飯店",
+              "public_note": "首爾飯店住宿"
+            },
+            {
+              "product_id": 572833,
+              "short_title": "Pyunkang Yul 旗艦店折價券",
+              "product_name": "【KKday獨家】Pyunkang Yul 旗艦店及茶館折價券（含迎賓禮包）",
+              "public_note": "KKday 獨家，含迎賓禮包"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kpop",
+      "title": "K-POP",
+      "image": "img/pk-kpop.webp",
+      "groups": [
+        {
+          "title": "演唱會與音樂節",
+          "products": [
+            {
+              "product_id": 132981,
+              "short_title": "2026 仁川天空音樂節｜11/7、11/8",
+              "product_name": "韓國仁川｜2026 仁川天空節（SKF）演出觀賞套餐",
+              "reference_price": 1400,
+              "public_note": "PSY、EPIK HIGH、xikers、KickFlip、TNX、FORESTELLA 等，USD 45 起"
+            },
+            {
+              "product_id": 527982,
+              "short_title": "2026 江南祭 K-POP 演唱會",
+              "product_name": "【KKday 簽名巡演】2026 江南祭 K-POP 演唱會｜首爾",
+              "reference_price": 800,
+              "public_note": "KKday 簽名巡演"
+            }
+          ]
+        },
+        {
+          "title": "音樂節目錄影",
+          "products": [
+            {
+              "product_id": 265931,
+              "short_title": "SBS 人氣歌謠錄影｜每週日",
+              "product_name": "韓國首爾｜［每週日］SBS 人氣歌謠音樂節目半日遊",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_265931/20241224073107_yPws3/jpg",
+              "reference_price": 4700,
+              "public_note": "比演唱會更近看偶像；限外國人、16 歲以下不能入場"
+            }
+          ]
+        },
+        {
+          "title": "演唱會接駁（KKday 獨家）",
+          "products": [
+            {
+              "product_id": 267656,
+              "short_title": "高陽體育場演唱會接駁",
+              "product_name": "【KKday獨家】高陽體育場 KPOP 接駁巴士｜首爾往返＋演唱會後送仁川機場",
+              "reference_price": 1500,
+              "public_note": "散場直送機場，最好寫"
+            },
+            {
+              "product_id": 267638,
+              "short_title": "Inspire Arena 演唱會接駁",
+              "product_name": "【KKday獨家】Inspire Arena 演唱會接駁車｜首爾往返＋仁川機場送機",
+              "reference_price": 1400
+            },
+            {
+              "product_id": 268630,
+              "short_title": "高尺巨蛋演唱會接駁",
+              "product_name": "【KKday獨家】高尺巨蛋演唱會接駁巴士｜首爾來回／單程",
+              "reference_price": 1600
+            },
+            {
+              "product_id": 528542,
+              "short_title": "仁川亞運主體育場演唱會接駁",
+              "product_name": "【KKday獨家】仁川亞運主體育場演唱會接駁車｜首爾往返／單程",
+              "reference_price": 1600
+            },
+            {
+              "product_id": 267973,
+              "short_title": "KSPO 體操競技場演唱會接駁",
+              "product_name": "【KKday 獨家】KSPO 奧林匹克體操競技場演唱會接駁｜可到金浦、仁川機場",
+              "reference_price": 900
+            },
+            {
+              "product_id": 581969,
+              "short_title": "釜山亞運主體育場演唱會接駁",
+              "product_name": "［釜山↔亞運主體育場］K-Pop 演唱會接駁車（含行李托運）",
+              "reference_price": 800,
+              "public_note": "釜山場用"
+            }
+          ]
+        },
+        {
+          "title": "偶像體驗",
+          "products": [
+            {
+              "product_id": 143376,
+              "short_title": "清潭洞明星髮型與妝容",
+              "product_name": "首爾 K-POP 美容沙龍體驗｜HOSU DOSAN 清潭洞明星髮型與妝容",
+              "reference_price": 600,
+              "public_note": "台灣賣最好的 K-POP 體驗"
+            },
+            {
+              "product_id": 527974,
+              "short_title": "聖水 K-POP 風格改造",
+              "product_name": "HOSUDOSAN 聖水｜K-POP 風格改造：髮型及造型",
+              "reference_price": 800
+            },
+            {
+              "product_id": 765141,
+              "short_title": "弘大偶像化妝課",
+              "product_name": "首爾｜BLUEHOUR 弘大偶像化妝／課程",
+              "reference_price": 3600,
+              "public_note": "新品"
+            },
+            {
+              "product_id": 405255,
+              "short_title": "偶像畫報拍攝＋校服租借",
+              "product_name": "首爾 K-POP 偶像畫報拍攝體驗｜含韓國校服租借",
+              "reference_price": 900
+            },
+            {
+              "product_id": 2742,
+              "short_title": "Real K-Pop 舞蹈教室",
+              "product_name": "【首爾】Real K-Pop 舞蹈體驗教室（照片、影片＋證書）",
+              "reference_price": 1500
+            },
+            {
+              "product_id": 160013,
+              "short_title": "Ktown4u K-pop 舞蹈課",
+              "product_name": "［KPOP］Ktown4u K-pop 舞蹈一日課程",
+              "reference_price": 2400
+            },
+            {
+              "product_id": 546837,
+              "short_title": "釜山 K-POP 舞蹈課",
+              "product_name": "釜山 K-POP 舞蹈課程｜一日偶像體驗",
+              "reference_price": 900
+            },
+            {
+              "product_id": 596596,
+              "short_title": "江陵 K-Drama＆K-pop 一日遊",
+              "product_name": "江陵 K-Drama＆K-pop 一日遊（首爾出發）｜《鬼怪》拍攝地・正東津",
+              "reference_price": 2700,
+              "public_note": "可用 26KDRAMA15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cruise",
+      "title": "郵輪",
+      "public_intro": "單筆金額最高的品類，基隆與香港出發都有，免轉機免長假是主賣點。",
+      "image": "img/pk-cruise.webp",
+      "groups": [
+        {
+          "title": "MSC 地中海郵輪",
+          "products": [
+            {
+              "product_id": 150465,
+              "product_name": "MSC 榮耀號 Bellissima｜2027 春季航次・基隆港出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_150465/20230822023034_It2WO/jpg",
+              "reference_price": 65700,
+              "public_note": "早鳥專案現折 10,000，再疊郵輪碼最高多折 3,000"
+            },
+            {
+              "product_id": 575458,
+              "product_name": "MSC 榮耀號｜新增三四人房・基隆／那霸／東京出發",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_575458/20260407093837_cLzUZ/jpg",
+              "reference_price": 38100,
+              "public_note": "中秋 9/25–28 訂陽台房送酒水暢飲"
+            }
+          ]
+        },
+        {
+          "title": "皇家加勒比",
+          "products": [
+            {
+              "product_id": 288569,
+              "product_name": "海洋光譜號｜香港出發 3 天 2 夜",
+              "image": "https://image.kkday.com/v2/image/get/q_55%2Ct_jpg/s1.kkday.com/royalcruises/20240411062102_yeP73/jpg",
+              "reference_price": 31200,
+              "public_note": "每人 8,500 起。北極星觀景台、甲板跳傘、衝浪模擬器"
+            }
+          ]
+        },
+        {
+          "title": "麗星郵輪",
+          "products": [
+            {
+              "product_id": 165534,
+              "product_name": "麗星郵輪｜基隆港出發 3 天 2 夜",
+              "image": "https://image.kkday.com/v2/image/get/c_fill%2Ch_400%2Cq_55%2Ct_webp%2Cw_500/s1.kkday.com/product_165534/20240323115924_PZczr/jpg",
+              "reference_price": 26600,
+              "public_note": "每人 7,500 起。週五出發週日回、免請假，比住飯店便宜"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
