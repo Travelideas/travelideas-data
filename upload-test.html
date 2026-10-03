@@ -13,6 +13,9 @@
     pre{white-space:pre-wrap;word-break:break-word;background:#f6f6f6;padding:14px;border-radius:8px;min-height:80px}
     .note{font-size:14px;color:#555}
     .meta{margin-top:10px;font-size:14px;color:#444}
+    .preview{margin-top:18px}
+    .preview img{max-width:100%;height:auto;border:1px solid #ddd;border-radius:8px}
+    .preview a{word-break:break-all}
   </style>
 </head>
 <body>
@@ -21,6 +24,9 @@
 
   <label>API Base URL</label>
   <input id="baseUrl" value="https://upload.travelideas.workers.dev/upload" />
+
+  <label>R2 公開網址</label>
+  <input id="publicBaseUrl" value="https://pub-03ff9d78ceeb4b619df61d4bba53c9fb.r2.dev" />
 
   <label>Authorization Token</label>
   <input id="token" type="password" placeholder="貼上 UPLOAD TOKEN（不要加 Bearer）" />
@@ -35,10 +41,19 @@
   <h2>結果</h2>
   <pre id="result">尚未測試</pre>
 
+  <div id="preview" class="preview" hidden>
+    <h2>公開圖片</h2>
+    <p><a id="publicLink" target="_blank" rel="noopener"></a></p>
+    <img id="previewImage" alt="R2 圖片預覽" />
+  </div>
+
 <script>
 const result = document.getElementById('result');
 const fileInput = document.getElementById('file');
 const fileMeta = document.getElementById('fileMeta');
+const preview = document.getElementById('preview');
+const publicLink = document.getElementById('publicLink');
+const previewImage = document.getElementById('previewImage');
 
 function formatBytes(bytes) {
   if (bytes < 1024) return bytes + ' B';
@@ -48,6 +63,7 @@ function formatBytes(bytes) {
 
 fileInput.addEventListener('change', () => {
   const file = fileInput.files[0];
+  preview.hidden = true;
   if (!file) {
     fileMeta.textContent = '尚未選擇圖片';
     return;
@@ -82,12 +98,13 @@ document.getElementById('testRoot').addEventListener('click', async () => {
 });
 
 document.getElementById('upload').addEventListener('click', async () => {
-  const baseUrl = document.getElementById('baseUrl').value.trim();
+  const baseUrl = document.getElementById('baseUrl').value.trim().replace(/\/$/, '');
+  const publicBaseUrl = document.getElementById('publicBaseUrl').value.trim().replace(/\/$/, '');
   const token = document.getElementById('token').value.trim();
   const file = fileInput.files[0];
 
-  if (!baseUrl || !token) {
-    result.textContent = '請先填 API URL 與 Token。';
+  if (!baseUrl || !publicBaseUrl || !token) {
+    result.textContent = '請先填 API URL、R2 公開網址與 Token。';
     return;
   }
 
@@ -98,7 +115,7 @@ document.getElementById('upload').addEventListener('click', async () => {
 
   const uploadUrl = baseUrl + '?name=' + encodeURIComponent(file.name);
 
-  await showFetch(uploadUrl, {
+  const outcome = await showFetch(uploadUrl, {
     method: 'PUT',
     headers: {
       'Authorization': 'Bearer ' + token,
@@ -106,6 +123,21 @@ document.getElementById('upload').addEventListener('click', async () => {
     },
     body: file
   });
+
+  if (!outcome || !outcome.response.ok) return;
+
+  try {
+    const data = JSON.parse(outcome.text);
+    if (!data.success || !data.key) return;
+
+    const publicUrl = publicBaseUrl + '/' + data.key.split('/').map(encodeURIComponent).join('/');
+    publicLink.href = publicUrl;
+    publicLink.textContent = publicUrl;
+    previewImage.src = publicUrl + '?t=' + Date.now();
+    preview.hidden = false;
+  } catch (e) {
+    // 上傳成功但回傳不是 JSON 時，不顯示預覽
+  }
 });
 </script>
 </body>
